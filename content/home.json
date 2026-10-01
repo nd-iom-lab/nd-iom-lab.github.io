@@ -1,0 +1,83 @@
+{
+  "openingHtml": "<p style=\"font-size:26px\"><span style=\"font-size:26px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">Opening:  </span></span></span></span><span style=\"font-size:22px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">We look for a researcher with both hardware and 3D printing experience! </span></span></span></span></p>",
+  "news": [
+    {
+      "date": "06/15/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/15/2026 Linrui's paper on real-time camera-free 3D reconstruction is accepted to<a href=\"https://2026.ieee-iros.org/\" target=\"_blank\" rel=\"noopener noreferrer\"> <span style=\"font-family:AvenirHeavy,sans-serif\">IROS 2026</span>.</a> Zhihan's paper on multimodal AI for sustainability is <a href=\"https://www.nature.com/articles/s41928-026-01653-w\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">online</span></a>. Catherine's Sensorimotor Stickies is accepted to <a href=\"https://uist.acm.org/2026/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">UIST 2026</span> </a>(with Yiyue's, Cheng's and Shirley's team). Congrats all!</p>\n</li>\n"
+    },
+    {
+      "date": "06/10/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/10/2026 Leon's CHI 2026 paper won honorable mention for both <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://designawards.core77.com/2026/Emerging-Technologies\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-weight:bold\">Emerging Technologies</span></a> </span>and <a href=\"https://designawards.core77.com/2026/Interaction\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">Interaction</span></a> categories for Core77 design award, as well as winning the <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.red-dot.org/\" target=\"_blank\" rel=\"noopener noreferrer\">reddot award</a>.</span> </p>\n</li>\n"
+    },
+    {
+      "date": "06/01/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/01/2026 We are hosting the third <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\"><a href=\"https://softwearables.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent Soft Wearable workshop </a></span></span>in Ubicomp 2026. Please consider submitting!</p>\n</li>\n"
+    },
+    {
+      "date": "05/24/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">05/24/2026 We are hosting a special issue in <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\">Frontiers in Robotics and AI</span></span>, called \" <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence\" target=\"_blank\" rel=\"noopener noreferrer\">Untethered Soft Robots: Embedded Actuation, Sensing, and Intelligence</a></span></span></span>\", please consider submitting! </p>\n</li>\n"
+    },
+    {
+      "date": "04/13/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">04/13/2026 Zhechen (Leon) presented <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/\" target=\"_blank\" rel=\"noopener noreferrer\">Circuit2Yarn</a></span></span> at CHI and 3D printing soap paper was a runner-up for <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/\" target=\"_blank\" rel=\"noopener noreferrer\">Special Recognition for Sustainable Practices</a></span></span>.</p>\n</li>\n"
+    },
+    {
+      "date": "03/12/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">03/12/2026 Our paper on Multi-modal AI agent for sustainable electronics has been accepted to <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">Nature Electronics</span></span></span>. Congrats to Zhihan!</p>\n</li>\n"
+    },
+    {
+      "date": "02/12/2026",
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">02/12/2026 Our paper on reusable electronics has been chosen as the <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\">honorable mention</span></span></span> for TEI 2026. <span></span><span style=\"font-weight:bold\"><span style=\"font-size:20px\"><span><span></span></span></span></span></p>\n</li>\n"
+    }
+  ],
+  "visionHtml": "<p style=\"font-size:16px;line-height:1.3em\"><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:bold\"><span style=\"font-size:20px\">We aim to construct a nature-like smart environment with sensors everywhere. They are not only able to perceive, react, or communicate, but also exhibit adaptability to self-repair, rejuvenate, or seamlessly degrade back to the earth, thereby commencing a sustainable life cycle.</span></span></span></span></span></p>",
+  "visionImage": {
+    "src": "/assets/37ae98_4f2b34aac02c408f8dfdfcc3605d04a4~mv2.webp",
+    "alt": "Sustainable lifecycle of computational devices"
+  },
+  "researchTitle": "Our Research Focus",
+  "researchHtml": "<p style=\"line-height:1.8em;font-size:16px\"><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">The lab takes interdisciplinary approach to push the boundaries of building</span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span style=\"color:#000000\"><span style=\"letter-spacing:0.1em\"><span style=\"font-weight:bold\">scalable</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">and</span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"><span style=\"font-weight:bold\">resilient</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">computational devices for applications in human-computer interaction, ubiquitous computing, and printed/flexible electronics. We particularly focus on solving the tension between scaling up the functionality, quantity, and robustness of the computational devices, but meanwhile making them less harmful. Research interest spans digital fabrication, material innovation, hardware/system design, machine learning and AI. </span></span></span></span></p>",
+  "olderNewsHtml": "<ul style=\"font-size:18px\">\n<li><span><span><span style=\"font-size:18px\">01/12/2026 Two papers are accepted to </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\">CHI 2026</span></span></span></span><span><span><span style=\"font-size:18px\">. Congrats to Leon, Jingyi and Jiaqing, and also congrats to the Georgia Tech Team on the other paper (Hyunjoo).</span></span></span></li>\n<li>\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/10/2026 Recently joined </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://wireless.nd.edu/about/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Wireless Institute</a></span></span></span></span><span><span><span style=\"font-size:18px\">, </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://robotics.nd.edu/people/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Robotics</a></span></span></span></span><span><span><span style=\"font-size:18px\">, and </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://nano.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">ND nano</a></span></span></span></span><span><span><span style=\"font-size:18px\">, exciting!</span></span></span><span style=\"letter-spacing:0em\"><span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span style=\"letter-spacing:0em\">01/01/2026 One paper is accepted to </span><span style=\"letter-spacing:0em\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">TEI 2026</span></span></span><span style=\"letter-spacing:0em\"> Chicago. Come and join us!</span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">11/25/2025 Our two UIST papers are highlighted by ND Engineering and ND homepage (<span style=\"text-decoration:underline\"><a href=\"https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/\" target=\"_blank\" rel=\"noopener noreferrer\">link</a></span>)</p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/08/2025 DissolvPCB is chosen as the </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\"><span style=\"font-size:18px\"><a href=\"https://programs.sigchi.org/uist/2025/awards/best-papers\" target=\"_blank\" rel=\"noopener noreferrer\">best paper in UIST 2025</a></span></span><span><span style=\"font-size:18px\">.</span></span></span></span><span><span><span style=\"font-size:18px\"> Congrats to the team!!</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/03/2025 Zhihan's </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3749488\" target=\"_blank\" rel=\"noopener noreferrer\">Living Sustainability </a></span></span></span></span><span><span><span style=\"font-size:18px\">is online, check it out!</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/05/2025 One paper is accepted to IMWUT 2025. Congrats to Zhihan!!</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/04/2025 Two papers are accepted to UIST 2025. Great collaboration with Yiyue's team at the University of Washington and Huaishu's team at the University of Maryland. Congrats to Harry and Zeyu!!</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">06/16/2025 One paper is accepted to Hotcarbon 2025. Congrats to Xuesi and the team.</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">05/28/2025 Accepted PC role for Ubicomp/ISWC, and studio chair for TEI.</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">04/26/2025 One paper is accepted to ACS Nano (IF=15.8). Congrats to Luyao and the team, great collaboration between Northeastern and Georgia Tech, one workshop paper is accepted to Ubicomp 2025. Congrats to Catherine and the team.</span></span></span></p>\n</li>\n<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/20/2025 One paper is accepted to TEI 2025. Congrats to Hana and the team, one paper is accepted to USEC 2025. Congrats to Youngwook and the team.</span></span></span></p>\n</li>\n</ul>",
+  "affiliations": {
+    "src": "/assets/37ae98_f86dbdfb403f48a59dfef1228a7e8ede~mv2.webp",
+    "alt": "Notre Dame research affiliations"
+  },
+  "gallery": [
+    {
+      "src": "/assets/37ae98_a93df50a9c4c44039d2733a45ee57d12~mv2.webp",
+      "alt": "Research gallery photo 1"
+    },
+    {
+      "src": "/assets/37ae98_b0ab4ad2f13a45f2955abfc8d915bfca~mv2.webp",
+      "alt": "Research gallery photo 2"
+    },
+    {
+      "src": "/assets/37ae98_5d535b53fca54ba49fe30a8c25d8f3e4~mv2.webp",
+      "alt": "Research gallery photo 3"
+    },
+    {
+      "src": "/assets/37ae98_a907bbc70f5049cfa4ed951d92b9bb43~mv2.webp",
+      "alt": "Research gallery photo 4"
+    },
+    {
+      "src": "/assets/37ae98_b2154c04cc704d859da102cb4b1f9679~mv2.webp",
+      "alt": "Research gallery photo 5"
+    },
+    {
+      "src": "/assets/37ae98_cfabe93a2d64412da8dbaf29724776e3~mv2.webp",
+      "alt": "Research gallery photo 6"
+    },
+    {
+      "src": "/assets/37ae98_f1a6ea8e9b494b56ad46efa5d8d2dcb0~mv2.webp",
+      "alt": "Research gallery photo 7"
+    },
+    {
+      "src": "/assets/37ae98_dc194eb90c5046ab8605b0d20d70dd9e~mv2.webp",
+      "alt": "Research gallery photo 8"
+    },
+    {
+      "src": "/assets/37ae98_e5ced268d676437a94d8702d14e7a437~mv2.webp",
+      "alt": "Research gallery photo 9"
+    }
+  ]
+}

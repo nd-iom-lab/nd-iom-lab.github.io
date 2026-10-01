@@ -1,0 +1,142 @@
+[
+  {
+    "main": 338,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/",
+    "width": 390
+  },
+  {
+    "main": 338,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/team/",
+    "width": 390
+  },
+  {
+    "main": 338,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/s-projects-basic/",
+    "width": 390
+  },
+  {
+    "main": 338,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/projects-7/",
+    "width": 390
+  },
+  {
+    "main": 338,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/opportunities/",
+    "width": 390
+  },
+  {
+    "main": 648,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/",
+    "width": 768
+  },
+  {
+    "main": 648,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/team/",
+    "width": 768
+  },
+  {
+    "main": 648,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/s-projects-basic/",
+    "width": 768
+  },
+  {
+    "main": 648,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/projects-7/",
+    "width": 768
+  },
+  {
+    "main": 648,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/opportunities/",
+    "width": 768
+  },
+  {
+    "main": 827,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/",
+    "width": 1024
+  },
+  {
+    "main": 827,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/team/",
+    "width": 1024
+  },
+  {
+    "main": 827,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/s-projects-basic/",
+    "width": 1024
+  },
+  {
+    "main": 827,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/projects-7/",
+    "width": 1024
+  },
+  {
+    "main": 827,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/opportunities/",
+    "width": 1024
+  },
+  {
+    "main": 980,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/",
+    "width": 1440
+  },
+  {
+    "main": 980,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/team/",
+    "width": 1440
+  },
+  {
+    "main": 980,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/s-projects-basic/",
+    "width": 1440
+  },
+  {
+    "main": 980,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/projects-7/",
+    "width": 1440
+  },
+  {
+    "main": 980,
+    "outside": 0,
+    "overflow": 0,
+    "route": "/opportunities/",
+    "width": 1440
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "Internet of Matter Lab",
+  "logo": {
+    "src": "/assets/37ae98_8085eb86ac83464e970ca4b03a349301~mv2.webp",
+    "alt": "Internet of Matter Lab logo"
+  },
+  "hero": {
+    "src": "/assets/37ae98_3fc12d88cab543729fc245a82b0a6419~mv2.webp",
+    "alt": "Soft robotics, printed electronics and smart materials"
+  },
+  "tree": {
+    "src": "/assets/37ae98_ef48aab603504d428fe0818c5951eb58~mv2.webp",
+    "alt": "Tree-shaped electronic circuit"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Team",
+      "path": "/team/"
+    },
+    {
+      "label": "Publications and Projects",
+      "path": "/s-projects-basic/"
+    },
+    {
+      "label": "Teaching",
+      "path": "/projects-7/"
+    },
+    {
+      "label": "Opportunities",
+      "path": "/opportunities/"
+    }
+  ]
+}

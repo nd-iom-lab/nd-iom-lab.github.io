@@ -1,0 +1,190 @@
+{
+  "title": "Our Team.",
+  "pi": {
+    "name": "Tingyu Cheng",
+    "role": "Principal Investigator",
+    "office": "Office: 182D Fitzpatrick Hall",
+    "biographyHtml": "<p style=\"font-size:17px\"><span style=\"font-size:17px\"><span style=\"font-weight:bold\">Tingyu Cheng</span> is an assistant professor in CSE at the University of Notre Dame. He is also associated with Human-Centered Responsible AI Lab in the <span style=\"text-decoration:underline\"><a href=\"https://lucyinstitute.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Lucy Family Institute for Data &amp; Society</a></span>  He was a Postdoctoral fellow at Georgia Tech with Professor <span style=\"text-decoration:underline\"><a href=\"https://josiahhester.com/cv/\" target=\"_blank\" rel=\"noopener noreferrer\">Josiah Hester</a></span>, where he also obtained PhD from Human-centered Computing with Professor <span style=\"text-decoration:underline\"><a href=\"https://coe.northeastern.edu/people/abowd-gregory/\" target=\"_blank\" rel=\"noopener noreferrer\">Gregory Abowd</a></span> and <span style=\"text-decoration:underline\"><a href=\"https://www.codecraft.group/hyunjoo-oh\" target=\"_blank\" rel=\"noopener noreferrer\">Hyunjoo Oh</a></span>.</span></p>\n\n",
+    "portrait": {
+      "src": "/assets/37ae98_9ffb2b4fc9854d7082e7da9c6e0049ce~mv2.webp",
+      "alt": "Tingyu Cheng"
+    },
+    "email": "tcheng2@nd.edu",
+    "contacts": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=_mLdZS8AAAAJ&hl=en",
+        "icon": {
+          "src": "/assets/37ae98_10b21cb986d747bb88227373ea5a8e48~mv2.webp",
+          "alt": "Google Scholar"
+        }
+      },
+      {
+        "label": "Twitter",
+        "url": "https://x.com/home",
+        "icon": {
+          "src": "/assets/37ae98_59324c1c50424cbaba60c22e8f5db7d5~mv2.webp",
+          "alt": "Twitter"
+        }
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tingyucheng/",
+        "icon": {
+          "src": "/assets/37ae98_70aac5d07fe74cd7af01c8094f15d077~mv2.webp",
+          "alt": "LinkedIn"
+        }
+      }
+    ]
+  },
+  "members": [
+    {
+      "name": "Jiaqing Liu",
+      "roleHtml": "<p style=\"font-size:20px\">PhD student</p>",
+      "url": "https://jiaqingliuallen.github.io/",
+      "portrait": {
+        "src": "/assets/37ae98_5c87613f8c254258ada2e5f3edcf2f0a~mv2.webp",
+        "alt": "Jiaqing Liu"
+      }
+    },
+    {
+      "name": "Yuxuan Miao",
+      "roleHtml": "<p style=\"font-size:20px\">PhD student ( co-advised with <span style=\"font-weight:bold\"><span style=\"color:#3d4dad\"><a href=\"http://yes-lab.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Fanny Ye</a></span></span>)</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_729322cd714c4a58b11ee1c2817a19ef~mv2.webp",
+        "alt": "Yuxuan Miao"
+      }
+    },
+    {
+      "name": "Xizhe Hao",
+      "roleHtml": "<p style=\"font-size:20px\"><span>PhD student</span></p>",
+      "url": "https://xizhehao.com/",
+      "portrait": {
+        "src": "/assets/37ae98_fab9d42e02074819ab75a3a74a8416d8~mv2.webp",
+        "alt": "Xizhe Hao"
+      }
+    },
+    {
+      "name": "Mingqi Wang",
+      "roleHtml": "<p style=\"font-size:20px\">PhD student</p>",
+      "url": "https://www.wangmingqi.com/",
+      "portrait": {
+        "src": "/assets/37ae98_41e0ed26cd52488dbb7bd9d2f7c45987~mv2.webp",
+        "alt": "Mingqi Wang"
+      }
+    },
+    {
+      "name": "Jiayi Hao",
+      "roleHtml": "<p style=\"font-size:20px\">iSURE visiting student</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_245cc737b7534509976481920d577855~mv2.webp",
+        "alt": "Jiayi Hao"
+      }
+    },
+    {
+      "name": "Jiazhen Li",
+      "roleHtml": "<p style=\"font-size:20px\">iSURE visiting student</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_4165ede288ac47008ff561780c1e3b09~mv2.webp",
+        "alt": "Jiazhen Li"
+      }
+    },
+    {
+      "name": "Lai Wei",
+      "roleHtml": "<p style=\"font-size:20px\">iSURE visiting student</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_5ac67870b50a4691b5e2e9a237c01077~mv2.webp",
+        "alt": "Lai Wei"
+      }
+    },
+    {
+      "name": "Fengkai Dong",
+      "roleHtml": "<p style=\"font-size:20px\">iSURE visiting student</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_0d8ddf6bbedb4ef3b0ae41ebefcc030a~mv2.webp",
+        "alt": "Fengkai Dong"
+      }
+    },
+    {
+      "name": "Xuanfu Guo",
+      "roleHtml": "<p style=\"font-size:20px\">Collaborator</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_a6391d0579d04924bee2861f5c1911e3~mv2.webp",
+        "alt": "Xuanfu Guo"
+      }
+    },
+    {
+      "name": "Shuyao Zhou",
+      "roleHtml": "<p style=\"font-size:20px\">Collaborator</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_f45d6efea14b4ab2a538d055d894e544~mv2.webp",
+        "alt": "Shuyao Zhou"
+      }
+    },
+    {
+      "name": "Peter He",
+      "roleHtml": "<p style=\"font-size:20px\">Research Assistant</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_b0ff32f32e1b40df88c481dcfddc9f94~mv2.webp",
+        "alt": "Peter He"
+      }
+    }
+  ],
+  "alumniHtml": "<p style=\"font-size:24px\"><span style=\"font-size:24px\"><span style=\"font-weight:bold\">Alumni</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\"><span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Cody Chun</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Eric Durazno</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Priscilla Chau</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"></span></span><span style=\"font-weight:bold\"><span style=\"font-size:22px\">Qingyu Fang</span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">, iSURE, next stop UW HCDE</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Jingyi Liu</span>, iSURE, next stop Xi'an Jiaotong University</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zilang Cheng</span>, iSURE, next stop UPenn</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Linrui Shou</span>, iSURE, next stop CMU</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zhechen (Leon) Zhao</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant,</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"> next stop UChicago</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Wenjia Xu</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant, </span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">next stop Georgia Tech</span></span></p>",
+  "groupPhotos": [
+    {
+      "year": "2026",
+      "images": [
+        {
+          "src": "/assets/37ae98_c3f317e41e3f421db3c9b1f274575244~mv2.webp",
+          "alt": "Lab group photo, 2026"
+        },
+        {
+          "src": "/assets/37ae98_4048ac64382a4c178e913d2144bbf8e1~mv2.webp",
+          "alt": "Lab group photo, 2026"
+        },
+        {
+          "src": "/assets/37ae98_fbe3c9fa0d884941808963fd16f9928e~mv2.webp",
+          "alt": "Lab group photo, 2026"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "images": [
+        {
+          "src": "/assets/37ae98_0a8dcc1444774d7cb5f7c7d0a0583072~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        },
+        {
+          "src": "/assets/37ae98_6987f538548c4699a2ab9db3f10b4974~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        },
+        {
+          "src": "/assets/37ae98_9c69e31c2251421494155df633070065~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        },
+        {
+          "src": "/assets/37ae98_0708a69161ac47748d87671076c3cad0~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        },
+        {
+          "src": "/assets/37ae98_430d6ad93f0b41adbd64aa50df5c2d6f~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        },
+        {
+          "src": "/assets/37ae98_6f18b4499d35454786de04a07f6156b3~mv2.webp",
+          "alt": "Lab group photo, 2025"
+        }
+      ]
+    }
+  ]
+}
