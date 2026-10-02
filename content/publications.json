@@ -38,7 +38,10 @@
         "brand": "reddot"
       }
     ],
-    "imageShare": 50
+    "imageShare": 50,
+    "themes": [
+      "sensing"
+    ]
   },
   {
     "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
@@ -73,6 +76,9 @@
         "icon": "ribbon",
         "url": "https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/"
       }
+    ],
+    "themes": [
+      "sustainability"
     ]
   },
   {
@@ -137,6 +143,10 @@
         "url": "https://homes.cs.washington.edu/~zzhihan/",
         "brand": "daily"
       }
+    ],
+    "themes": [
+      "multimodal",
+      "sustainability"
     ]
   },
   {
@@ -158,6 +168,11 @@
     ],
     "resourceLabels": [
       "Project Page"
+    ],
+    "themes": [
+      "sensing",
+      "multimodal",
+      "robotics"
     ]
   },
   {
@@ -192,6 +207,9 @@
         "brand": "nd",
         "url": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/"
       }
+    ],
+    "themes": [
+      "sustainability"
     ]
   },
   {
@@ -218,7 +236,12 @@
         "url": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/"
       }
     ],
-    "imageShare": 42
+    "imageShare": 42,
+    "themes": [
+      "sensing",
+      "robotics",
+      "sustainability"
+    ]
   },
   {
     "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
@@ -240,7 +263,12 @@
     "resourceLabels": [
       "PDF"
     ],
-    "imageShare": 30
+    "imageShare": 30,
+    "themes": [
+      "sensing",
+      "multimodal",
+      "sustainability"
+    ]
   },
   {
     "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
@@ -258,6 +286,9 @@
         "url": "https://drive.google.com/file/d/19xrsFf2AmsZarwv2cSDYPxOfegXG0hTb/view?usp=sharing",
         "label": "PDF"
       }
+    ],
+    "themes": [
+      "sustainability"
     ]
   },
   {
@@ -286,6 +317,11 @@
         "url": "https://pubs.acs.org/doi/abs/10.1021/acsnano.5c01492",
         "label": "DOI"
       }
+    ],
+    "themes": [
+      "sensing",
+      "multimodal",
+      "sustainability"
     ]
   },
   {
@@ -308,6 +344,9 @@
         "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-584/",
         "label": "DOI"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   },
   {
@@ -330,6 +369,9 @@
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4",
         "label": "DOI"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   },
   {
@@ -362,6 +404,9 @@
         "label": "Core77 Design Awards 2023 · Interaction & Emerging Technology Honoree",
         "brand": "core77"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   },
   {
@@ -398,6 +443,10 @@
         "label": "Core77 Design Awards 2023 · Sustainability Winner",
         "brand": "core77"
       }
+    ],
+    "themes": [
+      "sensing",
+      "sustainability"
     ]
   },
   {
@@ -426,6 +475,9 @@
         "url": "https://www.nature.com/articles/s41528-022-00137-z",
         "label": "DOI"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   },
   {
@@ -458,6 +510,10 @@
         "label": "2022 Fast Company Innovation by Design Award Finalist",
         "brand": "fastcompany"
       }
+    ],
+    "themes": [
+      "sensing",
+      "robotics"
     ]
   },
   {
@@ -484,6 +540,9 @@
         "url": "https://drive.google.com/file/d/1OYg7uVcALY1hQ-bP_BIB0B7rYe_Nx2O8/view?usp=sharing",
         "label": "Video"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   },
   {
@@ -510,6 +569,9 @@
         "url": "https://youtu.be/Ntqc5bHQdYc?si=gBVohDiEAFJ2hX7H",
         "label": "Video"
       }
+    ],
+    "themes": [
+      "sensing"
     ]
   }
 ]

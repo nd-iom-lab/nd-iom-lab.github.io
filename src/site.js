@@ -26,26 +26,28 @@ document.addEventListener("keydown", (event) => {
 nav.addEventListener("click", (event) => {
   if (event.target.closest("a")) closeMenu();
 });
-const homeHero = document.querySelector(".hero-fade");
-if (homeHero) {
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  let pendingFrame = false;
-  const updateHero = () => {
-    const progress = Math.min(1, Math.max(0, window.scrollY) / 200);
-    const opacity = reducedMotion.matches ? 1 : 1 - progress * progress * (3 - 2 * progress);
-    homeHero.style.setProperty("--hero-opacity", opacity.toFixed(3));
-    pendingFrame = false;
-  };
-  const requestUpdate = () => {
-    if (!pendingFrame) {
-      pendingFrame = true;
-      window.requestAnimationFrame(updateHero);
-    }
-  };
-  window.addEventListener("scroll", requestUpdate, { passive: true });
-  window.addEventListener("pageshow", requestUpdate);
-  reducedMotion.addEventListener("change", requestUpdate);
-  updateHero();
+const publicationFilters = document.querySelector(".publication-filters");
+if (publicationFilters) {
+  const buttons = [...publicationFilters.querySelectorAll("button")];
+  const papers = [...document.querySelectorAll(".project[data-themes]")];
+  const years = [...document.querySelectorAll(".publication-year")];
+  const status = document.querySelector(".publication-filter-status");
+  publicationFilters.hidden = false;
+  buttons.forEach(button => button.addEventListener("click", () => {
+    const theme = button.dataset.publicationFilter;
+    buttons.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+    papers.forEach(paper => {
+      paper.hidden = theme !== "all" && !paper.dataset.themes.split(" ").includes(theme);
+    });
+    years.forEach(year => {
+      const visible = [...year.querySelectorAll(".project")].filter(paper => !paper.hidden);
+      year.hidden = visible.length === 0;
+      visible.forEach((paper, index) => paper.classList.toggle("alternate", index % 2 === 0));
+    });
+    const count = papers.filter(paper => !paper.hidden).length;
+    status.textContent = `${count} ${count === 1 ? "publication" : "publications"} shown: ${button.textContent}.`;
+  }));
+  years.forEach(year => [...year.querySelectorAll(".project")].forEach((paper, index) => paper.classList.toggle("alternate", index % 2 === 0)));
 }
 const gallery = document.querySelector(".gallery");
 if (gallery) {

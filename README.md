@@ -30,13 +30,13 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 - `content/teaching.json`, `content/opportunities.json`: their respective content.
 - `content/archive.json`: the old hidden `/publications/` page, retained for existing links.
 - `src/styles.css`: desktop design and mobile/tablet layout rules.
-- `src/site.js`: mobile menu, homepage wave fade, research gallery controls, rolling news lists and publication image viewer.
+- `src/site.js`: mobile menu, publication theme filters, research gallery controls, rolling news lists and publication image viewer.
 - `scripts/build.mjs`: semantic static HTML templates.
 - `public/assets/`: local images and fonts. Add new images here; reference them as `/assets/filename.webp`.
 
 Browser tab icons use the transparent vector `public/assets/lab-favicon.svg` with a 64 px PNG fallback, configured in `content/site.json` under `favicon`. The vector preserves the original lab logo silhouette and has no background rectangle. Keep favicon assets separate from the page-header logo.
 
-Stylesheets and JavaScript are published with content hashes in their filenames so browser caches update automatically after a change. Projects & Publications groups entries by year, newest first, without year filter buttons. Paper titles are bold and colored; authors are plain text, followed by a bold venue, awards/media coverage and icon resource buttons. Images always sit to the left of the text on desktop/tablet, at natural proportions and variable sizes, and open a dismissible image viewer. Entries remain readable when JavaScript is disabled; thumbnail links then open the image directly.
+Stylesheets and JavaScript are published with content hashes in their filenames so browser caches update automatically after a change. Projects & Publications groups entries by year, newest first, without year filter buttons. The Full Publication List offers All, Sensing & Interactions, Multimodal, Robotics and Sustainability filters; entries may match several themes. Empty year groups are hidden for the selected filter; without JavaScript the full list is displayed. Paper titles are bold and colored; authors are plain text, followed by a bold venue, awards/media coverage and icon resource buttons. Images always sit to the left of the text on desktop/tablet, at natural proportions and variable sizes, and open a dismissible image viewer. Entries remain readable when JavaScript is disabled; thumbnail links then open the image directly.
 
 No Wix account, Wix editor, computer use, CMS or external API is needed to edit/build this version. Existing external paper, project, personal-site and recruitment-form links retain their original destinations.
 
@@ -77,7 +77,7 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 
 Use plain text for `authors` and `venue`. List authors in the paper’s original order, using given name then surname and consistent spelling across papers (for example, `Tingyu Cheng` and `HyunJoo Oh`); preserve equal-contribution asterisks. Use the full venue name, an acronym in parentheses where applicable, then a comma and year (for example, `Nature Electronics, 2026`). Media marks are capped below the adjacent text size. Optional `titleUrl` links the title. Resources in `links` render as icon buttons; supported labels include PDF, Project Page, Code, DOI and Video. Optional `resourceLabels` are unavailable resources, clearly marked “soon” without a link. Optional `highlights` is an array of `{ "label": "...", "brand": "nd", "url": "https://..." }` for media/awards, or `{ "label": "Best Paper", "icon": "trophy" }` for a paper award (use `icon: "ribbon"` for other recognition). Highlights appear between the venue and resource buttons. Marks live under `public/assets/marks/`; their official sources are recorded in `migration/publication-marks.json`. Seattle Times and The Daily use text initials where an original downloadable mark is unavailable.
 
-Optional `imageShare` sets the desktop/tablet image column percentage (20–50, default 38); use a larger share for wide figures. Optional `widthPercent` on each image sets its relative column weight when a paper has multiple images. Images preserve their natural aspect ratios and are not cropped to matching boxes. Mobile uses compact images beside titles, with authors, venues and resources full width below.
+Add `themes` as an array using `sensing`, `multimodal`, `robotics` and/or `sustainability` for the publication filters; choose every relevant category. Optional `imageShare` sets the desktop/tablet image column percentage (20–50, default 38); use a larger share for wide figures. Optional `widthPercent` on each image sets its relative column weight when a paper has multiple images. Images preserve their natural aspect ratios and are not cropped to matching boxes. Mobile uses compact images beside titles, with authors, venues and resources full width below.
 
 The ISO `date` controls year grouping and chronological order and is not displayed on each paper. The generator sorts entries automatically.
 
@@ -98,9 +98,9 @@ HTML fields are trusted lab-maintained source, not submitted by website visitors
 
 ## Responsive behavior
 
-The compact shared header retains the pale background, logo and navigation. The five-image wave appears only on the homepage: 200 px on desktop, 180 px on tablet and 120 px on mobile. Its lower edge blends into the background, and opacity eases from full visibility to zero across the first 200 px of scrolling, without changing its height or moving content within the document. Scrolling back up restores it; reduced-motion users and browsers without JavaScript get a static wave. Inner pages begin directly below the navigation.
+The shared header stays at the top while scrolling, with an 80 px desktop bar, 72 px tablet bar and 64 px mobile bar (plus a 1 px divider). Tablet and mobile use a dropdown menu. The original five-image wave appears only on the homepage: 320 px on desktop, 260 px on tablet and 180 px on mobile, with its original clear wave edges and no scroll fade. Inner pages begin directly below the navigation.
 
-Desktop retains the original typography, centered content, circular portraits and publication rows with images on the left, text on the right and alternating pale backgrounds. Tablet layouts wrap navigation and use three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
+Desktop retains the original typography, centered content, circular portraits and publication rows with images on the left, text on the right and alternating pale backgrounds. Tablet layouts use a compact menu and three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
 
 ## Migration record
 

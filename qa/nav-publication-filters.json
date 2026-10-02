@@ -1,0 +1,457 @@
+{
+  "base": "http://localhost:4321",
+  "viewports": [
+    {
+      "width": 1440,
+      "header": {
+        "height": 81,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 368.125,
+        "navLeft": 812.796875
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1200,
+      "header": {
+        "height": 81,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 308.984375,
+        "navLeft": 665
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1001,
+      "header": {
+        "height": 81,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 301.03125,
+        "navLeft": 473.953125
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "header": {
+        "height": 73,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 291.703125,
+        "navLeft": 0
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "header": {
+        "height": 65,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 240.21875,
+        "navLeft": 0
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "header": {
+        "height": 65,
+        "top": 0,
+        "overflow": 0,
+        "position": "sticky",
+        "brandRight": 211.1875,
+        "navLeft": 0
+      },
+      "counts": [
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Sensing & Interactions",
+          "count": 13,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        },
+        {
+          "label": "Multimodal",
+          "count": 4,
+          "years": [
+            "2026",
+            "2025"
+          ]
+        },
+        {
+          "label": "Robotics",
+          "count": 3,
+          "years": [
+            "2026",
+            "2025",
+            "2021"
+          ]
+        },
+        {
+          "label": "Sustainability",
+          "count": 8,
+          "years": [
+            "2026",
+            "2025",
+            "2023"
+          ]
+        },
+        {
+          "label": "All",
+          "count": 17,
+          "years": [
+            "2026",
+            "2025",
+            "2023",
+            "2022",
+            "2021",
+            "2020"
+          ]
+        }
+      ]
+    }
+  ],
+  "otherPages": "sticky nav on all inner routes; no wave",
+  "noJavaScript": "all papers readable"
+}
