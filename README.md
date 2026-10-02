@@ -34,6 +34,8 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 - `scripts/build.mjs`: semantic static HTML templates.
 - `public/assets/`: local images and fonts. Add new images here; reference them as `/assets/filename.webp`.
 
+Browser tab icons use the transparent vector `public/assets/lab-favicon.svg` with a 64 px PNG fallback, configured in `content/site.json` under `favicon`. The vector preserves the original lab logo silhouette and has no background rectangle. Keep favicon assets separate from the page-header logo.
+
 No Wix account, Wix editor, computer use, CMS or external API is needed to edit/build this version. Existing external paper, project, personal-site and recruitment-form links retain their original destinations.
 
 ### Add a team member

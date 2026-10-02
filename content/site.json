@@ -33,5 +33,9 @@
       "label": "Opportunities",
       "path": "/opportunities/"
     }
-  ]
+  ],
+  "favicon": {
+    "svg": "/assets/lab-favicon.svg",
+    "png": "/assets/lab-favicon-64.png"
+  }
 }
