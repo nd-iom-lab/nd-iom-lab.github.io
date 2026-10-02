@@ -25,6 +25,8 @@ const esc = (s) =>
   );
 let site = read("site");
 let assetFiles = { styles: "styles.css", script: "site.js" };
+let pageStyles = "";
+let pageScript = "";
 const img = (i, cls = "", eager = false) =>
   `<img src="${esc(i.src)}" alt="${esc(i.alt)}" class="${cls}"${i.width && i.height ? ` width="${Number(i.width)}" height="${Number(i.height)}"` : ""} loading="${eager ? "eager" : "lazy"}" decoding="async"${i.widthPercent ? ` style="width:${Number(i.widthPercent)}%"` : ""}>`;
 const homeHero = () =>
@@ -32,7 +34,7 @@ const homeHero = () =>
 const header = (current) =>
   `<header class="site-header${current === "/" ? " home-header" : ""}"><div class="header-inner"><a href="/" class="brand">${img(site.logo, "logo", true)}<span>${esc(site.name)}</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav id="site-nav" aria-label="Main navigation">${site.navigation.map((n) => `<a href="${n.path}"${n.path === current ? ' aria-current="page"' : ""}>${esc(n.label)}</a>`).join("")}</nav></div></header>${current === "/" ? homeHero() : ""}`;
 const document = (title, route, body) =>
-  `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Internet of Matter Lab at the University of Notre Dame. Sustainable electronics, soft robotics, fabrication and human-computer interaction."><title>${esc(title)} | ${esc(site.name)}</title><link rel="icon" href="${site.favicon.png}" type="image/png" sizes="64x64"><link rel="icon" href="${site.favicon.svg}" type="image/svg+xml" sizes="any"><link rel="stylesheet" href="/${assetFiles.styles}"><script src="/${assetFiles.script}" defer></script></head><body><a href="#main" class="skip-link">Skip to content</a>${header(route)}<main id="main">${body}</main></body></html>`;
+  `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Internet of Matter Lab at the University of Notre Dame. Sustainable electronics, soft robotics, fabrication and human-computer interaction."><title>${esc(title)} | ${esc(site.name)}</title><link rel="icon" href="${site.favicon.png}" type="image/png" sizes="64x64"><link rel="icon" href="${site.favicon.svg}" type="image/svg+xml" sizes="any"><style>${pageStyles}</style></head><body><a href="#main" class="skip-link">Skip to content</a>${header(route)}<main id="main">${body}</main><script>${pageScript}</script></body></html>`;
 function home() {
   const h = read("home");
   return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul data-news-list="recent" data-news-src="/${assetFiles.news}">${partitionNews(h.news).recent.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="/older-news/">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section>${img(h.affiliations, "affiliations")}</div>`;
@@ -115,10 +117,18 @@ export function build() {
       const newsHelpers = readFileSync(path.join(root, "src/news-window.mjs"), "utf8").replace(/^export /gm, "");
       content = Buffer.from(newsHelpers + "\n" + content.toString());
     }
+    // Ship presentation and behavior with the HTML so cached pages cannot
+    // reference files removed by a newer deployment. Script runs after the DOM.
+    const text = content.toString();
+    const closingTag = key === "styles" ? /<\/style\b/i : /<\/script\b/i;
+    if (closingTag.test(text)) throw new Error(`${source}: unexpected HTML closing tag`);
+    if (key === "styles") pageStyles = text;
+    else pageScript = text;
     const revision = createHash("sha256").update(content).digest("hex").slice(0, 10);
     assetFiles[key] = source.replace(/\.(css|js)$/, `-${revision}.$1`);
     writeFileSync(path.join(out, assetFiles[key]), content);
-    // Keep existing URLs available for HTML cached before versioned assets.
+    // Historical hashes in public/ and these stable URLs support cached pages
+    // published before CSS and JavaScript were embedded in HTML.
     writeFileSync(path.join(out, source), content);
   }
   const newsFeed = JSON.stringify(read("home").news);

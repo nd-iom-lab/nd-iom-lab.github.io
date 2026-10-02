@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { build, root } from "./build.mjs";
@@ -11,8 +12,13 @@ function files(dir) {
   );
 }
 const pages = files(dist).filter((f) => f.endsWith(".html"));
+const styles = readFileSync(path.join(root, "src/styles.css"), "utf8");
+const script = readFileSync(path.join(dist, "site.js"), "utf8");
 for (const page of pages) {
   const text = readFileSync(page, "utf8");
+  assert.ok(text.includes(`<style>${styles}</style>`), `${page}: self-contained styles`);
+  assert.ok(text.includes(`</main><script>${script}</script>`), `${page}: script after page content`);
+  assert.doesNotMatch(text, /<link\b[^>]*rel="stylesheet"|<script\b[^>]*src=/, `${page}: no separate CSS/JS load`);
   assert.match(text, /<meta name="viewport"/);
   assert.match(text, /<main id="main">/);
   assert.equal(
@@ -37,6 +43,14 @@ for (const page of pages) {
       text.includes(`id="${target}"`),
       `${page}: missing anchor ${target}`,
     );
+}
+// Old HTML can outlive a deployment in the browser or CDN cache.
+assert.ok(existsSync(path.join(dist, "styles-b4fa8f9e41.css")), "Restore the previously missing stylesheet");
+for (const name of readdirSync(path.join(root, "public"))) {
+  const match = /^(?:styles|site)-([a-f0-9]{10})\.(?:css|js)$/.exec(name);
+  if (!match) continue;
+  const content = readFileSync(path.join(dist, name));
+  assert.equal(createHash("sha256").update(content).digest("hex").slice(0, 10), match[1], `${name}: preserve exact historical content`);
 }
 const pubs = JSON.parse(
   readFileSync(path.join(root, "content/publications.json")),
