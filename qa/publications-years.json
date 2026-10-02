@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "counts": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 3,
+        "2025": 6,
+        "2026": 4
+      },
+      "style": "/styles-9f7a9f0812.css",
+      "script": "/site-2129b9bcba.js",
+      "boldTextCount": 10,
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "counts": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 3,
+        "2025": 6,
+        "2026": 4
+      },
+      "style": "/styles-9f7a9f0812.css",
+      "script": "/site-2129b9bcba.js",
+      "boldTextCount": 10,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "counts": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 3,
+        "2025": 6,
+        "2026": 4
+      },
+      "style": "/styles-9f7a9f0812.css",
+      "script": "/site-2129b9bcba.js",
+      "boldTextCount": 10,
+      "overflow": 0
+    }
+  ],
+  "noJavaScriptAllPublicationsVisible": true
+}

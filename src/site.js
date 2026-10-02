@@ -42,3 +42,21 @@ if (gallery) {
     }),
   );
 }
+
+const publicationFilters = document.querySelector(".publication-filters");
+if (publicationFilters) {
+  const buttons = [...publicationFilters.querySelectorAll("button")];
+  const years = [...document.querySelectorAll(".publication-year")];
+  const status = document.querySelector(".publication-status");
+  publicationFilters.hidden = false;
+  buttons.forEach(button => button.addEventListener("click", () => {
+    const selected = button.dataset.publicationFilter;
+    let count = 0;
+    buttons.forEach(other => other.setAttribute("aria-pressed", String(other === button)));
+    years.forEach(year => {
+      year.hidden = selected !== "all" && year.dataset.publicationYear !== selected;
+      if (!year.hidden) count += year.querySelectorAll(".project").length;
+    });
+    status.textContent = `${count} ${count === 1 ? "publication" : "publications"}${selected === "all" ? "" : ` in ${selected}`}`;
+  }));
+}

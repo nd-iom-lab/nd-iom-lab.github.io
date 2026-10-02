@@ -9,7 +9,8 @@
         "alt": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions"
       }
     ],
-    "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb"
+    "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
+    "date": "2026-04-13"
   },
   {
     "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
@@ -26,7 +27,8 @@
         "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
         "widthPercent": 72
       }
-    ]
+    ],
+    "date": "2026-04-13"
   },
   {
     "title": "Sustainability assessment using multimodal AI agents",
@@ -38,7 +40,8 @@
         "alt": "Sustainability assessment using multimodal AI agents"
       }
     ],
-    "titleUrl": "https://homes.cs.washington.edu/~zzhihan/"
+    "titleUrl": "https://homes.cs.washington.edu/~zzhihan/",
+    "date": "2026-04-11"
   },
   {
     "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
@@ -49,7 +52,8 @@
         "src": "/assets/37ae98_f4e5fddfff7340b6afe12d2c7303813b~mv2.webp",
         "alt": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling"
       }
-    ]
+    ],
+    "date": "2026-04-01"
   },
   {
     "title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
@@ -62,7 +66,8 @@
       }
     ],
     "award": "Best Paper",
-    "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb"
+    "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
+    "date": "2025-09-05"
   },
   {
     "title": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing",
@@ -73,7 +78,8 @@
         "src": "/assets/37ae98_df70682af93f499db0eb1dae42319b8d~mv2.webp",
         "alt": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing"
       }
-    ]
+    ],
+    "date": "2025-09-02"
   },
   {
     "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
@@ -84,7 +90,8 @@
         "src": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
         "alt": "Living Sustainability: In-Context Interactive Environmental Impact Communication"
       }
-    ]
+    ],
+    "date": "2025-07-06"
   },
   {
     "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
@@ -95,18 +102,8 @@
         "src": "/assets/37ae98_d43008b0540349be94b458f14a86ff9b~mv2.webp",
         "alt": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens"
       }
-    ]
-  },
-  {
-    "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
-    "meta": "02/24/2025    Privacy, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd. USEC 2025 </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/15rQ8f8NLa8azxI-QLPpPi9iZ3rODz413/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://www.ndss-symposium.org/ndss-paper/auto-draft-584/\" target=\"_blank\" rel=\"noopener noreferrer\">DOI</a></span></span></span></p>",
-    "images": [
-      {
-        "src": "/assets/37ae98_a033939f0dac494a91e81c98a45e89d4~mv2.webp",
-        "alt": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design"
-      }
-    ]
+    ],
+    "date": "2025-06-16"
   },
   {
     "title": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
@@ -123,7 +120,20 @@
         "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
         "widthPercent": 41
       }
-    ]
+    ],
+    "date": "2025-04-26"
+  },
+  {
+    "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
+    "meta": "02/24/2025    Privacy, fabrication, interaction",
+    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd. USEC 2025 </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/15rQ8f8NLa8azxI-QLPpPi9iZ3rODz413/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://www.ndss-symposium.org/ndss-paper/auto-draft-584/\" target=\"_blank\" rel=\"noopener noreferrer\">DOI</a></span></span></span></p>",
+    "images": [
+      {
+        "src": "/assets/37ae98_a033939f0dac494a91e81c98a45e89d4~mv2.webp",
+        "alt": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design"
+      }
+    ],
+    "date": "2025-02-24"
   },
   {
     "title": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities",
@@ -134,7 +144,8 @@
         "src": "/assets/37ae98_f3fab33c43254ae49ee3e26e19677537~mv2.webp",
         "alt": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities"
       }
-    ]
+    ],
+    "date": "2023-11-05"
   },
   {
     "title": "SwellSense: Creating 2.5D interactions with micro-capsule paper",
@@ -145,7 +156,8 @@
         "src": "/assets/37ae98_a3ae2b3c85fc41b984508397f55a5c59~mv2.webp",
         "alt": "SwellSense: Creating 2.5D interactions with micro-capsule paperTingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Ye Jun Kim, Clement Zheng, Gregory D. Abowd, Hyunjoo. Proc. ACM CHI 2023.  (2023 Core 77 Design Award Honoree for interaction and emerging technology categories) PDF | DOI | VIDEO"
       }
-    ]
+    ],
+    "date": "2023-04-19"
   },
   {
     "title": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
@@ -156,7 +168,8 @@
         "src": "/assets/37ae98_be1dce2d707b4c2f9680ee4a790b5f6a~mv2.webp",
         "alt": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application"
       }
-    ]
+    ],
+    "date": "2023-04-19"
   },
   {
     "title": "Flexible computational photodetectors for self-powered activity sensing",
@@ -173,7 +186,8 @@
         "alt": "Flexible computational photodetectors for self-powered activity sensing",
         "widthPercent": 44
       }
-    ]
+    ],
+    "date": "2022-01-22"
   },
   {
     "title": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter",
@@ -184,18 +198,8 @@
         "src": "/assets/37ae98_7559e69aac654205ae22b67740e720e8~mv2.webp",
         "alt": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter"
       }
-    ]
-  },
-  {
-    "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
-    "meta": "03/18/2020   Sensing, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshiiro Kawahara, Lining Yao, Gregory D. Abowd, and Hyunjoo Oh. ACM IMWUT 2020. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1Sf5FMu66qip6CUPm_EVUPrpuV3hlVj7v/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF |</a></span> <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3381013\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a><a href=\"https://youtu.be/Ntqc5bHQdYc?si=gBVohDiEAFJ2hX7H\" target=\"_blank\" rel=\"noopener noreferrer\">| VIDEO </a></span></span></span></p>",
-    "images": [
-      {
-        "src": "/assets/37ae98_02882fc4009b4ef9bc397715df088074~mv2.webp",
-        "alt": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates"
-      }
-    ]
+    ],
+    "date": "2021-09-14"
   },
   {
     "title": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases",
@@ -206,6 +210,19 @@
         "src": "/assets/37ae98_6ed25f77d5c547baa036cc92cb4b9afa~mv2.webp",
         "alt": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases"
       }
-    ]
+    ],
+    "date": "2020-04-09"
+  },
+  {
+    "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
+    "meta": "03/18/2020   Sensing, fabrication, interaction",
+    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshiiro Kawahara, Lining Yao, Gregory D. Abowd, and Hyunjoo Oh. ACM IMWUT 2020. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1Sf5FMu66qip6CUPm_EVUPrpuV3hlVj7v/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF |</a></span> <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3381013\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a><a href=\"https://youtu.be/Ntqc5bHQdYc?si=gBVohDiEAFJ2hX7H\" target=\"_blank\" rel=\"noopener noreferrer\">| VIDEO </a></span></span></span></p>",
+    "images": [
+      {
+        "src": "/assets/37ae98_02882fc4009b4ef9bc397715df088074~mv2.webp",
+        "alt": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates"
+      }
+    ],
+    "date": "2020-03-18"
   }
 ]

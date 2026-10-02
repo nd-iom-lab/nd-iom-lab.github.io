@@ -44,6 +44,8 @@ assert.ok(pubs.length >= 17);
 for (const p of pubs) {
   assert.ok(p.title);
   assert.ok(p.meta);
+  assert.match(p.date, /^\d{4}-\d{2}-\d{2}$/, `${p.title}: ISO publication date`);
+  assert.equal(new Date(p.date).toISOString().slice(0, 10), p.date, `${p.title}: valid publication date`);
   assert.ok(p.images.length);
   assert.ok(p.detailsHtml || p.authors);
 }

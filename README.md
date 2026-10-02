@@ -25,16 +25,18 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 
 - `content/site.json`: brand, shared header images and navigation.
 - `content/team.json`: PI, members, alumni text and group photos.
-- `content/publications.json`: publication/project entries, in display order.
+- `content/publications.json`: publication/project entries with dates for chronological ordering.
 - `content/home.json`: opening, news, vision, research text, gallery and affiliations.
 - `content/teaching.json`, `content/opportunities.json`: their respective content.
 - `content/archive.json`: the old hidden `/publications/` page, retained for existing links.
 - `src/styles.css`: desktop design and mobile/tablet layout rules.
-- `src/site.js`: mobile menu and research gallery controls.
+- `src/site.js`: mobile menu, research gallery controls and publication year filters.
 - `scripts/build.mjs`: semantic static HTML templates.
 - `public/assets/`: local images and fonts. Add new images here; reference them as `/assets/filename.webp`.
 
 Browser tab icons use the transparent vector `public/assets/lab-favicon.svg` with a 64 px PNG fallback, configured in `content/site.json` under `favicon`. The vector preserves the original lab logo silhouette and has no background rectangle. Keep favicon assets separate from the page-header logo.
+
+Stylesheets and JavaScript are published with content hashes in their filenames so browser caches update automatically after a change. Projects & Publications groups entries by year, newest first, with All/year buttons. Entries remain readable when JavaScript is disabled.
 
 No Wix account, Wix editor, computer use, CMS or external API is needed to edit/build this version. Existing external paper, project, personal-site and recruitment-form links retain their original destinations.
 
@@ -62,6 +64,7 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 ```json
 {
   "title": "Paper title",
+  "date": "2026-10-01",
   "meta": "10/01/2026    Research topic",
   "authors": "Author One, Author Two, Tingyu Cheng",
   "venue": "Conference 2026",
@@ -74,6 +77,8 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 ```
 
 Existing imported entries use `detailsHtml` to preserve their exact author/venue/link/award formatting. For those entries, edit that field directly; it takes precedence over `authors`, `venue` and `links`. Optional `titleUrl` links the title. Optional `award` displays award text.
+
+The ISO `date` controls year grouping and chronological order; keep it consistent with the visible date in `meta`. The generator sorts entries automatically.
 
 ### Add news
 
