@@ -113,6 +113,9 @@ h3 {
   border-bottom: 1px solid #e3e5ef;
   background: var(--pale);
 }
+.site-header.home-header {
+  border-bottom: 0;
+}
 .header-inner {
   width: 92%;
   margin: auto;
