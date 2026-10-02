@@ -37,11 +37,11 @@ const document = (title, route, body) =>
   `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Internet of Matter Lab at the University of Notre Dame. Sustainable electronics, soft robotics, fabrication and human-computer interaction."><title>${esc(title)} | ${esc(site.name)}</title><link rel="icon" href="${site.favicon.png}" type="image/png" sizes="64x64"><link rel="icon" href="${site.favicon.svg}" type="image/svg+xml" sizes="any"><style>${pageStyles}</style></head><body><a href="#main" class="skip-link">Skip to content</a>${header(route)}<main id="main">${body}</main><script>${pageScript}</script></body></html>`;
 function home() {
   const h = read("home");
-  return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul data-news-list="recent" data-news-src="/${assetFiles.news}">${partitionNews(h.news).recent.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="/older-news/">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section>${img(h.affiliations, "affiliations")}</div>`;
+  return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul data-news-list="recent" data-news-src="/${assetFiles.news}">${partitionNews(h.news).recent.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="/news/">More News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section>${img(h.affiliations, "affiliations")}</div>`;
 }
-function olderNews() {
-  const entries = partitionNews(read("home").news).older;
-  return `<div class="container news-archive"><h1>Older News</h1><p><a href="/">← Back to Home</a></p><ul class="news-archive-list rich" data-news-list="older" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
+function allNews() {
+  const entries = partitionNews(read("home").news).all;
+  return `<div class="container news-archive"><h1>News</h1><p><a href="/">← Back to Home</a></p><ul class="news-archive-list rich" data-news-list="all" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
 }
 // Justify rows using natural aspect ratios, avoiding a single-photo final row.
 // Equal row heights and aligned outer edges without cropping or stretching.
@@ -138,7 +138,8 @@ export function build() {
   const a = read("archive");
   const routes = [
     ["/", "Home", home()],
-    ["/older-news/", "Older News", olderNews()],
+    ["/news/", "News", allNews()],
+    ["/older-news/", "News", allNews()],
     ["/team/", "Team", team()],
     ["/s-projects-basic/", "Projects & Publications", publications()],
     ["/projects-7/", "Teaching", teaching()],
@@ -152,7 +153,7 @@ export function build() {
   for (const [route, title, body] of routes) {
     const dir = path.join(out, route);
     mkdirSync(dir, { recursive: true });
-    writeFileSync(path.join(dir, "index.html"), document(title, route, body));
+    writeFileSync(path.join(dir, "index.html"), document(title, route === "/older-news/" ? "/news/" : route, body));
   }
   writeFileSync(
     path.join(out, "404.html"),

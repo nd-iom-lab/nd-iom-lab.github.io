@@ -8,13 +8,11 @@ export function labNewsDate(now = new Date()) {
 }
 
 export function partitionNews(entries, today = labNewsDate()) {
-  const [year, month, day] = today.split("-").map(Number);
-  const lastDay = new Date(Date.UTC(year - 1, month, 0)).getUTCDate();
-  const cutoff = new Date(Date.UTC(year - 1, month - 1, Math.min(day, lastDay)))
-    .toISOString().slice(0, 10);
-  const sorted = [...entries].sort((a, b) => b.date.localeCompare(a.date));
+  const all = [...entries]
+    .filter(entry => entry.date <= today)
+    .sort((a, b) => b.date.localeCompare(a.date));
   return {
-    recent: sorted.filter(entry => entry.date >= cutoff && entry.date <= today),
-    older: sorted.filter(entry => entry.date < cutoff),
+    recent: all.slice(0, 5),
+    all,
   };
 }

@@ -74,15 +74,26 @@ for (const entry of home.news) {
   assert.match(entry.date, /^\d{4}-\d{2}-\d{2}$/);
   assert.equal(new Date(entry.date).toISOString().slice(0, 10), entry.date);
 }
-const boundaryNews = ["2025-10-01", "2025-09-30", "2026-10-01", "2026-10-02"].map(date => ({ date }));
-assert.deepEqual(partitionNews(boundaryNews, "2026-10-01"), {
-  recent: [{ date: "2026-10-01" }, { date: "2025-10-01" }],
-  older: [{ date: "2025-09-30" }],
-});
-assert.equal(partitionNews([{ date: "2023-02-28" }], "2024-02-29").recent.length, 1);
+const testNews = ["2025-01-01", "2026-10-02", "2026-06-01", "2026-01-01", "2026-05-01", "2026-04-01", "2026-03-01", "2026-02-01"].map(date => ({ date }));
+const selected = partitionNews(testNews, "2026-10-01");
+assert.deepEqual(selected.recent.map(entry => entry.date), ["2026-06-01", "2026-05-01", "2026-04-01", "2026-03-01", "2026-02-01"]);
+assert.equal(selected.all.length, 7, "Keep every published entry on News");
+assert.equal(selected.all.at(-1).date, "2025-01-01", "Retain old entries");
+assert.equal(testNews[0].date, "2025-01-01", "Selection does not mutate source order");
+assert.equal(partitionNews([{ date: "2023-02-28" }], "2026-10-01").recent.length, 1, "No rolling age cutoff");
 assert.equal(labNewsDate(new Date("2026-10-02T02:00:00Z")), "2026-10-01");
 const homepage = readFileSync(path.join(dist, "index.html"), "utf8");
-assert.match(homepage, /href="\/older-news\/"/);
+assert.match(homepage, /href="\/news\/">More News<\/a>/);
+const published = partitionNews(home.news);
+const renderedNews = (html, kind) => html.match(new RegExp(`<ul[^>]*data-news-list="${kind}"[^>]*>([\\s\\S]*?)</ul>`))[1];
+assert.equal(renderedNews(homepage, "recent"), published.recent.map(entry => entry.html).join(""));
+assert.equal(published.recent.length, 5);
+const newsPage = readFileSync(path.join(dist, "news/index.html"), "utf8");
+assert.equal(renderedNews(newsPage, "all"), published.all.map(entry => entry.html).join(""));
+assert.equal(renderedNews(readFileSync(path.join(dist, "older-news/index.html"), "utf8"), "all"), renderedNews(newsPage, "all"));
+const navigation = JSON.parse(readFileSync(path.join(root, "content/site.json"))).navigation;
+assert.deepEqual(navigation.slice(1, 4).map(item => item.path), ["/team/", "/news/", "/s-projects-basic/"]);
+assert.match(newsPage, /href="\/news\/" aria-current="page"/);
 assert.doesNotMatch(homepage, /class="older-news"/);
 const pubPage = readFileSync(path.join(dist, "s-projects-basic/index.html"), "utf8");
 assert.doesNotMatch(pubPage, /year-filter|project-meta/);

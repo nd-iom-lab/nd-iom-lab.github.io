@@ -22,6 +22,10 @@
       "path": "/team/"
     },
     {
+      "label": "News",
+      "path": "/news/"
+    },
+    {
       "label": "Projects & Publications",
       "path": "/s-projects-basic/"
     },
