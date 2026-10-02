@@ -145,6 +145,15 @@
         "src": "/assets/37ae98_f45d6efea14b4ab2a538d055d894e544~mv2.webp",
         "alt": "Shuyao Zhou"
       }
+    },
+    {
+      "name": "XiXi Li",
+      "roleHtml": "<p style=\"font-size:20px\">Collaborator</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/xixi-li.jpg",
+        "alt": "XiXi Li"
+      }
     }
   ],
   "alumniHtml": "<h2>Alumni</h2>\n\n<p><strong>Cody Chun</strong>, ND undergraduate</p>\n\n<p><strong>Eric Durazno</strong>, ND undergraduate</p>\n\n<p><strong>Qingyu Fang</strong>, iSURE, next stop UW HCDE</p>\n\n<p><strong>Jingyi Liu</strong>, iSURE, next stop Xi'an Jiaotong University</p>\n\n<p><strong>Zilang Cheng</strong>, iSURE, next stop UPenn</p>\n\n<p><strong>Linrui Shou</strong>, iSURE, next stop CMU</p>\n\n<p><strong>Zhechen (Leon) Zhao</strong>, Research assistant, next stop UChicago</p>\n\n<p><strong>Wenjia Xu</strong>, Research assistant, next stop Georgia Tech</p>",
