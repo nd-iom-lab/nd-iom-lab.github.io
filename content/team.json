@@ -155,6 +155,13 @@
           "src": "/assets/37ae98_fbe3c9fa0d884941808963fd16f9928e~mv2.webp",
           "alt": "Lab group photo, 2026"
         }
+      ],
+      "rowWidths": [
+        [
+          230,
+          225,
+          463
+        ]
       ]
     },
     {
@@ -184,6 +191,18 @@
           "src": "/assets/37ae98_6f18b4499d35454786de04a07f6156b3~mv2.webp",
           "alt": "Lab group photo, 2025"
         }
+      ],
+      "rowWidths": [
+        [
+          169,
+          429,
+          343
+        ],
+        [
+          330,
+          427,
+          185
+        ]
       ]
     }
   ]
