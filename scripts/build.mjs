@@ -49,7 +49,7 @@ function team() {
   return `<div class="container team"><h1>${esc(t.title)}</h1><section class="pi"><div class="pi-profile">${img(p.portrait, "portrait")}<h2>${esc(p.role)}</h2><p>${esc(p.office)}</p><a href="https://tingyucheng.com/" target="_blank" rel="noopener noreferrer">Read More</a></div><div class="pi-bio"><div class="rich">${p.biographyHtml}</div><div class="contacts">${p.contacts.map((c) => `<a href="${esc(c.url)}" aria-label="${esc(c.label)}" target="_blank" rel="noopener noreferrer">${img(c.icon)}</a>`).join('<span class="slash" aria-hidden="true">/</span>')}<span class="slash" aria-hidden="true">/</span><a href="mailto:${p.email}" aria-label="Email Tingyu Cheng"><svg viewBox="0 0 24 16" aria-hidden="true"><path d="M0 0h24L12 8zm0 2 12 8 12-8v14H0z"/></svg></a><span class="email-text">Email: tcheng2 [at] nd (dot) edu</span></div></div></section><section class="members" aria-label="Lab members">${t.members.map((m) => `<article class="member">${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${img(m.portrait, "portrait")}</a>` : img(m.portrait, "portrait")}<h2>${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${esc(m.name)}</a>` : esc(m.name)}</h2><div class="rich role">${m.roleHtml}</div></article>`).join("")}</section><section class="alumni rich">${t.alumniHtml}</section><section class="group-photos"><h2>Group photos</h2>${t.groupPhotos.map((g) => `<h3>${esc(g.year)}:</h3>${groupPhotoRows(g)}`).join("")}</section></div>`;
 }
 function publications() {
-  return `<div class="container projects"><h1 class="sr-only">Publications and Projects</h1>${read(
+  return `<div class="container projects"><h1 class="sr-only">Projects & Publications</h1>${read(
     "publications",
   )
     .map(
@@ -80,7 +80,7 @@ export function build() {
   const routes = [
     ["/", "Home", home()],
     ["/team/", "Team", team()],
-    ["/s-projects-basic/", "Publications and Projects", publications()],
+    ["/s-projects-basic/", "Projects & Publications", publications()],
     ["/projects-7/", "Teaching", teaching()],
     ["/opportunities/", "Opportunities", opportunities()],
     [
