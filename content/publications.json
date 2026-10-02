@@ -37,18 +37,21 @@
         "url": "https://www.red-dot.org/search",
         "brand": "reddot"
       }
-    ]
+    ],
+    "imageShare": 50
   },
   {
     "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
     "images": [
       {
         "src": "/assets/37ae98_1ddb8af1517a4292867efbfdbbcc7831~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities"
+        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+        "widthPercent": 28
       },
       {
         "src": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities"
+        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+        "widthPercent": 72
       }
     ],
     "date": "2026-04-13",
@@ -214,7 +217,8 @@
         "brand": "nd",
         "url": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/"
       }
-    ]
+    ],
+    "imageShare": 42
   },
   {
     "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
@@ -235,7 +239,8 @@
     ],
     "resourceLabels": [
       "PDF"
-    ]
+    ],
+    "imageShare": 30
   },
   {
     "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
@@ -260,11 +265,13 @@
     "images": [
       {
         "src": "/assets/37ae98_816964033d8f4e63889cdeb7e7868461~mv2.webp",
-        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation"
+        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
+        "widthPercent": 59
       },
       {
         "src": "/assets/37ae98_afe577df8cbf4ba296869b1804d81d9d~mv2.webp",
-        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation"
+        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
+        "widthPercent": 41
       }
     ],
     "date": "2025-04-26",
@@ -398,11 +405,13 @@
     "images": [
       {
         "src": "/assets/37ae98_aba81928ee9748e0a8b0dfff74364a31~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing"
+        "alt": "Flexible computational photodetectors for self-powered activity sensing",
+        "widthPercent": 56
       },
       {
         "src": "/assets/37ae98_9efe64ac3f4f4240964ac5922d91911c~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing"
+        "alt": "Flexible computational photodetectors for self-powered activity sensing",
+        "widthPercent": 44
       }
     ],
     "date": "2022-01-22",

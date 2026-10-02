@@ -1,0 +1,749 @@
+{
+  "base": "http://localhost:4321",
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": 0,
+      "authorsLinked": 0,
+      "buttonCount": 36,
+      "datesVisible": false,
+      "rows": [
+        {
+          "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+          "imageColumn": 470,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 469.96875,
+              "height": 159.4375,
+              "ratio": 2.9476675813406508,
+              "naturalRatio": 2.9477611940298507
+            }
+          ]
+        },
+        {
+          "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 97.1875,
+              "height": 121.5,
+              "ratio": 0.7998971193415638,
+              "naturalRatio": 0.8
+            },
+            {
+              "width": 249.96875,
+              "height": 151.515625,
+              "ratio": 1.6497885944106425,
+              "naturalRatio": 1.6498855835240274
+            }
+          ]
+        },
+        {
+          "title": "Sustainability assessment using multimodal AI agents",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.171875,
+              "height": 173.03125,
+              "ratio": 2.0642044428390824,
+              "naturalRatio": 2.0642201834862384
+            }
+          ]
+        },
+        {
+          "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.171875,
+              "height": 164.78125,
+              "ratio": 2.167551678361464,
+              "naturalRatio": 2.167587476979742
+            }
+          ]
+        },
+        {
+          "title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.15625,
+              "height": 201.203125,
+              "ratio": 1.7751028966374156,
+              "naturalRatio": 1.7751479289940828
+            }
+          ]
+        },
+        {
+          "title": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing",
+          "imageColumn": 394.796875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 394.78125,
+              "height": 220.421875,
+              "ratio": 1.7910257319061458,
+              "naturalRatio": 1.791044776119403
+            }
+          ]
+        },
+        {
+          "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
+          "imageColumn": 282,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 281.953125,
+              "height": 105.578125,
+              "ratio": 2.670563859701051,
+              "naturalRatio": 2.6706231454005933
+            }
+          ]
+        },
+        {
+          "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 315.71875,
+              "height": 320,
+              "ratio": 0.98662109375,
+              "naturalRatio": 0.9866666666666667
+            }
+          ]
+        },
+        {
+          "title": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 204.8125,
+              "height": 188.4375,
+              "ratio": 1.086898839137645,
+              "naturalRatio": 1.0869565217391304
+            },
+            {
+              "width": 142.34375,
+              "height": 86.359375,
+              "ratio": 1.6482721186900668,
+              "naturalRatio": 1.6483516483516483
+            }
+          ]
+        },
+        {
+          "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.171875,
+              "height": 233.1875,
+              "ratio": 1.5316939158402574,
+              "naturalRatio": 1.5317073170731708
+            }
+          ]
+        },
+        {
+          "title": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.171875,
+              "height": 209.546875,
+              "ratio": 1.7044963090000746,
+              "naturalRatio": 1.7045454545454546
+            }
+          ]
+        },
+        {
+          "title": "SwellSense: Creating 2.5D interactions with micro-capsule paper",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.15625,
+              "height": 209.140625,
+              "ratio": 1.7077325364213671,
+              "naturalRatio": 1.7077798861480076
+            }
+          ]
+        },
+        {
+          "title": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 213.328125,
+              "height": 320,
+              "ratio": 0.666650390625,
+              "naturalRatio": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "title": "Flexible computational photodetectors for self-powered activity sensing",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 194.40625,
+              "height": 100.125,
+              "ratio": 1.9416354556803994,
+              "naturalRatio": 1.941747572815534
+            },
+            {
+              "width": 152.75,
+              "height": 150.875,
+              "ratio": 1.012427506213753,
+              "naturalRatio": 1.0125
+            }
+          ]
+        },
+        {
+          "title": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.171875,
+              "height": 212.71875,
+              "ratio": 1.6790803584545322,
+              "naturalRatio": 1.6791044776119404
+            }
+          ]
+        },
+        {
+          "title": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.15625,
+              "height": 203.109375,
+              "ratio": 1.75844295715055,
+              "naturalRatio": 1.7584994138335288
+            }
+          ]
+        },
+        {
+          "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
+          "imageColumn": 357.1875,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 357.15625,
+              "height": 193.265625,
+              "ratio": 1.848007114560595,
+              "naturalRatio": 1.8480492813141685
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "authorsLinked": 0,
+      "buttonCount": 36,
+      "datesVisible": false,
+      "rows": [
+        {
+          "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+          "imageColumn": 310.234375,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 310.203125,
+              "height": 105.234375,
+              "ratio": 2.947735708982925,
+              "naturalRatio": 2.9477611940298507
+            }
+          ]
+        },
+        {
+          "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 63.1875,
+              "height": 79,
+              "ratio": 0.7998417721518988,
+              "naturalRatio": 0.8
+            },
+            {
+              "width": 162.53125,
+              "height": 98.515625,
+              "ratio": 1.6498017446471054,
+              "naturalRatio": 1.6498855835240274
+            }
+          ]
+        },
+        {
+          "title": "Sustainability assessment using multimodal AI agents",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.734375,
+              "height": 114.203125,
+              "ratio": 2.0641674647694623,
+              "naturalRatio": 2.0642201834862384
+            }
+          ]
+        },
+        {
+          "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 108.765625,
+              "ratio": 2.1675046688694155,
+              "naturalRatio": 2.167587476979742
+            }
+          ]
+        },
+        {
+          "title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 132.8125,
+              "ratio": 1.7750588235294118,
+              "naturalRatio": 1.7751479289940828
+            }
+          ]
+        },
+        {
+          "title": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing",
+          "imageColumn": 260.59375,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 260.5625,
+              "height": 145.484375,
+              "ratio": 1.7909998926001505,
+              "naturalRatio": 1.791044776119403
+            }
+          ]
+        },
+        {
+          "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
+          "imageColumn": 186.140625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 186.09375,
+              "height": 69.6875,
+              "ratio": 2.6704035874439462,
+              "naturalRatio": 2.6706231454005933
+            }
+          ]
+        },
+        {
+          "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 238.9375,
+              "ratio": 0.9866596913418781,
+              "naturalRatio": 0.9866666666666667
+            }
+          ]
+        },
+        {
+          "title": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 133.171875,
+              "height": 122.53125,
+              "ratio": 1.086840091813313,
+              "naturalRatio": 1.0869565217391304
+            },
+            {
+              "width": 92.5625,
+              "height": 56.15625,
+              "ratio": 1.6483027267668335,
+              "naturalRatio": 1.6483516483516483
+            }
+          ]
+        },
+        {
+          "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 153.921875,
+              "ratio": 1.5316211552126688,
+              "naturalRatio": 1.5317073170731708
+            }
+          ]
+        },
+        {
+          "title": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 138.3125,
+              "ratio": 1.7044735652959784,
+              "naturalRatio": 1.7045454545454546
+            }
+          ]
+        },
+        {
+          "title": "SwellSense: Creating 2.5D interactions with micro-capsule paper",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 138.046875,
+              "ratio": 1.7077532541029994,
+              "naturalRatio": 1.7077798861480076
+            }
+          ]
+        },
+        {
+          "title": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 173.328125,
+              "height": 260,
+              "ratio": 0.6666466346153846,
+              "naturalRatio": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "title": "Flexible computational photodetectors for self-powered activity sensing",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 126.390625,
+              "height": 65.09375,
+              "ratio": 1.9416706673067692,
+              "naturalRatio": 1.941747572815534
+            },
+            {
+              "width": 99.328125,
+              "height": 98.109375,
+              "ratio": 1.0124223602484472,
+              "naturalRatio": 1.0125
+            }
+          ]
+        },
+        {
+          "title": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.75,
+              "height": 140.40625,
+              "ratio": 1.6790563098152682,
+              "naturalRatio": 1.6791044776119404
+            }
+          ]
+        },
+        {
+          "title": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.734375,
+              "height": 134.0625,
+              "ratio": 1.7583916083916085,
+              "naturalRatio": 1.7584994138335288
+            }
+          ]
+        },
+        {
+          "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
+          "imageColumn": 235.765625,
+          "leftToRight": true,
+          "images": [
+            {
+              "width": 235.734375,
+              "height": 127.5625,
+              "ratio": 1.8479911807937286,
+              "naturalRatio": 1.8480492813141685
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "authorsLinked": 0,
+      "buttonCount": 36,
+      "datesVisible": false,
+      "rows": [
+        {
+          "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.96875,
+              "height": 29.84375,
+              "ratio": 2.9476439790575917,
+              "naturalRatio": 2.9477611940298507
+            }
+          ]
+        },
+        {
+          "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 21.8125,
+              "height": 27.28125,
+              "ratio": 0.7995418098510882,
+              "naturalRatio": 0.8
+            },
+            {
+              "width": 56.140625,
+              "height": 34.03125,
+              "ratio": 1.6496786042240588,
+              "naturalRatio": 1.6498855835240274
+            }
+          ]
+        },
+        {
+          "title": "Sustainability assessment using multimodal AI agents",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 42.625,
+              "ratio": 2.064149560117302,
+              "naturalRatio": 2.0642201834862384
+            }
+          ]
+        },
+        {
+          "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 40.59375,
+              "ratio": 2.16743648960739,
+              "naturalRatio": 2.167587476979742
+            }
+          ]
+        },
+        {
+          "title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.96875,
+              "height": 49.5625,
+              "ratio": 1.774905422446406,
+              "naturalRatio": 1.7751479289940828
+            }
+          ]
+        },
+        {
+          "title": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 49.125,
+              "ratio": 1.791030534351145,
+              "naturalRatio": 1.791044776119403
+            }
+          ]
+        },
+        {
+          "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.953125,
+              "height": 32.9375,
+              "ratio": 2.670303605313093,
+              "naturalRatio": 2.6706231454005933
+            }
+          ]
+        },
+        {
+          "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 82.875,
+              "height": 84,
+              "ratio": 0.9866071428571429,
+              "naturalRatio": 0.9866666666666667
+            }
+          ]
+        },
+        {
+          "title": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 46,
+              "height": 42.328125,
+              "ratio": 1.086747877445552,
+              "naturalRatio": 1.0869565217391304
+            },
+            {
+              "width": 31.953125,
+              "height": 19.390625,
+              "ratio": 1.6478646253021756,
+              "naturalRatio": 1.6483516483516483
+            }
+          ]
+        },
+        {
+          "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.96875,
+              "height": 57.4375,
+              "ratio": 1.531556039173014,
+              "naturalRatio": 1.5317073170731708
+            }
+          ]
+        },
+        {
+          "title": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 51.625,
+              "ratio": 1.7042978208232447,
+              "naturalRatio": 1.7045454545454546
+            }
+          ]
+        },
+        {
+          "title": "SwellSense: Creating 2.5D interactions with micro-capsule paper",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.96875,
+              "height": 51.515625,
+              "ratio": 1.7076129814983319,
+              "naturalRatio": 1.7077798861480076
+            }
+          ]
+        },
+        {
+          "title": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 56,
+              "height": 84,
+              "ratio": 0.6666666666666666,
+              "naturalRatio": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "title": "Flexible computational photodetectors for self-powered activity sensing",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 43.65625,
+              "height": 22.484375,
+              "ratio": 1.941626129256428,
+              "naturalRatio": 1.941747572815534
+            },
+            {
+              "width": 34.3125,
+              "height": 33.890625,
+              "ratio": 1.012448132780083,
+              "naturalRatio": 1.0125
+            }
+          ]
+        },
+        {
+          "title": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 52.40625,
+              "ratio": 1.6788908765652952,
+              "naturalRatio": 1.6791044776119404
+            }
+          ]
+        },
+        {
+          "title": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.96875,
+              "height": 50.03125,
+              "ratio": 1.7582760774515926,
+              "naturalRatio": 1.7584994138335288
+            }
+          ]
+        },
+        {
+          "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
+          "imageColumn": 88,
+          "leftToRight": false,
+          "images": [
+            {
+              "width": 87.984375,
+              "height": 47.609375,
+              "ratio": 1.8480472595996063,
+              "naturalRatio": 1.8480492813141685
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

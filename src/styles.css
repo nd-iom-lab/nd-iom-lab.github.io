@@ -425,14 +425,14 @@ nav a:hover {
 }
 .project {
   display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  align-items: start;
-  gap: 24px;
-  padding: 20px 0;
-  border-bottom: 1px solid #eceef3;
+  grid-template-columns: minmax(0, var(--publication-image-share, 38%)) minmax(0, 1fr);
+  align-items: center;
+  gap: 32px;
+  padding: 28px 20px;
+  margin-bottom: 16px;
 }
-.project:last-child {
-  border-bottom: 0;
+.project:nth-of-type(odd) {
+  background: var(--pale);
 }
 .project h3 {
   font: 700 18px/1.45 AvenirHeavy, sans-serif;
@@ -558,19 +558,18 @@ a.publication-highlight:hover span {
 }
 .project-images {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 8px;
-}
-.project-images:has(.publication-image:nth-child(2)) {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: var(--publication-image-columns, minmax(0, 1fr));
+  align-items: center;
+  gap: 10px;
 }
 .publication-image {
   display: block;
   cursor: zoom-in;
 }
 .project-images img {
-  width: 100%;
-  max-height: 110px;
+  width: auto;
+  max-height: 320px;
+  margin-inline: auto;
   object-fit: contain;
 }
 .publication-lightbox {
@@ -762,7 +761,7 @@ a.publication-highlight:hover span {
     gap: 18px;
   }
   .project-images img {
-    max-height: 100px;
+    max-height: 260px;
   }
   .news,
   .older-news .rich {
@@ -941,8 +940,9 @@ a.publication-highlight:hover span {
   }
   .project {
     grid-template-columns: 88px minmax(0, 1fr);
+    align-items: start;
     gap: 6px 16px;
-    padding: 18px 0;
+    padding: 18px 14px;
   }
   .project-copy {
     display: contents;
