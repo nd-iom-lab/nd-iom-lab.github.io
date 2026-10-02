@@ -92,7 +92,7 @@ const newsPage = readFileSync(path.join(dist, "news/index.html"), "utf8");
 assert.equal(renderedNews(newsPage, "all"), published.all.map(entry => entry.html).join(""));
 assert.equal(renderedNews(readFileSync(path.join(dist, "older-news/index.html"), "utf8"), "all"), renderedNews(newsPage, "all"));
 const navigation = JSON.parse(readFileSync(path.join(root, "content/site.json"))).navigation;
-assert.deepEqual(navigation.slice(1, 4).map(item => item.path), ["/team/", "/news/", "/s-projects-basic/"]);
+assert.deepEqual(navigation.slice(1, 4).map(item => item.path), ["/news/", "/team/", "/s-projects-basic/"]);
 assert.match(newsPage, /href="\/news\/" aria-current="page"/);
 assert.doesNotMatch(homepage, /class="older-news"/);
 const pubPage = readFileSync(path.join(dist, "s-projects-basic/index.html"), "utf8");

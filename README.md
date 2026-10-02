@@ -83,7 +83,7 @@ The ISO `date` controls year grouping and chronological order and is not display
 
 ### Add news
 
-Keep all news in `news` in `content/home.json`, using ISO dates. The homepage shows only the five newest published news entries. More News links to `/news/`, which contains all published news in newest-first order, including the five shown on Home. News appears between Team and Projects & Publications in the navigation. `/older-news/` remains available as an alias for existing links. The shared `src/news-window.mjs` helper uses the lab’s Indianapolis timezone to exclude future entries. Both the build and browser use the same selection logic; the static list remains readable if the news feed is unavailable or JavaScript is disabled.
+Keep all news in `news` in `content/home.json`, using ISO dates. The homepage shows only the five newest published news entries. More News links to `/news/`, which contains all published news in newest-first order, including the five shown on Home. News appears immediately after Home, followed by Team and Projects & Publications in the navigation. `/older-news/` remains available as an alias for existing links. The shared `src/news-window.mjs` helper uses the lab’s Indianapolis timezone to exclude future entries. Both the build and browser use the same selection logic; the static list remains readable if the news feed is unavailable or JavaScript is disabled.
 
 The `html` field contains the complete list item including the visible date; update both `date` and that visible date together.
 

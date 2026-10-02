@@ -293,6 +293,13 @@ nav a:hover {
 .affiliations {
   width: 100%;
   margin-top: 55px;
+  /* Blend the campus photo into the white page; keep the wordmark opaque. */
+  --campus-edge-fade: linear-gradient(to bottom, transparent, #000 16%, #000 96%, transparent),
+    linear-gradient(to right, transparent, #000 3%, #000 97%, transparent);
+  -webkit-mask-image: var(--campus-edge-fade);
+  mask-image: var(--campus-edge-fade);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
 }
 .team h1 {
   margin-bottom: 52px;

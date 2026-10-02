@@ -41,7 +41,7 @@ function home() {
 }
 function allNews() {
   const entries = partitionNews(read("home").news).all;
-  return `<div class="container news-archive"><h1>News</h1><p><a href="/">← Back to Home</a></p><ul class="news-archive-list rich" data-news-list="all" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
+  return `<div class="container news-archive"><h1>News</h1><ul class="news-archive-list rich" data-news-list="all" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
 }
 // Justify rows using natural aspect ratios, avoiding a single-photo final row.
 // Equal row heights and aligned outer edges without cropping or stretching.
