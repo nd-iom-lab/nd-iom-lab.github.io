@@ -1,6 +1,6 @@
 # Internet of Matter Lab — code-managed website
 
-Independent static reconstruction of https://www.internetofmatter.org, captured October 1, 2026. The existing Wix site and domain are unchanged. This folder is the source of truth for the new preview, separate from the Wix/Velo repository in `../lab-website`.
+Independent static reconstruction of https://www.internetofmatter.org, captured October 1, 2026. The production website is hosted by GitHub Pages at https://www.internetofmatter.org. This folder is the source of truth, separate from the retained Wix/Velo repository in `../lab-website`. The original Wix site remains in the Wix account as a backup.
 
 ## Preview and build
 
@@ -96,6 +96,29 @@ Desktop retains the pale header, original typography, five-image wave strip, cen
 
 The Python import/download scripts and `scripts/optimize-assets.mjs` are one-time migration tools. Normal editing/building never runs them. The importer requires Python with lxml; optimization requires sharp (`SHARP_MODULE` can point to an existing installation). Do not re-run import on edited content: it overwrites migrated data.
 
-## Deployment later
+## Production deployment
 
-`dist/` is an ordinary static website and can be served on a separate preview hostname by GitHub Pages, Cloudflare Pages, Netlify, a university server, or another static host. Keep the current Wix domain/DNS untouched until the preview has been accepted. There is intentionally no production deployment command or domain binding here.
+Source repository: https://github.com/nd-iom-lab/nd-iom-lab.github.io
+
+GitHub Pages publishes the output of `.github/workflows/deploy.yml`. Every push to `main` runs `npm run check` and publishes only `dist/`. Credentials, source data files, migration snapshots and QA files are not part of the hosted build. The repository is public and contains only the lab website source and assets.
+
+For the local `codex/code-migration` branch, after checking and committing changes:
+
+```sh
+git push origin HEAD:main
+```
+
+Use the dedicated lab GitHub account. The deployment status is visible in the repository's Actions tab. A failed check blocks publication, preserving the last successful deployment.
+
+### Domain and rollback
+
+The Pages custom domain is `www.internetofmatter.org`. DNS remains managed by Wix with the original Wix nameservers. Current records:
+
+- Root domain A: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
+- `www` CNAME: `nd-iom-lab.github.io`.
+- `_github-pages-challenge-nd-iom-lab` TXT: the verification record supplied by GitHub; keep it to preserve domain ownership verification for the organization.
+
+The previous A/CNAME values are recorded in `deployment/dns-before.json`. To restore the Wix website, restore those records in Wix DNS and remove the fourth GitHub A record. Allow DNS caches to refresh. Keep the Wix site and plan available until the migration has been stable; no Wix site or subscription was deleted or cancelled.
+
+To undo a website content change while keeping GitHub Pages, revert its Git commit and push to `main`.
+
