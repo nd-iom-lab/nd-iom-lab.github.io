@@ -66,7 +66,7 @@ Insert this object at the top of `content/publications.json` (replace all exampl
   "title": "Paper title",
   "date": "2026-10-01",
   "authors": "Author One, Author Two, Tingyu Cheng",
-  "venue": "Conference 2026",
+  "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
   "links": [
     { "label": "PDF", "url": "https://example.org/paper.pdf" },
     { "label": "Project Page", "url": "https://example.org/project/" }
@@ -75,7 +75,7 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 }
 ```
 
-Use plain text for `authors` and `venue`. Optional `titleUrl` links the title. Resources in `links` render as icon buttons; supported labels include PDF, Project Page, Code, DOI and Video. Optional `resourceLabels` are unavailable resources, clearly marked “soon” without a link. Optional `highlights` is an array of `{ "label": "...", "brand": "nd", "url": "https://..." }` for media/awards, or `{ "label": "Best Paper", "icon": "trophy" }` for a paper award (use `icon: "ribbon"` for other recognition). Highlights appear between the venue and resource buttons. Marks live under `public/assets/marks/`; their official sources are recorded in `migration/publication-marks.json`. Seattle Times and The Daily use text initials where an original downloadable mark is unavailable.
+Use plain text for `authors` and `venue`. List authors in the paper’s original order, using given name then surname and consistent spelling across papers (for example, `Tingyu Cheng` and `HyunJoo Oh`); preserve equal-contribution asterisks. Use the full venue name, an acronym in parentheses where applicable, then a comma and year (for example, `Nature Electronics, 2026`). Media marks are capped below the adjacent text size. Optional `titleUrl` links the title. Resources in `links` render as icon buttons; supported labels include PDF, Project Page, Code, DOI and Video. Optional `resourceLabels` are unavailable resources, clearly marked “soon” without a link. Optional `highlights` is an array of `{ "label": "...", "brand": "nd", "url": "https://..." }` for media/awards, or `{ "label": "Best Paper", "icon": "trophy" }` for a paper award (use `icon: "ribbon"` for other recognition). Highlights appear between the venue and resource buttons. Marks live under `public/assets/marks/`; their official sources are recorded in `migration/publication-marks.json`. Seattle Times and The Daily use text initials where an original downloadable mark is unavailable.
 
 Optional `imageShare` sets the desktop/tablet image column percentage (20–50, default 38); use a larger share for wide figures. Optional `widthPercent` on each image sets its relative column weight when a paper has multiple images. Images preserve their natural aspect ratios and are not cropped to matching boxes. Mobile uses compact images beside titles, with authors, venues and resources full width below.
 

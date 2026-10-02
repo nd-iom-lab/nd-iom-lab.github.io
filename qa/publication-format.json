@@ -1,0 +1,572 @@
+[
+  {
+    "width": 1440,
+    "overflow": 0,
+    "venues": [
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Nature Electronics, 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Workshop on Sustainable Computer Systems (HotCarbon), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "ACS Nano, 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the Symposium on Usable Security and Privacy (USEC), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "International Journal of Child-Computer Interaction (IJCCI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "npj Flexible Electronics, 2022",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2021",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction (TEI), 2020",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2020",
+        "bold": "900"
+      }
+    ],
+    "authors": [
+      "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
+      "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
+      "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
+      "Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng.",
+      "Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng.",
+      "Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo.",
+      "Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer.",
+      "Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta.",
+      "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, Hongli Zhu.",
+      "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd, Sauvik Das.",
+      "HyunJoo Oh, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
+      "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Yejun Kim, Clement Zheng, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M. Gallo, Aditi Maheshwari, Gregory D. Abowd, HyunJoo Oh, Andreea Danielescu.",
+      "Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Sai Ganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
+      "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh.",
+      "Christopher Chen, David Howard, Steven L. Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshihiro Kawahara, Lining Yao, Gregory D. Abowd, HyunJoo Oh."
+    ],
+    "authorsLinked": 0,
+    "marks": [
+      {
+        "label": "Core77 · Emerging Technologies",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 · Interaction",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Red Dot",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Nature Research Briefing",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "UW News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "STThe Seattle Times",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "GeekWire",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Anthropocene",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "DThe Daily",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Interaction & Emerging Technology Honoree",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Sustainability Winner",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "2022 Fast Company Innovation by Design Award Finalist",
+        "height": 11.890625,
+        "textSize": 14
+      }
+    ],
+    "leftRight": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "width": 768,
+    "overflow": 0,
+    "venues": [
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Nature Electronics, 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Workshop on Sustainable Computer Systems (HotCarbon), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "ACS Nano, 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the Symposium on Usable Security and Privacy (USEC), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "International Journal of Child-Computer Interaction (IJCCI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "npj Flexible Electronics, 2022",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2021",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction (TEI), 2020",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2020",
+        "bold": "900"
+      }
+    ],
+    "authors": [
+      "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
+      "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
+      "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
+      "Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng.",
+      "Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng.",
+      "Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo.",
+      "Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer.",
+      "Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta.",
+      "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, Hongli Zhu.",
+      "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd, Sauvik Das.",
+      "HyunJoo Oh, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
+      "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Yejun Kim, Clement Zheng, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M. Gallo, Aditi Maheshwari, Gregory D. Abowd, HyunJoo Oh, Andreea Danielescu.",
+      "Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Sai Ganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
+      "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh.",
+      "Christopher Chen, David Howard, Steven L. Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshihiro Kawahara, Lining Yao, Gregory D. Abowd, HyunJoo Oh."
+    ],
+    "authorsLinked": 0,
+    "marks": [
+      {
+        "label": "Core77 · Emerging Technologies",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 · Interaction",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Red Dot",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Nature Research Briefing",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "UW News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "STThe Seattle Times",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "GeekWire",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Anthropocene",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "DThe Daily",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Interaction & Emerging Technology Honoree",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Sustainability Winner",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "2022 Fast Company Innovation by Design Award Finalist",
+        "height": 11.890625,
+        "textSize": 14
+      }
+    ],
+    "leftRight": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "width": 390,
+    "overflow": 0,
+    "venues": [
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Nature Electronics, 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Workshop on Sustainable Computer Systems (HotCarbon), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "ACS Nano, 2025",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the Symposium on Usable Security and Privacy (USEC), 2025",
+        "bold": "900"
+      },
+      {
+        "text": "International Journal of Child-Computer Interaction (IJCCI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
+        "bold": "900"
+      },
+      {
+        "text": "npj Flexible Electronics, 2022",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2021",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction (TEI), 2020",
+        "bold": "900"
+      },
+      {
+        "text": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2020",
+        "bold": "900"
+      }
+    ],
+    "authors": [
+      "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
+      "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
+      "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
+      "Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng.",
+      "Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng.",
+      "Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo.",
+      "Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer.",
+      "Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta.",
+      "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, Hongli Zhu.",
+      "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd, Sauvik Das.",
+      "HyunJoo Oh, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
+      "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Yejun Kim, Clement Zheng, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M. Gallo, Aditi Maheshwari, Gregory D. Abowd, HyunJoo Oh, Andreea Danielescu.",
+      "Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Sai Ganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
+      "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh.",
+      "Christopher Chen, David Howard, Steven L. Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, HyunJoo Oh.",
+      "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshihiro Kawahara, Lining Yao, Gregory D. Abowd, HyunJoo Oh."
+    ],
+    "authorsLinked": 0,
+    "marks": [
+      {
+        "label": "Core77 · Emerging Technologies",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 · Interaction",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Red Dot",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Nature Research Briefing",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "UW News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "STThe Seattle Times",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "GeekWire",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Anthropocene",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "DThe Daily",
+        "height": 12,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "ND News",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Interaction & Emerging Technology Honoree",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Sustainability Winner",
+        "height": 11.890625,
+        "textSize": 14
+      },
+      {
+        "label": "2022 Fast Company Innovation by Design Award Finalist",
+        "height": 11.890625,
+        "textSize": 14
+      }
+    ],
+    "leftRight": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  }
+]

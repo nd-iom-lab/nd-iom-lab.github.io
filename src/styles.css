@@ -531,24 +531,24 @@ a.publication-highlight:hover span {
   text-decoration: underline;
 }
 .publication-mark {
-  width: 20px;
-  height: 20px;
-  flex: 0 0 20px;
+  width: 1em;
+  height: .85em;
+  flex: 0 0 1em;
   object-fit: contain;
 }
 .publication-wordmark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  flex: 0 0 20px;
-  font: 700 13px/1 Georgia, serif;
+  width: 14px;
+  height: 12px;
+  flex: 0 0 14px;
+  font: 700 12px/1 Georgia, serif;
   color: #263950;
 }
 .publication-wordmark.daily {
   color: #514275;
-  font-size: 19px;
+  font-size: 12px;
 }
 .paper-award {
   color: #876119;

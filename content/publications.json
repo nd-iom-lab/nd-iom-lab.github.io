@@ -10,7 +10,7 @@
     "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
     "date": "2026-04-13",
     "authors": "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
-    "venue": "CHI 2026",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
     "links": [
       {
         "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/Circuit2Yarn_Paper_Compressed.pdf",
@@ -56,7 +56,7 @@
     ],
     "date": "2026-04-13",
     "authors": "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
-    "venue": "CHI 2026",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1kjiTxnNIx79vbt7i_8ifada5o1N2X3vt/view?usp=sharing",
@@ -86,7 +86,7 @@
     "titleUrl": "https://homes.cs.washington.edu/~zzhihan/",
     "date": "2026-04-11",
     "authors": "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
-    "venue": "Nature Electronics (2026)",
+    "venue": "Nature Electronics, 2026",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1KWMCKRsv2jpON0zR_RLFMSH9T8kU8KNY/view?usp=sharing",
@@ -149,7 +149,7 @@
     ],
     "date": "2026-04-01",
     "authors": "Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng.",
-    "venue": "IROS (2026)",
+    "venue": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1wsoXXYJ5YU8akBV68TZs4aQisFGgo58A/view?usp=sharing",
@@ -171,7 +171,7 @@
     "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
     "date": "2025-09-05",
     "authors": "Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng.",
-    "venue": "UIST 2025",
+    "venue": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
     "links": [
       {
         "url": "https://smartlab.cs.umd.edu/assets/pdf/dissolvpcb.pdf",
@@ -204,7 +204,7 @@
     ],
     "date": "2025-09-02",
     "authors": "Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo.",
-    "venue": "UIST 2025",
+    "venue": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2025",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1ikuu9xlojgjrWbYaGchQJRIonBtElRno/view",
@@ -230,7 +230,7 @@
     ],
     "date": "2025-07-06",
     "authors": "Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer.",
-    "venue": "ACM IMWUT 2025",
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2025",
     "links": [
       {
         "label": "DOI",
@@ -252,7 +252,7 @@
     ],
     "date": "2025-06-16",
     "authors": "Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta.",
-    "venue": "HotCarbon 2025",
+    "venue": "Workshop on Sustainable Computer Systems (HotCarbon), 2025",
     "links": [
       {
         "url": "https://drive.google.com/file/d/19xrsFf2AmsZarwv2cSDYPxOfegXG0hTb/view?usp=sharing",
@@ -275,8 +275,8 @@
       }
     ],
     "date": "2025-04-26",
-    "authors": "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, and Hongli Zhu.",
-    "venue": "ACS Nano 2025",
+    "authors": "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, Hongli Zhu.",
+    "venue": "ACS Nano, 2025",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1ff23MRXizVeLZBbU3KxZDdXqR47f41FX/view?usp=sharing",
@@ -297,8 +297,8 @@
       }
     ],
     "date": "2025-02-24",
-    "authors": "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd.",
-    "venue": "USEC 2025",
+    "authors": "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd, Sauvik Das.",
+    "venue": "Proceedings of the Symposium on Usable Security and Privacy (USEC), 2025",
     "links": [
       {
         "url": "https://drive.google.com/file/d/15rQ8f8NLa8azxI-QLPpPi9iZ3rODz413/view?usp=sharing",
@@ -319,8 +319,8 @@
       }
     ],
     "date": "2023-11-05",
-    "authors": "Oh, HyunJoo, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
-    "venue": "International Journal of Child-Computer Interaction (IJCCI 2023)",
+    "authors": "HyunJoo Oh, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
+    "venue": "International Journal of Child-Computer Interaction (IJCCI), 2023",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1qIELhOjw7W85OxijYSGB5g8E_XUPz_uF/view?usp=sharing",
@@ -341,8 +341,8 @@
       }
     ],
     "date": "2023-04-19",
-    "authors": "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Ye Jun Kim, Clement Zheng, Gregory D. Abowd, Hyunjoo.",
-    "venue": "Proc. ACM CHI 2023",
+    "authors": "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Yejun Kim, Clement Zheng, Gregory D. Abowd, HyunJoo Oh.",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
     "links": [
       {
         "url": "https://drive.google.com/file/d/16J6WUmm6_7gtlW-KaIE8ChwKUZus4Kyy/view?usp=sharing",
@@ -373,8 +373,8 @@
       }
     ],
     "date": "2023-04-19",
-    "authors": "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M Gallo, Aditi Maheshwari, Gregory D. Abowd, Andreea Danielescu.",
-    "venue": "Proc. ACM CHI 2023",
+    "authors": "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M. Gallo, Aditi Maheshwari, Gregory D. Abowd, HyunJoo Oh, Andreea Danielescu.",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2023",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1ksb7Ouo3j5S6o8uHPH862-2EM2hqsKF_/view?usp=sharing",
@@ -415,8 +415,8 @@
       }
     ],
     "date": "2022-01-22",
-    "authors": "Zhang, Dingtian, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Saiganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
-    "venue": "npj Flexible Electronics 2022",
+    "authors": "Dingtian Zhang, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Sai Ganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
+    "venue": "npj Flexible Electronics, 2022",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1zdEH9elyBJljmDrO9QZ1rE0kdB-OHmY-/view?usp=sharing",
@@ -437,8 +437,8 @@
       }
     ],
     "date": "2021-09-14",
-    "authors": "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory Abowd, Hyunjoo Oh.",
-    "venue": "ACM IMWUT 2021",
+    "authors": "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory D. Abowd, HyunJoo Oh.",
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2021",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1b2w1DQ9UjtF81wG3NqaBYgk-u7ZlF46i/view?usp=sharing",
@@ -469,8 +469,8 @@
       }
     ],
     "date": "2020-04-09",
-    "authors": "Chris Chen, David Howard, Steven Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, and Hyunjoo Oh.",
-    "venue": "ACM TEI 2020",
+    "authors": "Christopher Chen, David Howard, Steven L. Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, HyunJoo Oh.",
+    "venue": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction (TEI), 2020",
     "links": [
       {
         "url": "https://drive.google.com/file/d/15gHGnMiXJYzhk54syzz-WdkS8nUL5jJU/view?usp=sharing",
@@ -495,8 +495,8 @@
       }
     ],
     "date": "2020-03-18",
-    "authors": "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshiiro Kawahara, Lining Yao, Gregory D. Abowd, and Hyunjoo Oh.",
-    "venue": "ACM IMWUT 2020",
+    "authors": "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshihiro Kawahara, Lining Yao, Gregory D. Abowd, HyunJoo Oh.",
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2020",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1Sf5FMu66qip6CUPm_EVUPrpuV3hlVj7v/view?usp=sharing",
