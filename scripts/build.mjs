@@ -8,6 +8,7 @@ import {
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import path from "node:path";
+import { partitionNews } from "../src/news-window.mjs";
 export const root = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -32,7 +33,11 @@ const document = (title, route, body) =>
   `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Internet of Matter Lab at the University of Notre Dame. Sustainable electronics, soft robotics, fabrication and human-computer interaction."><title>${esc(title)} | ${esc(site.name)}</title><link rel="icon" href="${site.favicon.png}" type="image/png" sizes="64x64"><link rel="icon" href="${site.favicon.svg}" type="image/svg+xml" sizes="any"><link rel="stylesheet" href="/${assetFiles.styles}"><script src="/${assetFiles.script}" defer></script></head><body><a href="#main" class="skip-link">Skip to content</a>${header(route)}<main id="main">${body}</main></body></html>`;
 function home() {
   const h = read("home");
-  return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul>${h.news.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="#older-news">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section><section id="older-news" class="older-news"><h2>Older News</h2><div class="rich">${h.olderNewsHtml}</div></section>${img(h.affiliations, "affiliations")}</div>`;
+  return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul data-news-list="recent" data-news-src="/${assetFiles.news}">${partitionNews(h.news).recent.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="/older-news/">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section>${img(h.affiliations, "affiliations")}</div>`;
+}
+function olderNews() {
+  const entries = partitionNews(read("home").news).older;
+  return `<div class="container news-archive"><h1>Older News</h1><p><a href="/">← Back to Home</a></p><ul class="news-archive-list rich" data-news-list="older" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
 }
 // Justify rows using natural aspect ratios, avoiding a single-photo final row.
 // Equal row heights and aligned outer edges without cropping or stretching.
@@ -55,12 +60,35 @@ function team() {
 function publications() {
   const papers = read("publications").sort((a, b) => b.date.localeCompare(a.date));
   const years = [...new Set(papers.map(paper => paper.date.slice(0, 4)))];
-  const filters = [{ id: "all", label: "All" }, ...years.map(year => ({ id: year, label: year }))].map(filter =>
-    `<button type="button" class="publication-filter" data-publication-filter="${esc(filter.id)}" aria-pressed="${filter.id === "all"}">${esc(filter.label)}</button>`
-  ).join("");
-  const article = (paper, index) => `<article class="project${index % 2 ? " project-alternate" : ""}" data-date="${esc(paper.date)}"><div class="project-copy"><p class="project-meta">${esc(paper.meta)}</p><h3>${paper.titleUrl ? `<a href="${esc(paper.titleUrl)}" target="_blank" rel="noopener noreferrer">${esc(paper.title)}</a>` : esc(paper.title)}</h3><div class="rich">${paper.detailsHtml || `<p>${esc(paper.authors)}. ${esc(paper.venue)}.</p><p>${(paper.links || []).map(link => `<a href="${esc(link.url)}">${esc(link.label)}</a>`).join(" | ")}</p>`}</div>${paper.award ? `<p class="award"><svg class="award-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h12v3h4v3c0 4-3 6-6 6-1 1-2 2-3 2v4h5v2H6v-2h5v-4c-1 0-2-1-3-2-3 0-6-2-6-6V5h4zm0 5H4v1c0 2 1 3 3 4zm12 0-1 5c2-1 3-2 3-4V7z"/></svg> ${esc(paper.award)}</p>` : ""}</div><div class="project-images">${paper.images.map(image => img(image)).join("")}</div></article>`;
-  const groups = years.map(year => `<section class="publication-year" data-publication-year="${year}" aria-labelledby="publications-${year}"><h2 id="publications-${year}" class="publication-year-title">${year}</h2>${papers.filter(paper => paper.date.startsWith(year)).map(article).join("")}</section>`).join("");
-  return `<div class="container projects"><h1>Projects &amp; Publications</h1><div class="publication-filters" role="group" aria-label="Filter publications by year" hidden>${filters}</div><p class="publication-status" role="status" aria-live="polite">${papers.length} publications</p>${groups}<a class="outline-link" href="https://tingyucheng.com/work" target="_blank" rel="noopener noreferrer">Prior Publications</a></div>`;
+  const thumbnail = image => {
+    const { widthPercent, ...picture } = image;
+    return `<a class="publication-image" href="${esc(image.src)}" aria-label="Enlarge image: ${esc(image.alt)}">${img(picture)}</a>`;
+  };
+  const icon = label => {
+    const type = /pdf/i.test(label) ? "pdf" : /code|source/i.test(label) ? "code" : /video/i.test(label) ? "video" : /doi/i.test(label) ? "link" : "page";
+    const shapes = {
+      pdf: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
+      code: '<path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 20"/>',
+      video: '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3Z"/>',
+      link: '<path d="m10 13 4-4m-6 5-2 2a4 4 0 0 0 6 6l3-3m-1-9 2-2a4 4 0 0 0-6-6L7 9" transform="translate(0 -1)"/>',
+      page: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a17 17 0 0 1 0 18 17 17 0 0 1 0-18Z"/>',
+    };
+    return `<svg class="resource-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${shapes[type]}</svg>`;
+  };
+  const trophy = '<svg class="trophy-icon" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><path d="M8 5H4v3c0 4 2 6 6 6M20 5h4v3c0 4-2 6-6 6" fill="none" stroke="#b78422" stroke-width="1.8" stroke-linecap="round"/><path d="M8 3h12v7c0 5-3 8-6 8s-6-3-6-8Z" fill="#e6b54b" stroke="#b78422" stroke-width="1.4"/><path d="M14 18v5M9 25h10" fill="none" stroke="#b78422" stroke-width="2" stroke-linecap="round"/><path d="m14 6 1.2 2.4 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4Z" fill="#fff8df"/></svg>';
+  const ribbon = '<svg class="honor-icon" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><path d="m8 16-2 9 5-2 3 3 2-10m4 0 2 9-5-2-3 3-2-10" fill="#faf0d0" stroke="#b78422" stroke-width="1.3" stroke-linejoin="round"/><circle cx="14" cy="11" r="8" fill="#e6b54b" stroke="#b78422" stroke-width="1.3"/><path d="m14 6 1.4 2.8 3.1.5-2.2 2.2.5 3.1-2.8-1.5-2.8 1.5.5-3.1L9.5 9.3l3.1-.5Z" fill="#fff8df"/></svg>';
+  const highlight = item => {
+    const mark = item.icon === "trophy" ? trophy : item.icon === "ribbon" ? ribbon : ["seattletimes", "daily"].includes(item.brand) ? `<span class="publication-wordmark ${esc(item.brand)}" aria-hidden="true">${item.brand === "daily" ? "D" : "ST"}</span>` : `<img class="publication-mark" src="/assets/marks/${esc(item.brand)}.png" alt="" width="20" height="20" loading="lazy">`;
+    const contents = `${mark}<span>${esc(item.label)}</span>`;
+    const cls = `publication-highlight${item.icon ? " paper-award" : ""}`;
+    return `<li>${item.url ? `<a class="${cls}" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${contents}</a>` : `<span class="${cls}">${contents}</span>`}</li>`;
+  };
+  const article = paper => {
+    const resources = [...(paper.links || []).map(link => `<a class="publication-button" href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${icon(link.label)}<span>${esc(link.label)}</span></a>`), ...(paper.resourceLabels || []).map(label => `<span class="publication-button unavailable" aria-disabled="true" title="Link coming soon">${icon(label)}<span>${esc(label)} <span class="coming-soon">(soon)</span></span></span>`)].join("");
+    return `<article class="project" data-date="${esc(paper.date)}"><div class="project-images">${paper.images.map(thumbnail).join("")}</div><div class="project-copy"><h3>${paper.titleUrl ? `<a href="${esc(paper.titleUrl)}" target="_blank" rel="noopener noreferrer">${esc(paper.title)}</a>` : esc(paper.title)}</h3><p class="publication-authors">${esc(paper.authors)}</p><p class="publication-venue"><strong>${esc(paper.venue)}</strong></p>${paper.highlights?.length ? `<ul class="publication-highlights" aria-label="Awards and media coverage">${paper.highlights.map(highlight).join("")}</ul>` : ""}${resources ? `<div class="publication-resources" aria-label="Paper resources">${resources}</div>` : ""}</div></article>`;
+  };
+  const groups = years.map(year => `<section class="publication-year" aria-labelledby="publications-${year}"><h2 id="publications-${year}" class="publication-year-title">${year}</h2>${papers.filter(paper => paper.date.startsWith(year)).map(article).join("")}</section>`).join("");
+  return `<div class="container projects"><h1>Projects &amp; Publications</h1>${groups}<a class="outline-link" href="https://tingyucheng.com/work" target="_blank" rel="noopener noreferrer">Prior Publications</a><dialog class="publication-lightbox" aria-label="Publication image viewer"><button type="button" class="lightbox-close" aria-label="Close enlarged image" autofocus>×</button><img class="lightbox-image" alt=""></dialog></div>`;
 }
 function teaching() {
   const t = read("teaching");
@@ -77,16 +105,25 @@ export function build() {
   mkdirSync(out, { recursive: true });
   cpSync(path.join(root, "public"), out, { recursive: true });
   for (const [key, source] of [["styles", "styles.css"], ["script", "site.js"]]) {
-    const content = readFileSync(path.join(root, "src", source));
+    let content = readFileSync(path.join(root, "src", source));
+    if (key === "script") {
+      const newsHelpers = readFileSync(path.join(root, "src/news-window.mjs"), "utf8").replace(/^export /gm, "");
+      content = Buffer.from(newsHelpers + "\n" + content.toString());
+    }
     const revision = createHash("sha256").update(content).digest("hex").slice(0, 10);
     assetFiles[key] = source.replace(/\.(css|js)$/, `-${revision}.$1`);
     writeFileSync(path.join(out, assetFiles[key]), content);
     // Keep existing URLs available for HTML cached before versioned assets.
     writeFileSync(path.join(out, source), content);
   }
+  const newsFeed = JSON.stringify(read("home").news);
+  const newsRevision = createHash("sha256").update(newsFeed).digest("hex").slice(0, 10);
+  assetFiles.news = `news-${newsRevision}.json`;
+  writeFileSync(path.join(out, assetFiles.news), newsFeed);
   const a = read("archive");
   const routes = [
     ["/", "Home", home()],
+    ["/older-news/", "Older News", olderNews()],
     ["/team/", "Team", team()],
     ["/s-projects-basic/", "Projects & Publications", publications()],
     ["/projects-7/", "Teaching", teaching()],

@@ -1,8 +1,6 @@
 [
   {
     "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
-    "meta": "04/13/2026    Wearable, printed electronics",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng. </span></span></span><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>CHI 2026. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/Circuit2Yarn_Paper_Compressed.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/\" target=\"_blank\" rel=\"noopener noreferrer\">Project Page</a></span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://designawards.core77.com/2026/Emerging-Technologies\" target=\"_blank\" rel=\"noopener noreferrer\">Core 77 Emerging Technologies</a></span>| <span><span style=\"text-decoration:underline\"><a href=\"https://designawards.core77.com/2026/Interaction\" target=\"_blank\" rel=\"noopener noreferrer\">Interaction</a></span> |</span> <span style=\"text-decoration:underline\"><a href=\"https://www.red-dot.org/search\" target=\"_blank\" rel=\"noopener noreferrer\">reddot</a></span> </span></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_f3f2e2c8caa84de59973939dad32fb88~mv2.webp",
@@ -10,30 +8,72 @@
       }
     ],
     "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
-    "date": "2026-04-13"
+    "date": "2026-04-13",
+    "authors": "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
+    "venue": "CHI 2026",
+    "links": [
+      {
+        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/Circuit2Yarn_Paper_Compressed.pdf",
+        "label": "PDF"
+      },
+      {
+        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/",
+        "label": "Project Page"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Core77 · Emerging Technologies",
+        "url": "https://designawards.core77.com/2026/Emerging-Technologies",
+        "brand": "core77"
+      },
+      {
+        "label": "Core77 · Interaction",
+        "url": "https://designawards.core77.com/2026/Interaction",
+        "brand": "core77"
+      },
+      {
+        "label": "Red Dot",
+        "url": "https://www.red-dot.org/search",
+        "brand": "reddot"
+      }
+    ]
   },
   {
     "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
-    "meta": "04/13/2026    Sustainability, fabrication",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh. </span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>CHI 2026. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1kjiTxnNIx79vbt7i_8ifada5o1N2X3vt/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://www.codecraft.group/projects/3d-printing-soap\" target=\"_blank\" rel=\"noopener noreferrer\">Project Page</a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_1ddb8af1517a4292867efbfdbbcc7831~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
-        "widthPercent": 28
+        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities"
       },
       {
         "src": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
-        "widthPercent": 72
+        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities"
       }
     ],
-    "date": "2026-04-13"
+    "date": "2026-04-13",
+    "authors": "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
+    "venue": "CHI 2026",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1kjiTxnNIx79vbt7i_8ifada5o1N2X3vt/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://www.codecraft.group/projects/3d-printing-soap",
+        "label": "Project Page"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CHI 2026 · Special Recognition for Sustainable Practices — Runner-up",
+        "icon": "ribbon",
+        "url": "https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/"
+      }
+    ]
   },
   {
     "title": "Sustainability assessment using multimodal AI agents",
-    "meta": "04/11/2026    Sustainability, life-cycle assessment",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.</span></span> <span style=\"font-weight:normal\"><span>Nature Electronics (2026). </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1KWMCKRsv2jpON0zR_RLFMSH9T8kU8KNY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://homes.cs.washington.edu/~zzhihan/\" target=\"_blank\" rel=\"noopener noreferrer\">Project Page</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://github.com/iamZhihanZhang/AI-Agents-for-LCA\" target=\"_blank\" rel=\"noopener noreferrer\">Code</a></span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\"><a href=\"https://www.nature.com/articles/s41928-026-01652-x\" target=\"_blank\" rel=\"noopener noreferrer\">Nature Research Briefing</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/\" target=\"_blank\" rel=\"noopener noreferrer\">UW News</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://homes.cs.washington.edu/~zzhihan/\" target=\"_blank\" rel=\"noopener noreferrer\">The Seattle Times</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://homes.cs.washington.edu/~zzhihan/\" target=\"_blank\" rel=\"noopener noreferrer\">GeekWire</a></span> |<span style=\"text-decoration:underline\"><a href=\"https://www.anthropocenemagazine.org/2026/06/new-ai-agent-tallies-a-gadgets-emissions-in-the-time-it-takes-to-brew-tea/\" target=\"_blank\" rel=\"noopener noreferrer\">Anthropocene</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://engineering.nd.edu/news/how-big-is-your-laptops-carbon-footprint/\" target=\"_blank\" rel=\"noopener noreferrer\">ND News</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://homes.cs.washington.edu/~zzhihan/\" target=\"_blank\" rel=\"noopener noreferrer\">The Daily</a></span></span></span></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_e2cebd26bbeb40128e1f877385fe0917~mv2.webp",
@@ -41,188 +81,426 @@
       }
     ],
     "titleUrl": "https://homes.cs.washington.edu/~zzhihan/",
-    "date": "2026-04-11"
+    "date": "2026-04-11",
+    "authors": "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
+    "venue": "Nature Electronics (2026)",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1KWMCKRsv2jpON0zR_RLFMSH9T8kU8KNY/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://homes.cs.washington.edu/~zzhihan/",
+        "label": "Project Page"
+      },
+      {
+        "url": "https://github.com/iamZhihanZhang/AI-Agents-for-LCA",
+        "label": "Code"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Nature Research Briefing",
+        "url": "https://www.nature.com/articles/s41928-026-01652-x",
+        "brand": "nature"
+      },
+      {
+        "label": "UW News",
+        "url": "https://www.washington.edu/news/2026/06/12/uw-researchers-built-ai-agents-that-quickly-estimate-electronic-devices-carbon-footprints/",
+        "brand": "uw"
+      },
+      {
+        "label": "The Seattle Times",
+        "url": "https://homes.cs.washington.edu/~zzhihan/",
+        "brand": "seattletimes"
+      },
+      {
+        "label": "GeekWire",
+        "url": "https://homes.cs.washington.edu/~zzhihan/",
+        "brand": "geekwire"
+      },
+      {
+        "label": "Anthropocene",
+        "url": "https://www.anthropocenemagazine.org/2026/06/new-ai-agent-tallies-a-gadgets-emissions-in-the-time-it-takes-to-brew-tea/",
+        "brand": "anthropocene"
+      },
+      {
+        "label": "ND News",
+        "url": "https://engineering.nd.edu/news/how-big-is-your-laptops-carbon-footprint/",
+        "brand": "nd"
+      },
+      {
+        "label": "The Daily",
+        "url": "https://homes.cs.washington.edu/~zzhihan/",
+        "brand": "daily"
+      }
+    ]
   },
   {
     "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
-    "meta": "04/01/2026    Printed electronics, soft robotics",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng. </span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>IROS (2026). </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1wsoXXYJ5YU8akBV68TZs4aQisFGgo58A/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a></span> </span></span><span><span style=\"font-size:15px\">| </span></span><span><span style=\"font-size:15px\">Project Page</span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_f4e5fddfff7340b6afe12d2c7303813b~mv2.webp",
         "alt": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling"
       }
     ],
-    "date": "2026-04-01"
+    "date": "2026-04-01",
+    "authors": "Linrui Shou, Zilang Chen, Wenjia Xu, Yiyue Luo, Tingyu Cheng.",
+    "venue": "IROS (2026)",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1wsoXXYJ5YU8akBV68TZs4aQisFGgo58A/view?usp=sharing",
+        "label": "PDF"
+      }
+    ],
+    "resourceLabels": [
+      "Project Page"
+    ]
   },
   {
     "title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
-    "meta": "09/05/2025    Sustainability, printed electronics",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng. </span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>UIST 2025. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://smartlab.cs.umd.edu/assets/pdf/dissolvpcb.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://github.com/zyyan20h/DissolvPCB\" target=\"_blank\" rel=\"noopener noreferrer\">Open source</a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_635c6111d5c74aae8b5d211bb287bcbb~mv2.webp",
         "alt": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates"
       }
     ],
-    "award": "Best Paper",
     "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
-    "date": "2025-09-05"
+    "date": "2025-09-05",
+    "authors": "Zeyu Yan, SuHwan Hong, Josiah Hester, Tingyu Cheng, Huaishu Peng.",
+    "venue": "UIST 2025",
+    "links": [
+      {
+        "url": "https://smartlab.cs.umd.edu/assets/pdf/dissolvpcb.pdf",
+        "label": "PDF"
+      },
+      {
+        "url": "https://github.com/zyyan20h/DissolvPCB",
+        "label": "Code"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Best Paper",
+        "icon": "trophy"
+      },
+      {
+        "label": "ND News",
+        "brand": "nd",
+        "url": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/"
+      }
+    ]
   },
   {
     "title": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing",
-    "meta": "09/02/2025    Sustainability, soft robotics",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo. UIST 2025. </span></span></span><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1ikuu9xlojgjrWbYaGchQJRIonBtElRno/view\" target=\"_blank\" rel=\"noopener noreferrer\"><span><span style=\"font-size:15px\">PDF | Project Page</span></span></a></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_df70682af93f499db0eb1dae42319b8d~mv2.webp",
         "alt": "BIOGEM: A Fully Biodegradable Gelatin-Based McKibben Actuator with Embedded Sensing"
       }
     ],
-    "date": "2025-09-02"
+    "date": "2025-09-02",
+    "authors": "Gaolin Ge, Haoran Lu, Yingting Gao, Qifeng Yang, Josiah Hester, Tingyu Cheng, Yiyue Luo.",
+    "venue": "UIST 2025",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1ikuu9xlojgjrWbYaGchQJRIonBtElRno/view",
+        "label": "PDF"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ND News",
+        "brand": "nd",
+        "url": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/"
+      }
+    ]
   },
   {
     "title": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
-    "meta": "07/06/2025    Sustainability, interaction, AI",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer. ACM IMWUT 2025. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\">PDF </span>| <span style=\"text-decoration:underline\">DOI</span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
         "alt": "Living Sustainability: In-Context Interactive Environmental Impact Communication"
       }
     ],
-    "date": "2025-07-06"
+    "date": "2025-07-06",
+    "authors": "Zhihan Zhang, Pu Thavikulwat, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Tingyu Cheng, Vikram Iyer.",
+    "venue": "ACM IMWUT 2025",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3749488"
+      }
+    ],
+    "resourceLabels": [
+      "PDF"
+    ]
   },
   {
     "title": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
-    "meta": "06/16/2025    Sustainability, life-cycle assessment",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta. HotCarbon 2025. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/19xrsFf2AmsZarwv2cSDYPxOfegXG0hTb/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_d43008b0540349be94b458f14a86ff9b~mv2.webp",
         "alt": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens"
       }
     ],
-    "date": "2025-06-16"
+    "date": "2025-06-16",
+    "authors": "Xuesi Chen, Ariel Goldner, Eren Yildiz, Ilan Mandel, Tingyu Cheng, Josiah Hester, Udit Gupta.",
+    "venue": "HotCarbon 2025",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/19xrsFf2AmsZarwv2cSDYPxOfegXG0hTb/view?usp=sharing",
+        "label": "PDF"
+      }
+    ]
   },
   {
     "title": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
-    "meta": "04/26/2025   Sustainability, smart material, computer vision",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\"><a href=\"https://dl.acm.org/doi/10.1145/3544548.3581125\" target=\"_blank\" rel=\"noopener noreferrer\">Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, and Hongli Zhu. ACS Nano 2025. </a></span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1ff23MRXizVeLZBbU3KxZDdXqR47f41FX/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://pubs.acs.org/doi/abs/10.1021/acsnano.5c01492\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_816964033d8f4e63889cdeb7e7868461~mv2.webp",
-        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
-        "widthPercent": 59
+        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation"
       },
       {
         "src": "/assets/37ae98_afe577df8cbf4ba296869b1804d81d9d~mv2.webp",
-        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation",
-        "widthPercent": 41
+        "alt": "Bioinspired Camouflage Fibers with Computer Vision-Guided Chromatic Adaptation"
       }
     ],
-    "date": "2025-04-26"
+    "date": "2025-04-26",
+    "authors": "Luyao Huang, Tingyu Cheng, Xianzhe Zhang, Haichao Zhang, Tejonidhi Deshpande, Yuanqiao Li, Zhi Xu, Gregory D. Abowd, Yun Fu, Yongmin Liu, Josiah Hester, Jun Li, and Hongli Zhu.",
+    "venue": "ACS Nano 2025",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1ff23MRXizVeLZBbU3KxZDdXqR47f41FX/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acsnano.5c01492",
+        "label": "DOI"
+      }
+    ]
   },
   {
     "title": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
-    "meta": "02/24/2025    Privacy, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-size:15px\"><span style=\"font-weight:normal\"><span>Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd. USEC 2025 </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/15rQ8f8NLa8azxI-QLPpPi9iZ3rODz413/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://www.ndss-symposium.org/ndss-paper/auto-draft-584/\" target=\"_blank\" rel=\"noopener noreferrer\">DOI</a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_a033939f0dac494a91e81c98a45e89d4~mv2.webp",
         "alt": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design"
       }
     ],
-    "date": "2025-02-24"
+    "date": "2025-02-24",
+    "authors": "Youngwook Do, Tingyu Cheng, Yuxi Wu, HyunJoo Oh, Daniel J. Wilson, Gregory D. Abowd.",
+    "venue": "USEC 2025",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/15rQ8f8NLa8azxI-QLPpPi9iZ3rODz413/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-584/",
+        "label": "DOI"
+      }
+    ]
   },
   {
     "title": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities",
-    "meta": "11/05/2023   Inclusive computing, education, toolkit",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:18px\"></span><span style=\"font-size:15px\"><a href=\"https://www.sciencedirect.com/science/article/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4\" target=\"_blank\" rel=\"noopener noreferrer\">Oh, HyunJoo, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng. International Journal of Child-Computer Interaction (IJCCI 2023)</a></span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1qIELhOjw7W85OxijYSGB5g8E_XUPz_uF/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4\" target=\"_blank\" rel=\"noopener noreferrer\">DOI</a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_f3fab33c43254ae49ee3e26e19677537~mv2.webp",
         "alt": "Making computing visible & tangible: A paper-based computing toolkit for codesigning inclusive computing education activities"
       }
     ],
-    "date": "2023-11-05"
+    "date": "2023-11-05",
+    "authors": "Oh, HyunJoo, Sherry Hsi, Noah Posner, Colin Dixon, Tymirra Smith, Tingyu Cheng.",
+    "venue": "International Journal of Child-Computer Interaction (IJCCI 2023)",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1qIELhOjw7W85OxijYSGB5g8E_XUPz_uF/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4",
+        "label": "DOI"
+      }
+    ]
   },
   {
     "title": "SwellSense: Creating 2.5D interactions with micro-capsule paper",
-    "meta": "04/19/2023   Sensing, fabrication, accessibility",
-    "detailsHtml": "<p><span style=\"font-weight:normal\"><span><span style=\"font-size:18px\"></span><span style=\"font-size:15px\"><a href=\"https://dl.acm.org/doi/10.1145/3544548.3581125\" target=\"_blank\" rel=\"noopener noreferrer\">Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Ye Jun Kim, Clement Zheng, Gregory D. Abowd, Hyunjoo. Proc. ACM CHI 2023. </a></span> <span style=\"font-size:15px\">(2023 Core 77 Design Award Honoree for interaction and emerging technology categories)<a href=\"https://www.sciencedirect.com/science/article/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4\" target=\"_blank\" rel=\"noopener noreferrer\"> </a></span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/16J6WUmm6_7gtlW-KaIE8ChwKUZus4Kyy/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/10.1145/3544548.3581125\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a><a href=\"https://dl.acm.org/doi/10.1145/3544548.3581125\" target=\"_blank\" rel=\"noopener noreferrer\">| </a><a href=\"https://drive.google.com/file/d/1ulHhG1vR8CQLiSl8TpZZnri99fmuiJyF/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">VIDEO </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_a3ae2b3c85fc41b984508397f55a5c59~mv2.webp",
-        "alt": "SwellSense: Creating 2.5D interactions with micro-capsule paperTingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Ye Jun Kim, Clement Zheng, Gregory D. Abowd, Hyunjoo. Proc. ACM CHI 2023.  (2023 Core 77 Design Award Honoree for interaction and emerging technology categories) PDF | DOI | VIDEO"
+        "alt": "SwellSense: Creating 2.5D interactions with micro-capsule paper"
       }
     ],
-    "date": "2023-04-19"
+    "date": "2023-04-19",
+    "authors": "Tingyu Cheng, Zhihan Zhang, Bingrui Zong, Yuhui Zhao, Zekun Chang, Ye Jun Kim, Clement Zheng, Gregory D. Abowd, Hyunjoo.",
+    "venue": "Proc. ACM CHI 2023",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/16J6WUmm6_7gtlW-KaIE8ChwKUZus4Kyy/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://dl.acm.org/doi/10.1145/3544548.3581125",
+        "label": "DOI"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ulHhG1vR8CQLiSl8TpZZnri99fmuiJyF/view?usp=sharing",
+        "label": "Video"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Core77 Design Awards 2023 · Interaction & Emerging Technology Honoree",
+        "brand": "core77"
+      }
+    ]
   },
   {
     "title": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
-    "meta": "04/19/2023     Sustainability, sensing, fabrication",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M Gallo, Aditi Maheshwari, Gregory D. Abowd, Andreea Danielescu. Proc. ACM CHI 2023. (Best paper Honorable mention, 2023 Core 77 Design Award sustainability category winner)<a href=\"https://www.sciencedirect.com/science/article/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4\" target=\"_blank\" rel=\"noopener noreferrer\"> </a></span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1ksb7Ouo3j5S6o8uHPH862-2EM2hqsKF_/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a></span> | <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/10.1145/3544548.3580811\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a></span></span></span><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1JG3uIoIo8M0ysB9bhei_uRWJfzbkRC65/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><span><span style=\"font-size:15px\">| </span></span><span><span style=\"font-size:15px\">VIDEO </span></span></a></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_be1dce2d707b4c2f9680ee4a790b5f6a~mv2.webp",
         "alt": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application"
       }
     ],
-    "date": "2023-04-19"
+    "date": "2023-04-19",
+    "authors": "Tingyu Cheng, Taylor Tabb, Jung Wook Park, Eric M Gallo, Aditi Maheshwari, Gregory D. Abowd, Andreea Danielescu.",
+    "venue": "Proc. ACM CHI 2023",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1ksb7Ouo3j5S6o8uHPH862-2EM2hqsKF_/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://dl.acm.org/doi/10.1145/3544548.3580811",
+        "label": "DOI"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1JG3uIoIo8M0ysB9bhei_uRWJfzbkRC65/view?usp=sharing",
+        "label": "Video"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Best Paper Honorable Mention",
+        "icon": "trophy"
+      },
+      {
+        "label": "Core77 Design Awards 2023 · Sustainability Winner",
+        "brand": "core77"
+      }
+    ]
   },
   {
     "title": "Flexible computational photodetectors for self-powered activity sensing",
-    "meta": "01/22/2022   Sensing, fabrication, smart material",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Zhang, Dingtian, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Saiganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd. npj Flexible Electronics 2022<a href=\"https://www.sciencedirect.com/science/article/pii/S2212868923000399?casa_token=VU7hg6V7LjAAAAAA%3AnyLwhp0_rm_gRlvlClq_ZqYqpUksg1P1EFeGiwtivNCgfC4eimM2Gl6NC4kBnznL0OQCnY4NP_4\" target=\"_blank\" rel=\"noopener noreferrer\"> </a></span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1zdEH9elyBJljmDrO9QZ1rE0kdB-OHmY-/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://www.nature.com/articles/s41528-022-00137-z\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_aba81928ee9748e0a8b0dfff74364a31~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing",
-        "widthPercent": 56
+        "alt": "Flexible computational photodetectors for self-powered activity sensing"
       },
       {
         "src": "/assets/37ae98_9efe64ac3f4f4240964ac5922d91911c~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing",
-        "widthPercent": 44
+        "alt": "Flexible computational photodetectors for self-powered activity sensing"
       }
     ],
-    "date": "2022-01-22"
+    "date": "2022-01-22",
+    "authors": "Zhang, Dingtian, Canek Fuentes-Hernandez, Raaghesh Vijayan, Yang Zhang, Yunzhi Li, Jung Wook Park, Yiyang Wang, Yuhui Zhao, Nivedita Arora, Ali Mirzazadeh, Youngwook Do, Tingyu Cheng, Saiganesh Swaminathan, Thad Starner, Trisha L. Andrew, Gregory D. Abowd.",
+    "venue": "npj Flexible Electronics 2022",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1zdEH9elyBJljmDrO9QZ1rE0kdB-OHmY-/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41528-022-00137-z",
+        "label": "DOI"
+      }
+    ]
   },
   {
     "title": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter",
-    "meta": "09/14/2021     Sensing, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory Abowd, Hyunjoo Oh. (ACM IMWUT 2021, 2022 Fast Company Innovation by Design Award Finalist)  </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1b2w1DQ9UjtF81wG3NqaBYgk-u7ZlF46i/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/10.1145/3478118\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a></span><span style=\"text-decoration:underline\"><a href=\"https://youtu.be/CrKHnpCO3bM?si=_BwEiKNb07ooVQWV\" target=\"_blank\" rel=\"noopener noreferrer\">| VIDEO </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_7559e69aac654205ae22b67740e720e8~mv2.webp",
         "alt": "Duco: Autonomous Large-Scale Direct-Circuit-Writing (DCW) on Vertical Everyday Surfaces Using A Scalable Hanging Plotter"
       }
     ],
-    "date": "2021-09-14"
+    "date": "2021-09-14",
+    "authors": "Tingyu Cheng, Bu Li, Yang Zhang, Yunzhi Li, Charles Ramey, Eui Min Jung, Yepu Cui, Sai Ganesh Swaminathan, Youngwook Do, Manos Tentzeris, Gregory Abowd, Hyunjoo Oh.",
+    "venue": "ACM IMWUT 2021",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1b2w1DQ9UjtF81wG3NqaBYgk-u7ZlF46i/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://dl.acm.org/doi/10.1145/3478118",
+        "label": "DOI"
+      },
+      {
+        "url": "https://youtu.be/CrKHnpCO3bM?si=_BwEiKNb07ooVQWV",
+        "label": "Video"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "2022 Fast Company Innovation by Design Award Finalist",
+        "brand": "fastcompany"
+      }
+    ]
   },
   {
     "title": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases",
-    "meta": "04/09/2020     Sensing, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Chris Chen, David Howard, Steven Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, and Hyunjoo Oh. ACM TEI 2020</span></span></span></p>\n\n<p style=\"font-size:18px;line-height:1.4em\"><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/15gHGnMiXJYzhk54syzz-WdkS8nUL5jJU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF </a></span>| <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3374920.3374946\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a><a href=\"https://drive.google.com/file/d/1OYg7uVcALY1hQ-bP_BIB0B7rYe_Nx2O8/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">| VIDEO </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_6ed25f77d5c547baa036cc92cb4b9afa~mv2.webp",
         "alt": "SPIN (Self-powered Paper interfaces): Bridging Triboelectric Nanogenerator with Folding Paper Creases"
       }
     ],
-    "date": "2020-04-09"
+    "date": "2020-04-09",
+    "authors": "Chris Chen, David Howard, Steven Zhang, Youngwook Do, Sienna Sun, Tingyu Cheng, Zhong Lin Wang, Gregory D. Abowd, and Hyunjoo Oh.",
+    "venue": "ACM TEI 2020",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/15gHGnMiXJYzhk54syzz-WdkS8nUL5jJU/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://dl.acm.org/doi/abs/10.1145/3374920.3374946",
+        "label": "DOI"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1OYg7uVcALY1hQ-bP_BIB0B7rYe_Nx2O8/view?usp=sharing",
+        "label": "Video"
+      }
+    ]
   },
   {
     "title": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates",
-    "meta": "03/18/2020   Sensing, fabrication, interaction",
-    "detailsHtml": "<p style=\"font-size:18px;line-height:1.4em\"><span style=\"font-weight:normal\"><span><span style=\"font-size:15px\">Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshiiro Kawahara, Lining Yao, Gregory D. Abowd, and Hyunjoo Oh. ACM IMWUT 2020. </span></span></span><span><span style=\"font-size:15px\"><span style=\"text-decoration:underline\"><a href=\"https://drive.google.com/file/d/1Sf5FMu66qip6CUPm_EVUPrpuV3hlVj7v/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">PDF |</a></span> <span style=\"text-decoration:underline\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3381013\" target=\"_blank\" rel=\"noopener noreferrer\">DOI </a><a href=\"https://youtu.be/Ntqc5bHQdYc?si=gBVohDiEAFJ2hX7H\" target=\"_blank\" rel=\"noopener noreferrer\">| VIDEO </a></span></span></span></p>",
     "images": [
       {
         "src": "/assets/37ae98_02882fc4009b4ef9bc397715df088074~mv2.webp",
         "alt": "Silver Tape: Inkjet Printed Circuits Peeled-and-Transferred on Versatile Substrates"
       }
     ],
-    "date": "2020-03-18"
+    "date": "2020-03-18",
+    "authors": "Tingyu Cheng*, Koya Narumi*, Youngwook Do, Yang Zhang, Tung D. Ta, Takuya Sasatani, Eric Markvicka, Yoshiiro Kawahara, Lining Yao, Gregory D. Abowd, and Hyunjoo Oh.",
+    "venue": "ACM IMWUT 2020",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1Sf5FMu66qip6CUPm_EVUPrpuV3hlVj7v/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://dl.acm.org/doi/abs/10.1145/3381013",
+        "label": "DOI"
+      },
+      {
+        "url": "https://youtu.be/Ntqc5bHQdYc?si=gBVohDiEAFJ2hX7H",
+        "label": "Video"
+      }
+    ]
   }
 ]

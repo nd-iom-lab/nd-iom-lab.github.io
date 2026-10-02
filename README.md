@@ -30,13 +30,13 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 - `content/teaching.json`, `content/opportunities.json`: their respective content.
 - `content/archive.json`: the old hidden `/publications/` page, retained for existing links.
 - `src/styles.css`: desktop design and mobile/tablet layout rules.
-- `src/site.js`: mobile menu, research gallery controls and publication year filters.
+- `src/site.js`: mobile menu, research gallery controls, rolling news lists and publication image viewer.
 - `scripts/build.mjs`: semantic static HTML templates.
 - `public/assets/`: local images and fonts. Add new images here; reference them as `/assets/filename.webp`.
 
 Browser tab icons use the transparent vector `public/assets/lab-favicon.svg` with a 64 px PNG fallback, configured in `content/site.json` under `favicon`. The vector preserves the original lab logo silhouette and has no background rectangle. Keep favicon assets separate from the page-header logo.
 
-Stylesheets and JavaScript are published with content hashes in their filenames so browser caches update automatically after a change. Projects & Publications groups entries by year, newest first, with All/year buttons. Entries remain readable when JavaScript is disabled.
+Stylesheets and JavaScript are published with content hashes in their filenames so browser caches update automatically after a change. Projects & Publications groups entries by year, newest first, without year filter buttons. Paper titles are bold and colored; authors are plain text, followed by a bold venue, awards/media coverage and icon resource buttons. Compact thumbnails open a dismissible image viewer. Entries remain readable when JavaScript is disabled; thumbnail links then open the image directly.
 
 No Wix account, Wix editor, computer use, CMS or external API is needed to edit/build this version. Existing external paper, project, personal-site and recruitment-form links retain their original destinations.
 
@@ -65,7 +65,6 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 {
   "title": "Paper title",
   "date": "2026-10-01",
-  "meta": "10/01/2026    Research topic",
   "authors": "Author One, Author Two, Tingyu Cheng",
   "venue": "Conference 2026",
   "links": [
@@ -76,17 +75,19 @@ Insert this object at the top of `content/publications.json` (replace all exampl
 }
 ```
 
-Existing imported entries use `detailsHtml` to preserve their exact author/venue/link/award formatting. For those entries, edit that field directly; it takes precedence over `authors`, `venue` and `links`. Optional `titleUrl` links the title. Optional `award` displays award text.
+Use plain text for `authors` and `venue`. Optional `titleUrl` links the title. Resources in `links` render as icon buttons; supported labels include PDF, Project Page, Code, DOI and Video. Optional `resourceLabels` are unavailable resources, clearly marked “soon” without a link. Optional `highlights` is an array of `{ "label": "...", "brand": "nd", "url": "https://..." }` for media/awards, or `{ "label": "Best Paper", "icon": "trophy" }` for a paper award (use `icon: "ribbon"` for other recognition). Highlights appear between the venue and resource buttons. Marks live under `public/assets/marks/`; their official sources are recorded in `migration/publication-marks.json`. Seattle Times and The Daily use text initials where an original downloadable mark is unavailable.
 
-The ISO `date` controls year grouping and chronological order; keep it consistent with the visible date in `meta`. The generator sorts entries automatically.
+The ISO `date` controls year grouping and chronological order and is not displayed on each paper. The generator sorts entries automatically.
 
 ### Add news
 
-Insert an object at the top of `news` in `content/home.json`. The `html` field currently contains the complete list item including the visible date; update both `date` and that visible date together.
+Keep all news in `news` in `content/home.json`, using ISO dates. The homepage shows the past twelve calendar months (inclusive anniversary, excluding future entries); Older News links to `/older-news/`, which is not listed in the main navigation. The shared `src/news-window.mjs` helper uses the lab’s Indianapolis timezone, including leap-year anniversary handling. The build renders a static fallback, then the browser repartitions the same hashed JSON feed at page load, so entries move into the archive as time passes.
+
+The `html` field contains the complete list item including the visible date; update both `date` and that visible date together.
 
 ```json
 {
-  "date": "10/01/2026",
+  "date": "2026-10-01",
   "html": "<li><p>10/01/2026 Our paper was accepted to <strong>Conference 2026</strong>.</p></li>"
 }
 ```
@@ -95,7 +96,7 @@ HTML fields are trusted lab-maintained source, not submitted by website visitors
 
 ## Responsive behavior
 
-Desktop retains the pale header, original typography, five-image wave strip, centered content, circular portraits and alternating project rows. Tablet layouts wrap navigation and use three member columns. Mobile has a collapsible menu, two member columns and stacked project text/images. The same content is statically rendered at every size; there are no separate mobile page copies.
+Desktop retains the pale header, original typography, five-image wave strip, centered content, circular portraits and compact publication rows. Tablet layouts wrap navigation and use three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
 
 ## Migration record
 

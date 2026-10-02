@@ -43,20 +43,32 @@ if (gallery) {
   );
 }
 
-const publicationFilters = document.querySelector(".publication-filters");
-if (publicationFilters) {
-  const buttons = [...publicationFilters.querySelectorAll("button")];
-  const years = [...document.querySelectorAll(".publication-year")];
-  const status = document.querySelector(".publication-status");
-  publicationFilters.hidden = false;
-  buttons.forEach(button => button.addEventListener("click", () => {
-    const selected = button.dataset.publicationFilter;
-    let count = 0;
-    buttons.forEach(other => other.setAttribute("aria-pressed", String(other === button)));
-    years.forEach(year => {
-      year.hidden = selected !== "all" && year.dataset.publicationYear !== selected;
-      if (!year.hidden) count += year.querySelectorAll(".project").length;
+const newsList = document.querySelector("[data-news-list]");
+if (newsList) {
+  fetch(newsList.dataset.newsSrc)
+    .then(response => { if (!response.ok) throw new Error("News unavailable"); return response.json(); })
+    .then(entries => {
+      const news = partitionNews(entries)[newsList.dataset.newsList];
+      newsList.innerHTML = news.map(entry => entry.html).join("");
+    })
+    .catch(() => {}); // The server-rendered list remains usable if the feed is unavailable.
+}
+
+const lightbox = document.querySelector(".publication-lightbox");
+if (lightbox) {
+  const enlarged = lightbox.querySelector(".lightbox-image");
+  document.querySelectorAll(".publication-image").forEach(link => {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      enlarged.src = link.href;
+      enlarged.alt = link.querySelector("img").alt;
+      lightbox.showModal();
+      document.body.classList.add("image-viewer-open");
     });
-    status.textContent = `${count} ${count === 1 ? "publication" : "publications"}${selected === "all" ? "" : ` in ${selected}`}`;
-  }));
+  });
+  lightbox.addEventListener("click", () => lightbox.close());
+  lightbox.addEventListener("close", () => {
+    document.body.classList.remove("image-viewer-open");
+    enlarged.removeAttribute("src");
+  });
 }

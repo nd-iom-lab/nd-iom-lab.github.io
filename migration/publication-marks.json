@@ -1,0 +1,13 @@
+{
+  "description": "Original official site marks for identifying existing publication awards/media. ICO files decoded to PNG; no redrawing. Seattle Times and The Daily fall back to decorative text initials.",
+  "sources": {
+    "reddot.png": "https://www.red-dot.org/frontend/images/favicon.ico",
+    "core77.png": "https://static.core77.com/images/favicons/favicon-96x96.png",
+    "nd.png": "https://static.nd.edu/images/monogram/gold/monogram-96.png",
+    "uw.png": "https://www.washington.edu/wp-content/themes/uw_wp_theme/favicon.ico",
+    "nature.png": "https://www.nature.com/static/images/favicons/nature/favicon-48x48-b52890008c.png",
+    "geekwire.png": "https://www.geekwire.com/favicon.ico",
+    "anthropocene.png": "https://www.anthropocenemagazine.org/favicon.ico",
+    "fastcompany.png": "https://www.fastcompany.com/favicon.ico"
+  }
+}
