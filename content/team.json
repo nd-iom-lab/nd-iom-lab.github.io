@@ -2,9 +2,9 @@
   "title": "Our Team.",
   "pi": {
     "name": "Tingyu Cheng",
-    "role": "Principal Investigator",
+    "role": "PI: Tingyu Cheng",
     "office": "Office: 182D Fitzpatrick Hall",
-    "biographyHtml": "<p style=\"font-size:17px\"><span style=\"font-size:17px\"><span style=\"font-weight:bold\">Tingyu Cheng</span> is an assistant professor in CSE at the University of Notre Dame. He is also associated with Human-Centered Responsible AI Lab in the <span style=\"text-decoration:underline\"><a href=\"https://lucyinstitute.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Lucy Family Institute for Data &amp; Society</a></span>  He was a Postdoctoral fellow at Georgia Tech with Professor <span style=\"text-decoration:underline\"><a href=\"https://josiahhester.com/cv/\" target=\"_blank\" rel=\"noopener noreferrer\">Josiah Hester</a></span>, where he also obtained PhD from Human-centered Computing with Professor <span style=\"text-decoration:underline\"><a href=\"https://coe.northeastern.edu/people/abowd-gregory/\" target=\"_blank\" rel=\"noopener noreferrer\">Gregory Abowd</a></span> and <span style=\"text-decoration:underline\"><a href=\"https://www.codecraft.group/hyunjoo-oh\" target=\"_blank\" rel=\"noopener noreferrer\">Hyunjoo Oh</a></span>.</span></p>\n\n",
+    "biographyHtml": "<p style=\"font-size:17px\"><span style=\"font-size:17px\"><strong>Tingyu Cheng</strong> is an assistant professor in CSE at the University of Notre Dame. He is also associated with Human-Centered Responsible AI Lab in the <span style=\"text-decoration:underline\"><a href=\"https://lucyinstitute.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Lucy Family Institute for Data &amp; Society</a></span>  He was a Postdoctoral fellow at Georgia Tech with Professor <span style=\"text-decoration:underline\"><a href=\"https://josiahhester.com/cv/\" target=\"_blank\" rel=\"noopener noreferrer\">Josiah Hester</a></span>, where he also obtained PhD from Human-centered Computing with Professor <span style=\"text-decoration:underline\"><a href=\"https://coe.northeastern.edu/people/abowd-gregory/\" target=\"_blank\" rel=\"noopener noreferrer\">Gregory Abowd</a></span> and <span style=\"text-decoration:underline\"><a href=\"https://www.codecraft.group/hyunjoo-oh\" target=\"_blank\" rel=\"noopener noreferrer\">Hyunjoo Oh</a></span>.</span></p>\n\n",
     "portrait": {
       "src": "/assets/37ae98_9ffb2b4fc9854d7082e7da9c6e0049ce~mv2.webp",
       "alt": "Tingyu Cheng"
@@ -39,39 +39,39 @@
   },
   "members": [
     {
-      "name": "Jiaqing Liu",
+      "name": "Jiaqing (Allen) Liu",
       "roleHtml": "<p style=\"font-size:20px\">PhD student</p>",
       "url": "https://jiaqingliuallen.github.io/",
       "portrait": {
         "src": "/assets/37ae98_5c87613f8c254258ada2e5f3edcf2f0a~mv2.webp",
-        "alt": "Jiaqing Liu"
+        "alt": "Jiaqing (Allen) Liu"
       }
     },
     {
-      "name": "Yuxuan Miao",
+      "name": "Yuxuan (Wellington) Miao",
       "roleHtml": "<p style=\"font-size:20px\">PhD student ( co-advised with <span style=\"font-weight:bold\"><span style=\"color:#3d4dad\"><a href=\"http://yes-lab.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Fanny Ye</a></span></span>)</p>",
       "url": "https://www.linkedin.com/in/yuxuan-wellington-miao-a07b4032b/",
       "portrait": {
         "src": "/assets/37ae98_729322cd714c4a58b11ee1c2817a19ef~mv2.webp",
-        "alt": "Yuxuan Miao"
+        "alt": "Yuxuan (Wellington) Miao"
       }
     },
     {
-      "name": "Xizhe Hao",
+      "name": "Xizhe (Zach) Hao",
       "roleHtml": "<p style=\"font-size:20px\"><span>PhD student</span></p>",
       "url": "https://xizhehao.com/",
       "portrait": {
         "src": "/assets/37ae98_fab9d42e02074819ab75a3a74a8416d8~mv2.webp",
-        "alt": "Xizhe Hao"
+        "alt": "Xizhe (Zach) Hao"
       }
     },
     {
-      "name": "Mingqi Wang",
+      "name": "Mingqi (Grace) Wang",
       "roleHtml": "<p style=\"font-size:20px\">PhD student</p>",
       "url": "https://www.wangmingqi.com/",
       "portrait": {
         "src": "/assets/37ae98_41e0ed26cd52488dbb7bd9d2f7c45987~mv2.webp",
-        "alt": "Mingqi Wang"
+        "alt": "Mingqi (Grace) Wang"
       }
     },
     {
