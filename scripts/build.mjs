@@ -23,7 +23,7 @@ const esc = (s) =>
   );
 let site = read("site");
 const img = (i, cls = "", eager = false) =>
-  `<img src="${esc(i.src)}" alt="${esc(i.alt)}" class="${cls}" loading="${eager ? "eager" : "lazy"}" decoding="async"${i.widthPercent ? ` style="width:${Number(i.widthPercent)}%"` : ""}>`;
+  `<img src="${esc(i.src)}" alt="${esc(i.alt)}" class="${cls}"${i.width && i.height ? ` width="${Number(i.width)}" height="${Number(i.height)}"` : ""} loading="${eager ? "eager" : "lazy"}" decoding="async"${i.widthPercent ? ` style="width:${Number(i.widthPercent)}%"` : ""}>`;
 const header = (current) =>
   `<header class="site-header"><div class="header-inner"><a href="/" class="brand">${img(site.logo, "logo", true)}<span>${esc(site.name)}</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav id="site-nav" aria-label="Main navigation">${site.navigation.map((n) => `<a href="${n.path}"${n.path === current ? ' aria-current="page"' : ""}>${esc(n.label)}</a>`).join("")}</nav></div></header><div class="hero-shell"><div class="hero" role="img" aria-label="Soft robotic gripper, printed circuits, paper flower, illuminated tree circuits and printed electronics"><img class="hero-base" src="${site.hero.src}" alt="" fetchpriority="high"><svg class="hero-panel robot" viewBox="0 650 660 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.hero.src}" width="3341" height="2222"/></svg><svg class="hero-panel tree" viewBox="790 430 920 880" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.tree.src}" width="2500" height="1667"/></svg></div></div>`;
 const document = (title, route, body) =>
@@ -32,16 +32,14 @@ function home() {
   const h = read("home");
   return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul>${h.news.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="#older-news">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section><section id="older-news" class="older-news"><h2>Older News</h2><div class="rich">${h.olderNewsHtml}</div></section>${img(h.affiliations, "affiliations")}</div>`;
 }
-// Original group-photo rows use different portrait/landscape column widths.
-// Let each photo retain its intrinsic height so certificates and faces stay visible.
+// Justify each original three-photo row using natural aspect ratios.
+// Equal row heights and aligned outer edges without cropping or stretching.
 function groupPhotoRows(group) {
   const rows = [];
+  const columns = images => images.map(image => `minmax(0, ${Number(image.width) / Number(image.height)}fr)`).join(" ");
   for (let offset = 0; offset < group.images.length; offset += 3) {
     const images = group.images.slice(offset, offset + 3);
-    const widths = group.rowWidths?.[offset / 3] || images.map(() => 1);
-    const gap = group.year === "2026" ? 19 : 8;
-    const maxWidth = group.rowWidths ? widths.reduce((sum, width) => sum + width, 0) + gap * (images.length - 1) : 980;
-    rows.push(`<div class="group-photo-row" style="--photo-columns:${widths.map(width => `${Number(width)}fr`).join(" ")};--photo-row-width:${maxWidth}px;--photo-gap:${gap}px">${images.map(i => img(i)).join("")}</div>`);
+    rows.push(`<div class="group-photo-row" style="--photo-columns:${columns(images)};--photo-mobile-columns:${columns(images.slice(0, 2))}">${images.map(i => img(i)).join("")}</div>`);
   }
   return rows.join("");
 }

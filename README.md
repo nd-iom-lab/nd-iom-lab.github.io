@@ -51,7 +51,7 @@ Add an object to `members` in `content/team.json` and place the portrait in `pub
 
 The grid lays out new members automatically; no position/height edits are required.
 
-Group photos retain complete images with their natural aspect ratios. The `rowWidths` arrays in each year of `groupPhotos` preserve the original three-image rows and unequal column widths; do not apply a fixed height or `object-fit: cover` to this section.
+Group photos retain complete images with their natural aspect ratios. The original three-image rows are justified using each image’s `width` and `height` (its natural pixel dimensions). This aligns both row heights and outer edges without cropping. Include those dimensions when adding group photos; do not apply a fixed height or `object-fit: cover` to this section.
 
 ### Add a publication/project
 

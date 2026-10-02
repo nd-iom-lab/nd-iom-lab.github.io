@@ -387,10 +387,9 @@ nav a:hover {
 .group-photo-row {
   display: grid;
   grid-template-columns: var(--photo-columns);
-  gap: var(--photo-gap);
+  gap: 8px;
   align-items: start;
   width: 100%;
-  max-width: var(--photo-row-width);
   margin-bottom: 8px;
 }
 .group-photo-row img {
@@ -771,8 +770,7 @@ nav a:hover {
     font-size: 24px !important;
   }
   .group-photo-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
+    grid-template-columns: var(--photo-mobile-columns);
   }
   .group-photo-row img:last-child {
     grid-column: 1/-1;
