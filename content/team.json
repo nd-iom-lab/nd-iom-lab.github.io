@@ -50,7 +50,7 @@
     {
       "name": "Yuxuan Miao",
       "roleHtml": "<p style=\"font-size:20px\">PhD student ( co-advised with <span style=\"font-weight:bold\"><span style=\"color:#3d4dad\"><a href=\"http://yes-lab.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Fanny Ye</a></span></span>)</p>",
-      "url": null,
+      "url": "https://www.linkedin.com/in/yuxuan-wellington-miao-a07b4032b/",
       "portrait": {
         "src": "/assets/37ae98_729322cd714c4a58b11ee1c2817a19ef~mv2.webp",
         "alt": "Yuxuan Miao"
@@ -81,6 +81,15 @@
       "portrait": {
         "src": "/assets/priscilla-chau.webp",
         "alt": "Priscilla Chau"
+      }
+    },
+    {
+      "name": "Peter He",
+      "roleHtml": "<p style=\"font-size:20px\">Research Assistant</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/37ae98_b0ff32f32e1b40df88c481dcfddc9f94~mv2.webp",
+        "alt": "Peter He"
       }
     },
     {
@@ -135,15 +144,6 @@
       "portrait": {
         "src": "/assets/37ae98_f45d6efea14b4ab2a538d055d894e544~mv2.webp",
         "alt": "Shuyao Zhou"
-      }
-    },
-    {
-      "name": "Peter He",
-      "roleHtml": "<p style=\"font-size:20px\">Research Assistant</p>",
-      "url": null,
-      "portrait": {
-        "src": "/assets/37ae98_b0ff32f32e1b40df88c481dcfddc9f94~mv2.webp",
-        "alt": "Peter He"
       }
     }
   ],

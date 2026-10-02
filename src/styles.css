@@ -325,15 +325,15 @@ nav a:hover {
   gap: 8px;
   margin-top: 18px;
 }
-.contacts img {
+.contacts img,
+.contacts svg {
   width: 20px;
   height: 23px;
   object-fit: contain;
 }
 .contacts svg {
-  width: 20px;
-  height: 16px;
   display: block;
+  fill: currentColor;
 }
 .slash {
   font-size: 25px;
@@ -372,8 +372,13 @@ nav a:hover {
 .alumni {
   margin: 40px 0 64px;
 }
+.alumni p:first-child,
+.alumni [style*="font-weight:bold"] {
+  font-family: AvenirHeavy, sans-serif;
+  font-weight: 700;
+}
 .group-photos h2 {
-  font: 24px/1.4 Avenir, sans-serif;
+  font: 700 24px/1.4 AvenirHeavy, sans-serif;
   margin-bottom: 10px;
 }
 .group-photos h3 {
