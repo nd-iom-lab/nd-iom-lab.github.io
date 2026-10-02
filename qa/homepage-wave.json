@@ -1,0 +1,327 @@
+{
+  "base": "http://localhost:4321",
+  "viewports": [
+    {
+      "home": {
+        "width": 1440,
+        "headerHeight": 104,
+        "waveHeight": 200,
+        "mainTop": 304,
+        "newsTop": 430.390625,
+        "overflow": 0,
+        "brandBottom": 88,
+        "navTop": 40.796875
+      },
+      "opacities": [
+        1,
+        0.844,
+        0.5,
+        0.156,
+        0,
+        1
+      ],
+      "innerPages": [
+        {
+          "route": "/team/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/s-projects-basic/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/older-news/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/projects-7/",
+          "waves": 0,
+          "titleTop": 144,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/opportunities/",
+          "waves": 0,
+          "titleTop": 137,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/publications/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        }
+      ]
+    },
+    {
+      "home": {
+        "width": 1024,
+        "headerHeight": 104,
+        "waveHeight": 200,
+        "mainTop": 304,
+        "newsTop": 466.78125,
+        "overflow": 0,
+        "brandBottom": 84,
+        "navTop": 40.796875
+      },
+      "opacities": [
+        1,
+        0.844,
+        0.5,
+        0.156,
+        0,
+        1
+      ],
+      "innerPages": [
+        {
+          "route": "/team/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/s-projects-basic/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/older-news/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/projects-7/",
+          "waves": 0,
+          "titleTop": 144,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/opportunities/",
+          "waves": 0,
+          "titleTop": 137,
+          "headerHeight": 104,
+          "overflow": 0
+        },
+        {
+          "route": "/publications/",
+          "waves": 0,
+          "titleTop": 132,
+          "headerHeight": 104,
+          "overflow": 0
+        }
+      ]
+    },
+    {
+      "home": {
+        "width": 768,
+        "headerHeight": 124,
+        "waveHeight": 180,
+        "mainTop": 304,
+        "newsTop": 466.78125,
+        "overflow": 0,
+        "brandBottom": 72.40625,
+        "navTop": 87.203125
+      },
+      "opacities": [
+        1,
+        0.844,
+        0.5,
+        0.156,
+        0,
+        1
+      ],
+      "innerPages": [
+        {
+          "route": "/team/",
+          "waves": 0,
+          "titleTop": 152,
+          "headerHeight": 124,
+          "overflow": 0
+        },
+        {
+          "route": "/s-projects-basic/",
+          "waves": 0,
+          "titleTop": 152,
+          "headerHeight": 124,
+          "overflow": 0
+        },
+        {
+          "route": "/older-news/",
+          "waves": 0,
+          "titleTop": 152,
+          "headerHeight": 124,
+          "overflow": 0
+        },
+        {
+          "route": "/projects-7/",
+          "waves": 0,
+          "titleTop": 164,
+          "headerHeight": 124,
+          "overflow": 0
+        },
+        {
+          "route": "/opportunities/",
+          "waves": 0,
+          "titleTop": 157,
+          "headerHeight": 124,
+          "overflow": 0
+        },
+        {
+          "route": "/publications/",
+          "waves": 0,
+          "titleTop": 152,
+          "headerHeight": 124,
+          "overflow": 0
+        }
+      ]
+    },
+    {
+      "home": {
+        "width": 390,
+        "headerHeight": 76,
+        "waveHeight": 120,
+        "mainTop": 196,
+        "newsTop": 330.5625,
+        "overflow": 0,
+        "brandBottom": 64,
+        "navTop": 0
+      },
+      "opacities": [
+        1,
+        0.844,
+        0.5,
+        0.156,
+        0,
+        1
+      ],
+      "innerPages": [
+        {
+          "route": "/team/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/s-projects-basic/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/older-news/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/projects-7/",
+          "waves": 0,
+          "titleTop": 112,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/opportunities/",
+          "waves": 0,
+          "titleTop": 105,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/publications/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        }
+      ]
+    },
+    {
+      "home": {
+        "width": 320,
+        "headerHeight": 76,
+        "waveHeight": 120,
+        "mainTop": 196,
+        "newsTop": 330.5625,
+        "overflow": 0,
+        "brandBottom": 64,
+        "navTop": 0
+      },
+      "opacities": [
+        1,
+        0.844,
+        0.5,
+        0.156,
+        0,
+        1
+      ],
+      "innerPages": [
+        {
+          "route": "/team/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/s-projects-basic/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/older-news/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/projects-7/",
+          "waves": 0,
+          "titleTop": 112,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/opportunities/",
+          "waves": 0,
+          "titleTop": 105,
+          "headerHeight": 76,
+          "overflow": 0
+        },
+        {
+          "route": "/publications/",
+          "waves": 0,
+          "titleTop": 100,
+          "headerHeight": 76,
+          "overflow": 0
+        }
+      ]
+    }
+  ],
+  "reducedMotion": "static wave; live preference changes respected",
+  "noJavaScript": "static homepage wave; content visible"
+}

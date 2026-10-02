@@ -110,7 +110,8 @@ h3 {
 .header-inner {
   width: 92%;
   margin: auto;
-  min-height: 181px;
+  min-height: 104px;
+  padding: 12px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,8 +129,8 @@ h3 {
   letter-spacing: 0.3px;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
 }
 nav {
@@ -154,12 +155,16 @@ nav a:hover {
   display: none;
 }
 .hero {
-  height: 320px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   isolation: isolate;
   mask: url("/assets/wave-mask.svg") center/100% 100% no-repeat;
   background: #000;
+}
+.hero-fade {
+  opacity: var(--hero-opacity, 1);
+  mask-image: linear-gradient(to bottom, #000 70%, transparent);
 }
 .hero-base {
   width: 100%;
@@ -706,8 +711,8 @@ a.publication-highlight:hover span {
     font-size: 22px;
   }
   .logo {
-    width: 85px;
-    height: 85px;
+    width: 64px;
+    height: 64px;
   }
   .pi {
     gap: 38px;
@@ -716,25 +721,25 @@ a.publication-highlight:hover span {
 }
 @media (max-width: 1000px) {
   .header-inner {
-    min-height: 145px;
+    min-height: 124px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    padding: 16px 0 22px;
+    padding: 12px 0;
   }
   .brand {
     flex-basis: 100%;
     justify-content: center;
   }
   .logo {
-    width: 68px;
-    height: 68px;
+    width: 58px;
+    height: 58px;
   }
   nav {
     gap: 28px;
   }
   .hero {
-    height: 260px;
+    height: 180px;
   }
   .container {
     width: 86%;
@@ -784,10 +789,10 @@ a.publication-highlight:hover span {
     font-size: 34px;
   }
   .header-inner {
-    min-height: 116px;
+    min-height: 76px;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 10px 0;
     gap: 10px;
     width: 92%;
   }
@@ -797,8 +802,8 @@ a.publication-highlight:hover span {
     letter-spacing: 0;
   }
   .logo {
-    width: 50px;
-    height: 60px;
+    width: 44px;
+    height: 52px;
   }
   .menu-toggle {
     display: flex;
@@ -832,7 +837,7 @@ a.publication-highlight:hover span {
     font-size: 16px;
   }
   .hero {
-    height: 180px;
+    height: 120px;
   }
   .hero-base {
     object-fit: cover;
@@ -1026,7 +1031,7 @@ a.publication-highlight:hover span {
 }
 
 .hero-shell {
-  background: linear-gradient(var(--pale) 50%, white 50%);
+  background: linear-gradient(var(--pale), white 75%);
 }
 .opening {
   font-family: AvenirHeavy, sans-serif;
@@ -1034,9 +1039,6 @@ a.publication-highlight:hover span {
 .brand {
   font-size: 25px;
   letter-spacing: 1.25px;
-}
-.header-inner {
-  padding-top: 20px;
 }
 @media (max-width: 1200px) {
   .brand {
@@ -1046,11 +1048,8 @@ a.publication-highlight:hover span {
 }
 @media (max-width: 600px) {
   .brand {
-    font-size: 20px;
+    font-size: clamp(17px, 5.1vw, 20px);
     letter-spacing: 0;
-  }
-  .header-inner {
-    padding-top: 20px;
   }
 }
 

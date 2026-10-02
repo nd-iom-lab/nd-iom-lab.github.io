@@ -26,6 +26,27 @@ document.addEventListener("keydown", (event) => {
 nav.addEventListener("click", (event) => {
   if (event.target.closest("a")) closeMenu();
 });
+const homeHero = document.querySelector(".hero-fade");
+if (homeHero) {
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let pendingFrame = false;
+  const updateHero = () => {
+    const progress = Math.min(1, Math.max(0, window.scrollY) / 200);
+    const opacity = reducedMotion.matches ? 1 : 1 - progress * progress * (3 - 2 * progress);
+    homeHero.style.setProperty("--hero-opacity", opacity.toFixed(3));
+    pendingFrame = false;
+  };
+  const requestUpdate = () => {
+    if (!pendingFrame) {
+      pendingFrame = true;
+      window.requestAnimationFrame(updateHero);
+    }
+  };
+  window.addEventListener("scroll", requestUpdate, { passive: true });
+  window.addEventListener("pageshow", requestUpdate);
+  reducedMotion.addEventListener("change", requestUpdate);
+  updateHero();
+}
 const gallery = document.querySelector(".gallery");
 if (gallery) {
   const slides = [...gallery.querySelectorAll("figure")];

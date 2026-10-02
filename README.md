@@ -30,7 +30,7 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 - `content/teaching.json`, `content/opportunities.json`: their respective content.
 - `content/archive.json`: the old hidden `/publications/` page, retained for existing links.
 - `src/styles.css`: desktop design and mobile/tablet layout rules.
-- `src/site.js`: mobile menu, research gallery controls, rolling news lists and publication image viewer.
+- `src/site.js`: mobile menu, homepage wave fade, research gallery controls, rolling news lists and publication image viewer.
 - `scripts/build.mjs`: semantic static HTML templates.
 - `public/assets/`: local images and fonts. Add new images here; reference them as `/assets/filename.webp`.
 
@@ -98,7 +98,9 @@ HTML fields are trusted lab-maintained source, not submitted by website visitors
 
 ## Responsive behavior
 
-Desktop retains the pale header, original typography, five-image wave strip, centered content, circular portraits and publication rows with images on the left, text on the right and alternating pale backgrounds. Tablet layouts wrap navigation and use three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
+The compact shared header retains the pale background, logo and navigation. The five-image wave appears only on the homepage: 200 px on desktop, 180 px on tablet and 120 px on mobile. Its lower edge blends into the background, and opacity eases from full visibility to zero across the first 200 px of scrolling, without changing its height or moving content within the document. Scrolling back up restores it; reduced-motion users and browsers without JavaScript get a static wave. Inner pages begin directly below the navigation.
+
+Desktop retains the original typography, centered content, circular portraits and publication rows with images on the left, text on the right and alternating pale backgrounds. Tablet layouts wrap navigation and use three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
 
 ## Migration record
 
