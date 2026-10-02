@@ -32,14 +32,16 @@ function home() {
   const h = read("home");
   return `<div class="container home"><div class="opening rich">${h.openingHtml}</div><section class="news"><h1 class="news-title">Recent News:</h1><ul>${h.news.map((n) => n.html).join("")}</ul></section><a class="outline-link" href="#older-news">Older News</a><section class="vision">${img(h.visionImage)}<div class="vision-text rich">${h.visionHtml}</div></section><section class="research"><h2>${esc(h.researchTitle)}</h2><div class="rich">${h.researchHtml}</div></section><section class="gallery" aria-label="Research photos"><div class="slides">${h.gallery.map((i, n) => `<figure${n ? " hidden" : ""}>${img(i, "", n === 0)}</figure>`).join("")}</div><div class="gallery-controls"><button data-gallery="previous" aria-label="Previous research photo">‹</button><span class="gallery-count" aria-live="polite">1 / ${h.gallery.length}</span><button data-gallery="next" aria-label="Next research photo">›</button></div></section><section id="older-news" class="older-news"><h2>Older News</h2><div class="rich">${h.olderNewsHtml}</div></section>${img(h.affiliations, "affiliations")}</div>`;
 }
-// Justify each original three-photo row using natural aspect ratios.
+// Justify rows using natural aspect ratios, avoiding a single-photo final row.
 // Equal row heights and aligned outer edges without cropping or stretching.
 function groupPhotoRows(group) {
   const rows = [];
   const columns = images => images.map(image => `minmax(0, ${Number(image.width) / Number(image.height)}fr)`).join(" ");
-  for (let offset = 0; offset < group.images.length; offset += 3) {
-    const images = group.images.slice(offset, offset + 3);
+  for (let offset = 0; offset < group.images.length;) {
+    const count = group.images.length - offset === 4 ? 2 : 3;
+    const images = group.images.slice(offset, offset + count);
     rows.push(`<div class="group-photo-row" style="--photo-columns:${columns(images)};--photo-mobile-columns:${columns(images.slice(0, 2))}">${images.map(i => img(i)).join("")}</div>`);
+    offset += images.length;
   }
   return rows.join("");
 }

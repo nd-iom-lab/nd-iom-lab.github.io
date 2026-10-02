@@ -1,0 +1,56 @@
+[
+  {
+    "viewportWidth": 1440,
+    "overflow": 0,
+    "memberCount": 12,
+    "memberAfterMingqiWang": "Priscilla Chau",
+    "role": "Research Assistant",
+    "priscillaInAlumni": false,
+    "photoRowCounts": [
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "first2026Photo": "/assets/nature-electronics-cover-2026.webp",
+    "aspectRatiosPreserved": true,
+    "desktopRowsAligned": true
+  },
+  {
+    "viewportWidth": 768,
+    "overflow": 0,
+    "memberCount": 12,
+    "memberAfterMingqiWang": "Priscilla Chau",
+    "role": "Research Assistant",
+    "priscillaInAlumni": false,
+    "photoRowCounts": [
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "first2026Photo": "/assets/nature-electronics-cover-2026.webp",
+    "aspectRatiosPreserved": true,
+    "desktopRowsAligned": true
+  },
+  {
+    "viewportWidth": 390,
+    "overflow": 0,
+    "memberCount": 12,
+    "memberAfterMingqiWang": "Priscilla Chau",
+    "role": "Research Assistant",
+    "priscillaInAlumni": false,
+    "photoRowCounts": [
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "first2026Photo": "/assets/nature-electronics-cover-2026.webp",
+    "aspectRatiosPreserved": true,
+    "desktopRowsAligned": null
+  }
+]

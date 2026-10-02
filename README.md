@@ -51,7 +51,7 @@ Add an object to `members` in `content/team.json` and place the portrait in `pub
 
 The grid lays out new members automatically; no position/height edits are required.
 
-Group photos retain complete images with their natural aspect ratios. The original three-image rows are justified using each image’s `width` and `height` (its natural pixel dimensions). This aligns both row heights and outer edges without cropping. Include those dimensions when adding group photos; do not apply a fixed height or `object-fit: cover` to this section.
+Group photos retain complete images with their natural aspect ratios. Rows normally contain three images; a final group of four is split into two rows of two to avoid an oversized single-photo row. Each row is justified using the images’ `width` and `height` (their natural pixel dimensions), aligning row heights and outer edges without cropping. Include those dimensions when adding group photos; do not apply a fixed height or `object-fit: cover` to this section. On mobile, rows of two stay paired and the third image of a three-image row spans the full width.
 
 ### Add a publication/project
 
@@ -121,4 +121,3 @@ The Pages custom domain is `www.internetofmatter.org`. DNS remains managed by Wi
 The previous A/CNAME values are recorded in `deployment/dns-before.json`. To restore the Wix website, restore those records in Wix DNS and remove the fourth GitHub A record. Allow DNS caches to refresh. Keep the Wix site and plan available until the migration has been stable; no Wix site or subscription was deleted or cancelled.
 
 To undo a website content change while keeping GitHub Pages, revert its Git commit and push to `main`.
-

@@ -75,6 +75,15 @@
       }
     },
     {
+      "name": "Priscilla Chau",
+      "roleHtml": "<p style=\"font-size:20px\">Research Assistant</p>",
+      "url": null,
+      "portrait": {
+        "src": "/assets/priscilla-chau.webp",
+        "alt": "Priscilla Chau"
+      }
+    },
+    {
       "name": "Jiayi Hao",
       "roleHtml": "<p style=\"font-size:20px\">iSURE visiting student</p>",
       "url": null,
@@ -138,11 +147,17 @@
       }
     }
   ],
-  "alumniHtml": "<p style=\"font-size:24px\"><span style=\"font-size:24px\"><span style=\"font-weight:bold\">Alumni</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\"><span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Cody Chun</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Eric Durazno</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Priscilla Chau</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"></span></span><span style=\"font-weight:bold\"><span style=\"font-size:22px\">Qingyu Fang</span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">, iSURE, next stop UW HCDE</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Jingyi Liu</span>, iSURE, next stop Xi'an Jiaotong University</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zilang Cheng</span>, iSURE, next stop UPenn</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Linrui Shou</span>, iSURE, next stop CMU</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zhechen (Leon) Zhao</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant,</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"> next stop UChicago</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Wenjia Xu</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant, </span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">next stop Georgia Tech</span></span></p>",
+  "alumniHtml": "<p style=\"font-size:24px\"><span style=\"font-size:24px\"><span style=\"font-weight:bold\">Alumni</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\"><span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Cody Chun</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Eric Durazno</span>, ND undergraduate</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"></span></span><span style=\"font-weight:bold\"><span style=\"font-size:22px\">Qingyu Fang</span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">, iSURE, next stop UW HCDE</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Jingyi Liu</span>, iSURE, next stop Xi'an Jiaotong University</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zilang Cheng</span>, iSURE, next stop UPenn</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Linrui Shou</span>, iSURE, next stop CMU</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Zhechen (Leon) Zhao</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant,</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\"> next stop UChicago</span></span></p>\n\n<p style=\"font-size:22px\"><span style=\"font-weight:normal\"><span style=\"font-size:22px\"><span style=\"font-weight:bold\">Wenjia Xu</span>, </span></span><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:400\"><span style=\"font-size:20px\">Research assistant, </span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-size:22px\">next stop Georgia Tech</span></span></p>",
   "groupPhotos": [
     {
       "year": "2026",
       "images": [
+        {
+          "src": "/assets/nature-electronics-cover-2026.webp",
+          "alt": "Nature Electronics cover, July 2026",
+          "width": 1355,
+          "height": 1800
+        },
         {
           "src": "/assets/37ae98_c3f317e41e3f421db3c9b1f274575244~mv2.webp",
           "alt": "Lab group photo, 2026",
@@ -160,6 +175,24 @@
           "alt": "Lab group photo, 2026",
           "width": 1800,
           "height": 1149
+        },
+        {
+          "src": "/assets/iros-2026-poster-discussion.webp",
+          "alt": "Poster discussion at IROS 2026",
+          "width": 1279,
+          "height": 1706
+        },
+        {
+          "src": "/assets/iros-2026-robotic-hand.webp",
+          "alt": "Robotic hand demonstration at IROS 2026",
+          "width": 1279,
+          "height": 1706
+        },
+        {
+          "src": "/assets/lab-conversation-2026.webp",
+          "alt": "Research discussion in the lab, 2026",
+          "width": 810,
+          "height": 540
         }
       ]
     },

@@ -772,7 +772,7 @@ nav a:hover {
   .group-photo-row {
     grid-template-columns: var(--photo-mobile-columns);
   }
-  .group-photo-row img:last-child {
+  .group-photo-row img:last-child:nth-child(odd) {
     grid-column: 1/-1;
   }
   .project {
