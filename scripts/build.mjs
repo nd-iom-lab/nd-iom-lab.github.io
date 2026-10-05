@@ -70,7 +70,8 @@ function publications() {
   const years = [...new Set(papers.map(paper => paper.date.slice(0, 4)))];
   const thumbnail = image => {
     const { widthPercent, ...picture } = image;
-    return `<a class="publication-image" href="${esc(image.src)}" aria-label="Enlarge image: ${esc(image.alt)}">${img(picture)}</a>`;
+    const styles = [image.cropAspectRatio ? `--publication-crop-ratio:${Number(image.cropAspectRatio)}` : "", image.maxHeight ? `--publication-image-max-height:${Number(image.maxHeight)}px` : ""].filter(Boolean).join(";");
+    return `<a class="publication-image"${image.cropAspectRatio ? ' data-crop="top"' : ""}${styles ? ` style="${styles}"` : ""} href="${esc(image.src)}" aria-label="Enlarge image: ${esc(image.alt)}">${img(picture)}</a>`;
   };
   const icon = label => {
     const type = /pdf/i.test(label) ? "pdf" : /code|source/i.test(label) ? "code" : /video/i.test(label) ? "video" : /doi/i.test(label) ? "link" : "page";

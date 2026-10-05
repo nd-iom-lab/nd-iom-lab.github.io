@@ -166,9 +166,6 @@
         "label": "PDF"
       }
     ],
-    "resourceLabels": [
-      "Project Page"
-    ],
     "themes": [
       "sensing",
       "multimodal",
@@ -256,12 +253,13 @@
     "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2025",
     "links": [
       {
+        "label": "PDF",
+        "url": "https://ubicomplab.cs.washington.edu/pdfs/Zhihan_LivingSustain_IMWUT2025.pdf"
+      },
+      {
         "label": "DOI",
         "url": "https://dl.acm.org/doi/abs/10.1145/3749488"
       }
-    ],
-    "resourceLabels": [
-      "PDF"
     ],
     "imageShare": 30,
     "themes": [
@@ -275,7 +273,8 @@
     "images": [
       {
         "src": "/assets/37ae98_d43008b0540349be94b458f14a86ff9b~mv2.webp",
-        "alt": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens"
+        "alt": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
+        "maxHeight": 220
       }
     ],
     "date": "2025-06-16",
@@ -414,7 +413,8 @@
     "images": [
       {
         "src": "/assets/37ae98_be1dce2d707b4c2f9680ee4a790b5f6a~mv2.webp",
-        "alt": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application"
+        "alt": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
+        "cropAspectRatio": 1.3333333333333333
       }
     ],
     "date": "2023-04-19",
@@ -454,13 +454,7 @@
     "images": [
       {
         "src": "/assets/37ae98_aba81928ee9748e0a8b0dfff74364a31~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing",
-        "widthPercent": 56
-      },
-      {
-        "src": "/assets/37ae98_9efe64ac3f4f4240964ac5922d91911c~mv2.webp",
-        "alt": "Flexible computational photodetectors for self-powered activity sensing",
-        "widthPercent": 44
+        "alt": "Flexible computational photodetectors for self-powered activity sensing"
       }
     ],
     "date": "2022-01-22",
