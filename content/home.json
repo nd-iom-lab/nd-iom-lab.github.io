@@ -3,8 +3,8 @@
   "news": [
     {
       "date": "2026-08-13",
-      "html": "<li><p>08/13/2026 We welcomed Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p></li>",
-      "title": "Gregory Abowd visits the lab",
+      "html": "<li><p>08/13/2026 We welcomed Prof. Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p></li>",
+      "title": "Gregory visits the lab!",
       "category": "Events",
       "image": {
         "src": "/assets/lab-conversation-2026.webp",
@@ -12,7 +12,7 @@
         "width": 810,
         "height": 540
       },
-      "bodyHtml": "<p>We welcomed Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p>"
+      "bodyHtml": "<p>We welcomed Prof. Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p>"
     },
     {
       "date": "2026-06-15",
