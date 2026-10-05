@@ -99,7 +99,13 @@ function publications() {
 }
 function teaching() {
   const t = read("teaching");
-  return `<div class="container teaching"><h1>${esc(t.title)}</h1><div class="rich">${t.bodyHtml}</div><div class="photo-grid teaching-photos">${t.photos.map((i) => img(i)).join("")}</div></div>`;
+  const label = (c) => `${esc(c.code)} ${esc(c.name)} (${esc(c.semester)})`;
+  const photo = (i) => `<figure>${img(i)}${i.caption ? `<figcaption>${esc(i.caption)}</figcaption>` : ""}</figure>`;
+  const photos = (c) => c.photoLayout === "collage"
+    ? `<div class="teaching-collage">${[c.photos.slice(0, 2), c.photos.slice(2)].filter(row => row.length).map(row => `<div class="teaching-photo-row">${row.map(i => `<figure style="flex:${Number(i.width) / Number(i.height)}">${img(i)}</figure>`).join("")}</div>`).join("")}</div>`
+    : `<div class="photo-grid teaching-photos">${c.photos.map(photo).join("")}</div>`;
+  const sections = t.courses.filter(c => c.id).map(c => `<section class="teaching-course" id="${esc(c.id)}" aria-labelledby="${esc(c.id)}-title"><h2 id="${esc(c.id)}-title">${label(c)}</h2><div class="rich">${c.bodyHtml}</div>${photos(c)}</section>`).join("");
+  return `<div class="container teaching"><h1>Teaching</h1><div class="course-index" role="navigation" aria-label="Courses by semester"><ul>${t.courses.map(c => `<li>${c.id ? `<a href="#${esc(c.id)}">${label(c)}</a>` : `<span>${label(c)}</span>`}</li>`).join("")}</ul></div>${sections}</div>`;
 }
 function opportunities() {
   const o = read("opportunities");

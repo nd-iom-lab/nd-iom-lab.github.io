@@ -676,13 +676,29 @@ a.publication-highlight:hover span {
   color: var(--purple);
 }
 .teaching h1 {
-  font-size: 27px;
-  font-weight: 400;
-  margin: 12px 0 25px;
+  margin: 0 0 25px;
 }
 .teaching .rich {
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.course-index { margin: 0 0 48px; font-size: 16px; line-height: 1.8; }
+.course-index ul { list-style: none; margin: 0; padding: 0; }
+.course-index li + li { margin-top: 8px; }
+.course-index a { color: var(--purple); text-underline-offset: 4px; }
+.teaching-course { scroll-margin-top: 110px; }
+.teaching-course + .teaching-course { margin-top: 64px; padding-top: 40px; border-top: 1px solid #ddd; }
+.teaching-course h2 { font-size: 27px; font-weight: 400; margin: 0 0 24px; line-height: 1.4; }
+.teaching-photos figure { margin: 0; grid-column: span 2; }
+.teaching-photos figure:nth-child(-n + 2) { grid-column: span 3; }
+.teaching-photos figcaption { font-size: 14px; margin-top: 8px; color: #555; }
+.teaching-collage { margin-top: 35px; display: grid; gap: 10px; }
+.teaching-photo-row { display: flex; gap: 10px; align-items: start; }
+.teaching-photo-row figure { margin: 0; min-width: 0; flex-basis: 0; }
+.teaching-photo-row img { width: 100%; height: auto; }
+.teaching-photos figure img {
+  height: auto;
+  display: block;
 }
 .teaching-photos {
   grid-template-columns: repeat(6, 1fr);
@@ -1040,9 +1056,6 @@ a.publication-highlight:hover span {
   .news-archive-list span {
     font-size: 16px !important;
   }
-  .teaching h1 {
-    font-size: 25px;
-  }
   .teaching-photos {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1055,6 +1068,13 @@ a.publication-highlight:hover span {
     grid-column: 1/-1;
     height: auto;
   }
+  .teaching-course h2 { font-size: 22px; }
+  .course-index { font-size: 14px; margin-bottom: 36px; }
+  .teaching-photos figure,
+  .teaching-photos figure:nth-child(-n + 2) { grid-column: auto; }
+  .teaching-photos figure:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .teaching-photos figure img { height: auto; }
+  .teaching-collage, .teaching-photo-row { gap: 6px; }
   .campus-photos {
     grid-template-columns: 1fr 1fr;
   }
