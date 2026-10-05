@@ -8,7 +8,7 @@ import {
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import path from "node:path";
-import { partitionNews } from "../src/news-window.mjs";
+import { partitionNews, renderNewsCard } from "../src/news-window.mjs";
 export const root = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -29,8 +29,11 @@ let pageStyles = "";
 let pageScript = "";
 const img = (i, cls = "", eager = false) =>
   `<img src="${esc(i.src)}" alt="${esc(i.alt)}" class="${cls}"${i.width && i.height ? ` width="${Number(i.width)}" height="${Number(i.height)}"` : ""} loading="${eager ? "eager" : "lazy"}" decoding="async"${i.widthPercent ? ` style="width:${Number(i.widthPercent)}%"` : ""}>`;
-const homeHero = () =>
-  `<div class="hero-shell"><div class="hero" role="img" aria-label="Soft robotic gripper, printed circuits, paper flower, illuminated tree circuits and printed electronics"><img class="hero-base" src="${site.hero.src}" alt="" fetchpriority="high"><svg class="hero-panel robot" viewBox="0 650 660 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.hero.src}" width="3341" height="2222"/></svg><svg class="hero-panel tree" viewBox="790 430 920 880" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.tree.src}" width="2500" height="1667"/></svg></div></div>`;
+const homeHero = () => {
+  // Two identical sets make the moving photo strip wrap without a visual jump.
+  const photos = `<img class="hero-base" src="${site.hero.src}" alt="" width="3341" height="2222" fetchpriority="high"><svg class="hero-panel robot" viewBox="0 650 660 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.hero.src}" width="3341" height="2222"/></svg><svg class="hero-panel tree" viewBox="790 430 920 880" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="${site.tree.src}" width="2500" height="1667"/></svg>`;
+  return `<section class="hero-shell" aria-label="Research highlights"><div class="hero" role="img" aria-label="Soft robotic gripper, printed circuits, paper flower, illuminated tree circuits and printed electronics"><div class="hero-track" aria-hidden="true"><div class="hero-set">${photos}</div><div class="hero-set">${photos}</div></div></div><div class="hero-cues"><a class="hero-scroll" href="#main" aria-label="Scroll down to explore the lab"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16 5v21M7 17l9 9 9-9"/></svg></a><button class="hero-motion" type="button" aria-label="Pause photo animation" aria-pressed="false" hidden><svg class="motion-pause" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M7 5v10M13 5v10"/></svg><svg class="motion-play" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m7 4 9 6-9 6Z"/></svg></button></div></section>`;
+};
 const header = (current) =>
   `<header class="site-header${current === "/" ? " home-header" : ""}"><div class="header-inner"><a href="/" class="brand">${img(site.logo, "logo", true)}<span>${esc(site.name)}</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav id="site-nav" aria-label="Main navigation">${site.navigation.map((n) => `<a href="${n.path}"${n.path === current ? ' aria-current="page"' : ""}>${esc(n.label)}</a>`).join("")}</nav></div></header>${current === "/" ? homeHero() : ""}`;
 const document = (title, route, body) =>
@@ -41,7 +44,8 @@ function home() {
 }
 function allNews() {
   const entries = partitionNews(read("home").news).all;
-  return `<div class="container news-archive"><h1>News</h1><ul class="news-archive-list rich" data-news-list="all" data-news-src="/${assetFiles.news}">${entries.map(entry => entry.html).join("")}</ul></div>`;
+  const categories = ["All", "Research", "Awards", "Events"];
+  return `<div class="container news-archive"><div class="news-archive-heading"><h1>News</h1></div><div class="news-toolbar"><div class="news-filters" role="group" aria-label="Filter news" hidden>${categories.map(category => `<button type="button" data-news-filter="${esc(category)}" aria-pressed="${category === "All"}">${esc(category)}</button>`).join("")}</div></div><ul class="news-wall" data-news-list="all" data-news-src="/${assetFiles.news}">${entries.map(renderNewsCard).join("")}</ul><p class="news-archive-end">More from the lab <a href="/team/">Meet the team <span aria-hidden="true">↗</span></a></p><dialog class="publication-lightbox" aria-label="News image viewer"><button type="button" class="lightbox-close" aria-label="Close enlarged image" autofocus>×</button><img class="lightbox-image" alt=""></dialog></div>`;
 }
 // Justify rows using natural aspect ratios, avoiding a single-photo final row.
 // Equal row heights and aligned outer edges without cropping or stretching.
@@ -99,7 +103,13 @@ function publications() {
 }
 function teaching() {
   const t = read("teaching");
-  return `<div class="container teaching"><h1>${esc(t.title)}</h1><div class="rich">${t.bodyHtml}</div><div class="photo-grid teaching-photos">${t.photos.map((i) => img(i)).join("")}</div></div>`;
+  const label = (c) => `${esc(c.code)} ${esc(c.name)} (${esc(c.semester)})`;
+  const photo = (i) => `<figure>${img(i)}${i.caption ? `<figcaption>${esc(i.caption)}</figcaption>` : ""}</figure>`;
+  const photos = (c) => c.photoLayout === "collage"
+    ? `<div class="teaching-collage">${[c.photos.slice(0, 2), c.photos.slice(2)].filter(row => row.length).map(row => `<div class="teaching-photo-row">${row.map(i => `<figure style="flex:${Number(i.width) / Number(i.height)}">${img(i)}</figure>`).join("")}</div>`).join("")}</div>`
+    : `<div class="photo-grid teaching-photos">${c.photos.map(photo).join("")}</div>`;
+  const sections = t.courses.filter(c => c.id).map(c => `<section class="teaching-course" id="${esc(c.id)}" aria-labelledby="${esc(c.id)}-title"><h2 id="${esc(c.id)}-title">${label(c)}</h2><div class="rich">${c.bodyHtml}</div>${photos(c)}</section>`).join("");
+  return `<div class="container teaching"><h1>Teaching</h1><div class="course-index" role="navigation" aria-label="Courses by semester"><ul>${t.courses.map(c => `<li>${c.id ? `<a href="#${esc(c.id)}">${label(c)}</a>` : `<span>${label(c)}</span>`}</li>`).join("")}</ul></div>${sections}</div>`;
 }
 function opportunities() {
   const o = read("opportunities");

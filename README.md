@@ -27,7 +27,9 @@ The preview server listens on the local network as well, so a phone/iPad on the 
 - `content/team.json`: PI, members, alumni text and group photos.
 - `content/publications.json`: publication/project entries with dates for chronological ordering.
 - `content/home.json`: opening, news, vision, research text, gallery and affiliations.
-- `content/teaching.json`, `content/opportunities.json`: their respective content.
+- `content/home-research-sources.json`: Source records for the homepage vision text and device life-cycle image.
+- `content/teaching.json`: reverse chronological `courses`; entries with an `id` render an in-page link and a course section with description, photos, and optional student projects. Entries without an `id` appear as plain text in the course list.
+- `content/opportunities.json`: opportunities content.
 - `content/archive.json`: the old hidden `/publications/` page, retained for existing links.
 - `src/styles.css`: desktop design and mobile/tablet layout rules.
 - `src/site.js`: mobile menu, publication theme filters, research gallery controls, rolling news lists and publication image viewer.
@@ -39,6 +41,8 @@ Browser tab icons use the transparent vector `public/assets/lab-favicon.svg` wit
 Each generated page embeds the complete stylesheet and runs its JavaScript after the page content. This keeps cached HTML and its presentation/behavior together, preventing an unstyled page when a deployment replaces external asset versions. Exact historical `styles-*.css` and `site-*.js` files in `public/`, plus the stable `styles.css` and `site.js` build outputs, support previously cached pages; retain these compatibility files. `npm run check` verifies embedded assets and historical file hashes. Projects & Publications groups entries by year, newest first, without year filter buttons. The Full Publication List offers All, Sensing & Interactions, Multimodal, Robotics and Sustainability filters; entries may match several themes. Empty year groups are hidden for the selected filter; without JavaScript the full list is displayed. Paper titles are bold and colored; authors are plain text, followed by a bold venue, awards/media coverage and icon resource buttons. Images always sit to the left of the text on desktop/tablet, at natural proportions and variable sizes, and open a dismissible image viewer. Entries remain readable when JavaScript is disabled; thumbnail links then open the image directly.
 
 No Wix account, Wix editor, computer use, CMS or external API is needed to edit/build this version. Existing external paper, project, personal-site and recruitment-form links retain their original destinations.
+
+The homepage retains its original layout and research-focus text. The original overview image was replaced with the horizontal device life-cycle figure from slides 16/50 of the supplied `Research copy.key`, without added headings or captions. The paragraph below the image uses the user's supplied text. Vision and research-focus body copy share Avenir at 18 px on desktop/tablet and 17 px on mobile; the research section retains its heading and original bold emphasis. Sources are recorded in `content/home-research-sources.json`.
 
 ### Add a team member
 
@@ -85,12 +89,23 @@ The ISO `date` controls year grouping and chronological order and is not display
 
 Keep all news in `news` in `content/home.json`, using ISO dates. The homepage shows only the five newest published news entries. More News links to `/news/`, which contains all published news in newest-first order, including the five shown on Home. News appears immediately after Home, followed by Team and Projects & Publications in the navigation. `/older-news/` remains available as an alias for existing links. The shared `src/news-window.mjs` helper uses the lab’s Indianapolis timezone to exclude future entries. Both the build and browser use the same selection logic; the static list remains readable if the news feed is unavailable or JavaScript is disabled.
 
-The `html` field contains the complete list item including the visible date; update both `date` and that visible date together.
+The News page uses a photo wall: three columns on desktop, two on tablet and one on mobile. Every entry has a photo at its natural proportions, a short title, a date and clean body copy. Research, Awards and Events filters keep the archive easy to browse. Images open an accessible viewer; the static cards and original image links also work without JavaScript. The shared renderer in `src/news-window.mjs` keeps the build and browser feed refresh consistent. Browser layout measures card heights after image/font loads and viewport changes, preserving chronological DOM order.
+
+The `html` field is the original complete list item used on Home, including the visible date; update both `date` and that visible date together. `bodyHtml` is the same announcement for the photo wall, with the date and inline font/size/color styles removed. Keep its links and facts intact. Add all fields below for each new entry. Use one of the three categories above (or an empty string for updates shown only in All), meaningful image alt text, and the image's actual pixel dimensions. Preserve full certificates and covers. Use the corresponding paper teaser from Publications, project photographs, workshop artwork or the official research-topic cover. Only use an official organization logo with `image.kind: "logo"` for affiliation or service updates when no corresponding photograph is available. Optional `image.label` identifies a venue when using its publisher logo. Record externally sourced photos in `content/news-image-sources.json`. Community and service updates stay in News with an empty `category`, so they appear only in All. The IROS card uses `image.crop: "poster-discussion"` to trim ceiling and floor in its thumbnail; the viewer opens the full original photo.
 
 ```json
 {
   "date": "2026-10-01",
-  "html": "<li><p>10/01/2026 Our paper was accepted to <strong>Conference 2026</strong>.</p></li>"
+  "html": "<li><p>10/01/2026 Our paper was accepted to <strong>Conference 2026</strong>.</p></li>",
+  "title": "New work at Conference 2026",
+  "category": "Research",
+  "bodyHtml": "<p>Our paper was accepted to <strong>Conference 2026</strong>.</p>",
+  "image": {
+    "src": "/assets/conference-2026.webp",
+    "alt": "Lab members presenting their research",
+    "width": 1200,
+    "height": 800
+  }
 }
 ```
 
@@ -98,7 +113,7 @@ HTML fields are trusted lab-maintained source, not submitted by website visitors
 
 ## Responsive behavior
 
-The shared header stays at the top while scrolling, with an 80 px desktop bar, 72 px tablet bar and 64 px mobile bar (plus a 1 px divider). Tablet and mobile use a dropdown menu. The original five-image wave appears only on the homepage: 320 px on desktop, 260 px on tablet and 180 px on mobile, with its original clear wave edges and no scroll fade. Inner pages begin directly below the navigation.
+The shared header stays at the top while scrolling, with an 80 px desktop bar, 72 px tablet bar and 64 px mobile bar (plus a 1 px divider). Tablet and mobile use a dropdown menu. The original five-image wave appears only on the homepage, with space below the navigation and a larger, viewport-scaled height: 360–560 px on desktop, 320–480 px on tablet and 270–400 px on mobile. Two identical photo sets move seamlessly through the stationary wave mask in a 58-second loop. A slowly pulsing down arrow links to the main content; the small pause/resume control below the photos stops the strip. Motion pauses offscreen and in background tabs. Reduced-motion preferences and disabled JavaScript show a static strip. Inner pages begin directly below the navigation.
 
 Desktop retains the original typography, centered content, circular portraits and publication rows with images on the left, text on the right and alternating pale backgrounds. Tablet layouts use a compact menu and three member columns. Mobile has a collapsible menu, two member columns and compact publication thumbnails beside titles, with authors and resources using the full available width below. The same content is statically rendered at every size; there are no separate mobile page copies.
 

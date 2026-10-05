@@ -1,0 +1,28 @@
+{
+  "source": "Research copy.key",
+  "reviewedOn": "2026-10-05",
+  "copy": [
+    {
+      "field": "visionHtml",
+      "source": "Exact text supplied by the user on October 5, 2026."
+    },
+    {
+      "field": "researchHtml",
+      "source": "Original homepage text, preserved with semantic bold emphasis and no inline typography."
+    }
+  ],
+  "images": [
+    {
+      "asset": "/assets/research-device-lifecycle.webp",
+      "slides": [
+        16,
+        50
+      ],
+      "sourceDimensions": [
+        2059,
+        764
+      ],
+      "note": "Original embedded horizontal lifecycle figure; converted to WebP without cropping or changing its content. Used in the original homepage image position without added headings or captions."
+    }
+  ]
+}

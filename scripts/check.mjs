@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { build, root } from "./build.mjs";
-import { partitionNews, labNewsDate } from "../src/news-window.mjs";
+import { partitionNews, labNewsDate, renderNewsCard } from "../src/news-window.mjs";
 build();
 const dist = path.join(root, "dist");
 function files(dir) {
@@ -71,8 +71,12 @@ assert.equal(t.pi.email, "tcheng2@nd.edu");
 const home = JSON.parse(readFileSync(path.join(root, "content/home.json")));
 assert.ok(home.news.length >= 7);
 for (const entry of home.news) {
+  assert.ok(["", "Research", "Awards", "Events"].includes(entry.category), "News uses only the three requested categories");
   assert.match(entry.date, /^\d{4}-\d{2}-\d{2}$/);
   assert.equal(new Date(entry.date).toISOString().slice(0, 10), entry.date);
+  assert.ok(entry.title && entry.bodyHtml && typeof entry.category === "string", "News has a title, copy and category");
+  assert.ok(entry.image?.src && entry.image.alt && entry.image.width > 0 && entry.image.height > 0, "Every news entry has a described image with natural dimensions");
+  assert.doesNotMatch(entry.bodyHtml, /style=|<span|\d{2}\/\d{2}\/\d{4}/, "Archive copy has no migrated styling or duplicate dates");
 }
 const testNews = ["2025-01-01", "2026-10-02", "2026-06-01", "2026-01-01", "2026-05-01", "2026-04-01", "2026-03-01", "2026-02-01"].map(date => ({ date }));
 const selected = partitionNews(testNews, "2026-10-01");
@@ -89,7 +93,11 @@ const renderedNews = (html, kind) => html.match(new RegExp(`<ul[^>]*data-news-li
 assert.equal(renderedNews(homepage, "recent"), published.recent.map(entry => entry.html).join(""));
 assert.equal(published.recent.length, 5);
 const newsPage = readFileSync(path.join(dist, "news/index.html"), "utf8");
-assert.equal(renderedNews(newsPage, "all"), published.all.map(entry => entry.html).join(""));
+assert.doesNotMatch(newsPage, /data-news-filter="Lab life"|data-category="Lab life"/);
+assert.ok(home.news.some(entry => entry.date === "2026-01-10" && entry.category === ""), "Affiliation update remains in All");
+assert.ok(home.news.some(entry => entry.date === "2025-05-28" && entry.category === ""), "Service update remains in All");
+assert.equal(renderedNews(newsPage, "all"), published.all.map(renderNewsCard).join(""));
+assert.equal((renderedNews(newsPage, "all").match(/class="news-image"/g) || []).length, published.all.length);
 assert.equal(renderedNews(readFileSync(path.join(dist, "older-news/index.html"), "utf8"), "all"), renderedNews(newsPage, "all"));
 const navigation = JSON.parse(readFileSync(path.join(root, "content/site.json"))).navigation;
 assert.deepEqual(navigation.slice(1, 4).map(item => item.path), ["/news/", "/team/", "/s-projects-basic/"]);

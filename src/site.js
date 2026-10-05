@@ -26,6 +26,33 @@ document.addEventListener("keydown", (event) => {
 nav.addEventListener("click", (event) => {
   if (event.target.closest("a")) closeMenu();
 });
+const heroShell = document.querySelector(".hero-shell");
+if (heroShell) {
+  const motionButton = heroShell.querySelector(".hero-motion");
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let paused = false;
+  let inView = true;
+  const updateMotion = () => {
+    heroShell.classList.toggle("has-motion", !reducedMotion.matches);
+    heroShell.classList.toggle("is-paused", paused || !inView || document.hidden);
+    motionButton.hidden = reducedMotion.matches;
+    motionButton.setAttribute("aria-pressed", String(paused));
+    motionButton.setAttribute("aria-label", paused ? "Resume photo animation" : "Pause photo animation");
+  };
+  motionButton.addEventListener("click", () => {
+    paused = !paused;
+    updateMotion();
+  });
+  reducedMotion.addEventListener("change", updateMotion);
+  document.addEventListener("visibilitychange", updateMotion);
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(([entry]) => {
+      inView = entry.isIntersecting;
+      updateMotion();
+    }).observe(heroShell.querySelector(".hero"));
+  }
+  updateMotion();
+}
 const publicationFilters = document.querySelector(".publication-filters");
 if (publicationFilters) {
   const buttons = [...publicationFilters.querySelectorAll("button")];
@@ -67,12 +94,62 @@ if (gallery) {
 }
 
 const newsList = document.querySelector("[data-news-list]");
+const newsWall = document.querySelector(".news-wall");
+let refreshNewsWall = () => {};
+if (newsWall) {
+  const filters = document.querySelector(".news-filters");
+  const buttons = [...filters.querySelectorAll("button")];
+  let category = "All";
+  let frame;
+  const layout = () => {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(() => {
+      const rowHeight = parseFloat(getComputedStyle(newsWall).gridAutoRows);
+      newsWall.querySelectorAll(".news-card:not([hidden])").forEach(card => {
+        const height = card.querySelector(".news-card-inner").getBoundingClientRect().height;
+        card.style.gridRowEnd = `span ${Math.ceil((height + 52) / rowHeight)}`;
+      });
+    });
+  };
+  // Natural image heights create the stagger; DOM and keyboard order stay chronological.
+  newsWall.classList.add("is-masonry");
+  const observer = new ResizeObserver(layout);
+  let width = 0;
+  new ResizeObserver(entries => {
+    const next = entries[0].contentRect.width;
+    if (next !== width) { width = next; layout(); }
+  }).observe(newsWall);
+  const applyFilter = () => {
+    newsWall.querySelectorAll(".news-card").forEach(card => {
+      card.hidden = category !== "All" && card.dataset.category !== category;
+    });
+    layout();
+  };
+  refreshNewsWall = () => {
+    observer.disconnect();
+    newsWall.querySelectorAll(".news-card-inner").forEach(card => observer.observe(card));
+    applyFilter();
+  };
+  filters.hidden = false;
+  buttons.forEach(button => button.addEventListener("click", () => {
+    category = button.dataset.newsFilter;
+    buttons.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
+    applyFilter();
+  }));
+  document.fonts.ready.then(layout);
+  window.addEventListener("resize", layout);
+  refreshNewsWall();
+}
 if (newsList) {
   fetch(newsList.dataset.newsSrc)
     .then(response => { if (!response.ok) throw new Error("News unavailable"); return response.json(); })
     .then(entries => {
       const news = partitionNews(entries)[newsList.dataset.newsList];
-      newsList.innerHTML = news.map(entry => entry.html).join("");
+      const html = newsWall ? news.map(renderNewsCard).join("") : news.map(entry => entry.html).join("");
+      if (newsList.innerHTML !== html) {
+        newsList.innerHTML = html;
+        refreshNewsWall();
+      }
     })
     .catch(() => {}); // The server-rendered list remains usable if the feed is unavailable.
 }
@@ -80,14 +157,14 @@ if (newsList) {
 const lightbox = document.querySelector(".publication-lightbox");
 if (lightbox) {
   const enlarged = lightbox.querySelector(".lightbox-image");
-  document.querySelectorAll(".publication-image").forEach(link => {
-    link.addEventListener("click", event => {
+  document.addEventListener("click", event => {
+      const link = event.target.closest(".publication-image, .news-image");
+      if (!link) return;
       event.preventDefault();
       enlarged.src = link.href;
       enlarged.alt = link.querySelector("img").alt;
       lightbox.showModal();
       document.body.classList.add("image-viewer-open");
-    });
   });
   lightbox.addEventListener("click", () => lightbox.close());
   lightbox.addEventListener("close", () => {

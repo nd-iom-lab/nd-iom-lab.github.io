@@ -1,0 +1,217 @@
+{
+  "description": "Corresponding paper teasers, project images, conference photographs, certificates and official topic/workshop covers. Organization logos are reserved for the two affiliation/service updates without a corresponding research image.",
+  "external": [
+    {
+      "src": "/assets/news-nd-ewaste.webp",
+      "url": "https://engineering.nd.edu/wp-content/uploads/2025/10/Tingyu-hero.jpg",
+      "sourcePage": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/",
+      "width": 960,
+      "height": 533
+    },
+    {
+      "src": "/assets/news-circuit2yarn.webp",
+      "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/static/images/social_preview.jpg",
+      "sourcePage": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "src": "/assets/news-logos/acm.png",
+      "url": "https://tei.acm.org/2026/img/fQb4yuVQPG-1200.png",
+      "sourcePage": "https://tei.acm.org/2026/",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/news-logos/notre-dame.png",
+      "url": "https://static.nd.edu/images/marks/blue/ndmark600.png",
+      "sourcePage": "https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/",
+      "width": 600,
+      "height": 141
+    },
+    {
+      "src": "/assets/news-soft-wearables-workshop.webp",
+      "url": "https://github.com/user-attachments/assets/a6e2b42e-51fc-4b3c-b7f3-ff6a50d3b882",
+      "sourcePage": "https://softwearables.github.io/",
+      "width": 2500,
+      "height": 416
+    },
+    {
+      "src": "/assets/news-soft-robots-topic.webp",
+      "url": "https://www.frontiersin.org/files/special%20topics/80235/thumb_400.jpg",
+      "sourcePage": "https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "src": "/assets/news-upcycled-electronics.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/5e49a14756c7a101dec7f50d/f047c7ec-0863-44b1-ba05-84998a0e5cf0/174A9011.JPG",
+      "sourcePage": "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2",
+      "width": 1440,
+      "height": 960
+    }
+  ],
+  "entries": [
+    {
+      "date": "2026-08-13",
+      "title": "Gregory Abowd visits the lab",
+      "image": "/assets/lab-conversation-2026.webp",
+      "location": "/news/",
+      "kind": "photo",
+      "source": "Existing Group photos image, specified by the user. Visit date confirmed by the August 7 announcement and August 13 follow-up in Slack."
+    },
+    {
+      "date": "2026-06-15",
+      "title": "New papers at IROS, Nature Electronics & UIST",
+      "image": "/assets/iros-2026-poster-discussion.webp",
+      "location": "/news/",
+      "kind": "image",
+      "displayCrop": "4:3 at 50% horizontal / 67% vertical"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Circuit2Yarn wins Core77 & Red Dot recognition",
+      "image": "/assets/news-circuit2yarn.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Intelligent Soft Wearables at UbiComp 2026",
+      "image": "/assets/news-soft-wearables-workshop.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://softwearables.github.io/",
+      "source": "Corresponding project/workshop/topic page",
+      "displayCrop": "3:2 crop at 70% horizontal / 50% vertical; full workshop banner remains available in the image viewer"
+    },
+    {
+      "date": "2026-05-24",
+      "title": "A call for research on untethered soft robots",
+      "image": "/assets/news-soft-robots-topic.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence",
+      "source": "Corresponding project/workshop/topic page"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Presenting at CHI 2026",
+      "image": "/assets/37ae98_fbe3c9fa0d884941808963fd16f9928e~mv2.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Sustainable electronics in Nature Electronics",
+      "image": "/assets/nature-electronics-cover-2026.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Honorable mention at TEI 2026",
+      "image": "/assets/37ae98_c3f317e41e3f421db3c9b1f274575244~mv2.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "Two papers accepted to CHI 2026",
+      "image": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://www.codecraft.group/projects/3d-printing-soap",
+      "source": "Corresponding Publications teaser"
+    },
+    {
+      "date": "2026-01-10",
+      "title": "Joining Notre Dame’s research community",
+      "image": "/assets/news-logos/notre-dame.png",
+      "location": "/news/",
+      "kind": "logo"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "See you at TEI 2026 in Chicago",
+      "image": "/assets/news-upcycled-electronics.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2",
+      "source": "Corresponding project/workshop/topic page"
+    },
+    {
+      "date": "2025-11-25",
+      "title": "Notre Dame highlights our work on e-waste",
+      "image": "/assets/news-nd-ewaste.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2025-09-08",
+      "title": "DissolvPCB wins Best Paper at UIST 2025",
+      "image": "/assets/37ae98_4048ac64382a4c178e913d2144bbf8e1~mv2.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2025-09-03",
+      "title": "Living Sustainability is online",
+      "image": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://dl.acm.org/doi/abs/10.1145/3749488",
+      "source": "Corresponding Publications teaser"
+    },
+    {
+      "date": "2025-07-05",
+      "title": "Living Sustainability accepted to IMWUT",
+      "image": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://dl.acm.org/doi/abs/10.1145/3749488",
+      "source": "Corresponding Publications teaser"
+    },
+    {
+      "date": "2025-07-04",
+      "title": "Two papers headed to UIST 2025",
+      "image": "/assets/37ae98_635c6111d5c74aae8b5d211bb287bcbb~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
+      "source": "Corresponding Publications teaser"
+    },
+    {
+      "date": "2025-06-16",
+      "title": "Exploring carbon-aware edge computing",
+      "image": "/assets/37ae98_d43008b0540349be94b458f14a86ff9b~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://drive.google.com/file/d/19xrsFf2AmsZarwv2cSDYPxOfegXG0hTb/view?usp=sharing",
+      "source": "Corresponding Publications teaser"
+    },
+    {
+      "date": "2025-05-28",
+      "title": "Serving the UbiComp, ISWC & TEI communities",
+      "image": "/assets/news-logos/acm.png",
+      "location": "/news/",
+      "kind": "logo"
+    },
+    {
+      "date": "2025-04-26",
+      "title": "New work in ACS Nano & UbiComp",
+      "image": "/assets/37ae98_afe577df8cbf4ba296869b1804d81d9d~mv2.webp",
+      "location": "/news/",
+      "kind": "image"
+    },
+    {
+      "date": "2025-01-20",
+      "title": "Starting the year with TEI & USEC papers",
+      "image": "/assets/37ae98_a033939f0dac494a91e81c98a45e89d4~mv2.webp",
+      "location": "/news/",
+      "kind": "image",
+      "sourcePage": "https://www.ndss-symposium.org/ndss-paper/auto-draft-584/",
+      "source": "Corresponding Publications teaser"
+    }
+  ]
+}

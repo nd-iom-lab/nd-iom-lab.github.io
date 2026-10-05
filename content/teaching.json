@@ -1,26 +1,72 @@
 {
-  "title": "CSE 40348 Emerging Interactive Technologies-Fall 2025",
-  "bodyHtml": "<p style=\"font-size:16px;line-height:1.8em\"><span style=\"font-size:16px\">This course offers instruction in developing cutting-edge interactive technologies, exploring the underlying engineering principles, and tracing their evolution over time. Students work in a studio format, dedicating extended periods to building both software and hardware prototypes. Topics include interactive technologies such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces. Through a group project, students create their own interactive hardware/software prototypes and present them in a live demo at the end of the term.</span></p>\n\n<p style=\"font-size:16px\">Learning objective:</p>\n\n<p style=\"font-size:16px\">By the end of this course, you will be able to:</p>\n\n<ul style=\"font-size:16px\">\n<li>\n<p style=\"font-size:16px\">Understand the principles behind interactive technologies such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Analyze the evolution and future trends of interactive technologies.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Collaborate effectively in teams to design and develop both hardware and software interactive prototypes.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Apply an iterative design process to prototype, test, and improve technologies.</p>\n</li>\n</ul>",
-  "photos": [
+  "courses": [
     {
-      "src": "/assets/37ae98_a787c9166dbf44dc8c68789c2044e2eb~mv2.webp",
-      "alt": "Emerging Interactive Technologies student project"
+      "code": "CSE 40348",
+      "name": "Emerging Interactive Technologies",
+      "semester": "Fall 2026"
     },
     {
-      "src": "/assets/37ae98_854a6e7d43844b19b206d63e6e8c85a4~mv2.webp",
-      "alt": "Emerging Interactive Technologies student project"
+      "id": "cse-40424-spring-2026",
+      "code": "CSE 40424",
+      "name": "Human-Computer Interaction",
+      "semester": "Spring 2026",
+      "bodyHtml": "<p>This course explores the history, goals, principles, and emerging areas of human-computer interaction. Topics include theories of interaction, user-centered design, visual communication, prototyping, and interface evaluation. Through a semester-long team project, students apply these methods to design, implement, and evaluate an interactive interface, progressing from needfinding and low-fidelity prototypes to usability studies and final presentations.</p><p>Learning objectives:</p><ul><li>Understand the theories and principles of effective interface design and evaluation.</li><li>Critically evaluate existing interfaces using HCI methods and techniques.</li><li>Design, prototype, and evaluate a new interface through an iterative, user-centered process.</li><li>Explore emerging HCI trends and applications through peer-reviewed research.</li></ul>",
+      "photos": [
+        {
+          "src": "/assets/hci-spring-2026-final-presentation.webp",
+          "alt": "Students presenting the LauNDry interface in class",
+          "caption": "Final project presentations",
+          "width": 1707,
+          "height": 1280
+        },
+        {
+          "src": "/assets/hci-spring-2026-guest-lecture.webp",
+          "alt": "HCI students attending a remote guest lecture",
+          "caption": "Guest lecture and classroom discussion",
+          "width": 1707,
+          "height": 1280
+        }
+      ]
     },
     {
-      "src": "/assets/37ae98_4d07f0260d414aa7b98d179636800d48~mv2.webp",
-      "alt": "Emerging Interactive Technologies student project"
-    },
-    {
-      "src": "/assets/37ae98_a48129029a5c43118e247075a838a83c~mv2.webp",
-      "alt": "Emerging Interactive Technologies student project"
-    },
-    {
-      "src": "/assets/37ae98_56ab09d90b764373b80f723d2a7d7f0d~mv2.webp",
-      "alt": "Emerging Interactive Technologies student project"
+      "id": "cse-40348-fall-2025",
+      "code": "CSE 40348",
+      "name": "Emerging Interactive Technologies",
+      "semester": "Fall 2025",
+      "bodyHtml": "<p style=\"font-size:16px;line-height:1.8em\"><span style=\"font-size:16px\">This course offers instruction in developing cutting-edge interactive technologies, exploring the underlying engineering principles, and tracing their evolution over time. Students work in a studio format, dedicating extended periods to building both software and hardware prototypes. Topics include interactive technologies such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces. Through a group project, students create their own interactive hardware/software prototypes and present them in a live demo at the end of the term.</span></p>\n\n<p style=\"font-size:16px\">Learning objective:</p>\n\n<ul style=\"font-size:16px\">\n<li>\n<p style=\"font-size:16px\">Understand the principles behind interactive technologies such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Analyze the evolution and future trends of interactive technologies.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Collaborate effectively in teams to design and develop both hardware and software interactive prototypes.</p>\n</li>\n<li>\n<p style=\"font-size:16px\">Apply an iterative design process to prototype, test, and improve technologies.</p>\n</li>\n</ul>",
+      "photos": [
+        {
+          "src": "/assets/37ae98_a787c9166dbf44dc8c68789c2044e2eb~mv2.webp",
+          "alt": "Emerging Interactive Technologies student project",
+          "width": 1800,
+          "height": 1026
+        },
+        {
+          "src": "/assets/37ae98_854a6e7d43844b19b206d63e6e8c85a4~mv2.webp",
+          "alt": "Emerging Interactive Technologies student project",
+          "width": 1800,
+          "height": 926
+        },
+        {
+          "src": "/assets/37ae98_4d07f0260d414aa7b98d179636800d48~mv2.webp",
+          "alt": "Emerging Interactive Technologies student project",
+          "width": 1800,
+          "height": 1032
+        },
+        {
+          "src": "/assets/37ae98_a48129029a5c43118e247075a838a83c~mv2.webp",
+          "alt": "Emerging Interactive Technologies student project",
+          "width": 1594,
+          "height": 1040
+        },
+        {
+          "src": "/assets/37ae98_56ab09d90b764373b80f723d2a7d7f0d~mv2.webp",
+          "alt": "Emerging Interactive Technologies student project",
+          "width": 976,
+          "height": 1008
+        }
+      ],
+      "photoLayout": "collage"
     }
   ]
 }

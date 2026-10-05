@@ -2,89 +2,280 @@
   "openingHtml": "<p style=\"font-size:26px\"><span style=\"font-size:26px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">Opening:  </span></span></span></span><span style=\"font-size:22px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">We look for a researcher with both hardware and 3D printing experience! </span></span></span></span></p>",
   "news": [
     {
+      "date": "2026-08-13",
+      "html": "<li><p>08/13/2026 We welcomed Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p></li>",
+      "title": "Gregory Abowd visits the lab",
+      "category": "Events",
+      "image": {
+        "src": "/assets/lab-conversation-2026.webp",
+        "alt": "Gregory Abowd visiting the lab, August 13, 2026",
+        "width": 810,
+        "height": 540
+      },
+      "bodyHtml": "<p>We welcomed Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p>"
+    },
+    {
       "date": "2026-06-15",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/15/2026 Linrui's paper on real-time camera-free 3D reconstruction is accepted to<a href=\"https://2026.ieee-iros.org/\" target=\"_blank\" rel=\"noopener noreferrer\"> <span style=\"font-family:AvenirHeavy,sans-serif\">IROS 2026</span>.</a> Zhihan's paper on multimodal AI for sustainability is <a href=\"https://www.nature.com/articles/s41928-026-01653-w\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">online</span></a>. Catherine's Sensorimotor Stickies is accepted to <a href=\"https://uist.acm.org/2026/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">UIST 2026</span> </a>(with Yiyue's, Cheng's and Shirley's team). Congrats all!</p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/15/2026 Linrui's paper on real-time camera-free 3D reconstruction is accepted to<a href=\"https://2026.ieee-iros.org/\" target=\"_blank\" rel=\"noopener noreferrer\"> <span style=\"font-family:AvenirHeavy,sans-serif\">IROS 2026</span>.</a> Zhihan's paper on multimodal AI for sustainability is <a href=\"https://www.nature.com/articles/s41928-026-01653-w\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">online</span></a>. Catherine's Sensorimotor Stickies is accepted to <a href=\"https://uist.acm.org/2026/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">UIST 2026</span> </a>(with Yiyue's, Cheng's and Shirley's team). Congrats all!</p>\n</li>\n",
+      "title": "New papers at IROS, Nature Electronics & UIST",
+      "category": "Research",
+      "image": {
+        "src": "/assets/iros-2026-poster-discussion.webp",
+        "alt": "Poster discussion at IROS 2026",
+        "width": 1279,
+        "height": 1706,
+        "crop": "poster-discussion"
+      },
+      "bodyHtml": "<p>Linrui's paper on real-time camera-free 3D reconstruction is accepted to<a href=\"https://2026.ieee-iros.org/\" target=\"_blank\" rel=\"noopener noreferrer\"> IROS 2026.</a> Zhihan's paper on multimodal AI for sustainability is <a href=\"https://www.nature.com/articles/s41928-026-01653-w\" target=\"_blank\" rel=\"noopener noreferrer\">online</a>. Catherine's Sensorimotor Stickies is accepted to <a href=\"https://uist.acm.org/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">UIST 2026 </a>(with Yiyue's, Cheng's and Shirley's team). Congrats all!</p>"
     },
     {
       "date": "2026-06-10",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/10/2026 Leon's CHI 2026 paper won honorable mention for both <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://designawards.core77.com/2026/Emerging-Technologies\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-weight:bold\">Emerging Technologies</span></a> </span>and <a href=\"https://designawards.core77.com/2026/Interaction\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">Interaction</span></a> categories for Core77 design award, as well as winning the <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.red-dot.org/\" target=\"_blank\" rel=\"noopener noreferrer\">reddot award</a>.</span> </p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/10/2026 Leon's CHI 2026 paper won honorable mention for both <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://designawards.core77.com/2026/Emerging-Technologies\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-weight:bold\">Emerging Technologies</span></a> </span>and <a href=\"https://designawards.core77.com/2026/Interaction\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"font-family:AvenirHeavy,sans-serif\">Interaction</span></a> categories for Core77 design award, as well as winning the <span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.red-dot.org/\" target=\"_blank\" rel=\"noopener noreferrer\">reddot award</a>.</span> </p>\n</li>\n",
+      "title": "Circuit2Yarn wins Core77 & Red Dot recognition",
+      "category": "Awards",
+      "image": {
+        "src": "/assets/news-circuit2yarn.webp",
+        "alt": "Circuit2Yarn electronic yarn with illuminated LEDs",
+        "width": 1200,
+        "height": 630
+      },
+      "bodyHtml": "<p>Leon's CHI 2026 paper won honorable mention for both <a href=\"https://designawards.core77.com/2026/Emerging-Technologies\" target=\"_blank\" rel=\"noopener noreferrer\">Emerging Technologies</a> and <a href=\"https://designawards.core77.com/2026/Interaction\" target=\"_blank\" rel=\"noopener noreferrer\">Interaction</a> categories for Core77 design award, as well as winning the <a href=\"https://www.red-dot.org/\" target=\"_blank\" rel=\"noopener noreferrer\">reddot award</a>. </p>"
     },
     {
       "date": "2026-06-01",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/01/2026 We are hosting the third <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\"><a href=\"https://softwearables.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent Soft Wearable workshop </a></span></span>in Ubicomp 2026. Please consider submitting!</p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">06/01/2026 We are hosting the third <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\"><a href=\"https://softwearables.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent Soft Wearable workshop </a></span></span>in Ubicomp 2026. Please consider submitting!</p>\n</li>\n",
+      "title": "Intelligent Soft Wearables at UbiComp 2026",
+      "category": "Events",
+      "image": {
+        "src": "/assets/news-soft-wearables-workshop.webp",
+        "alt": "Intelligent Soft Wearables workshop: fibers, tactile patches and electronic textiles",
+        "width": 2500,
+        "height": 416,
+        "crop": "wearables"
+      },
+      "bodyHtml": "<p>We are hosting the third <a href=\"https://softwearables.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Intelligent Soft Wearable workshop </a>in Ubicomp 2026. Please consider submitting!</p>"
     },
     {
       "date": "2026-05-24",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">05/24/2026 We are hosting a special issue in <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\">Frontiers in Robotics and AI</span></span>, called \" <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence\" target=\"_blank\" rel=\"noopener noreferrer\">Untethered Soft Robots: Embedded Actuation, Sensing, and Intelligence</a></span></span></span>\", please consider submitting! </p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">05/24/2026 We are hosting a special issue in <span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"font-weight:bold\">Frontiers in Robotics and AI</span></span>, called \" <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence\" target=\"_blank\" rel=\"noopener noreferrer\">Untethered Soft Robots: Embedded Actuation, Sensing, and Intelligence</a></span></span></span>\", please consider submitting! </p>\n</li>\n",
+      "title": "A call for research on untethered soft robots",
+      "category": "Research",
+      "image": {
+        "src": "/assets/news-soft-robots-topic.webp",
+        "alt": "Untethered Soft Robots: Embedded Actuation, Sensing, and Intelligence — research topic cover",
+        "width": 400,
+        "height": 400
+      },
+      "bodyHtml": "<p>We are hosting a special issue in Frontiers in Robotics and AI, called \" <a href=\"https://www.frontiersin.org/research-topics/80235/untethered-soft-robots-embedded-actuation-sensing-and-intelligence\" target=\"_blank\" rel=\"noopener noreferrer\">Untethered Soft Robots: Embedded Actuation, Sensing, and Intelligence</a>\", please consider submitting! </p>"
     },
     {
       "date": "2026-04-13",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">04/13/2026 Zhechen (Leon) presented <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/\" target=\"_blank\" rel=\"noopener noreferrer\">Circuit2Yarn</a></span></span> at CHI and 3D printing soap paper was a runner-up for <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/\" target=\"_blank\" rel=\"noopener noreferrer\">Special Recognition for Sustainable Practices</a></span></span>.</p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">04/13/2026 Zhechen (Leon) presented <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/\" target=\"_blank\" rel=\"noopener noreferrer\">Circuit2Yarn</a></span></span> at CHI and 3D printing soap paper was a runner-up for <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><a href=\"https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/\" target=\"_blank\" rel=\"noopener noreferrer\">Special Recognition for Sustainable Practices</a></span></span>.</p>\n</li>\n",
+      "title": "Presenting at CHI 2026",
+      "category": "Events",
+      "image": {
+        "src": "/assets/37ae98_fbe3c9fa0d884941808963fd16f9928e~mv2.webp",
+        "alt": "Lab members at CHI 2026 in Barcelona",
+        "width": 1800,
+        "height": 1149
+      },
+      "bodyHtml": "<p>Zhechen (Leon) presented <a href=\"https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/\" target=\"_blank\" rel=\"noopener noreferrer\">Circuit2Yarn</a> at CHI and 3D printing soap paper was a runner-up for <a href=\"https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/\" target=\"_blank\" rel=\"noopener noreferrer\">Special Recognition for Sustainable Practices</a>.</p>"
     },
     {
       "date": "2026-03-12",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">03/12/2026 Our paper on Multi-modal AI agent for sustainable electronics has been accepted to <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">Nature Electronics</span></span></span>. Congrats to Zhihan!</p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">03/12/2026 Our paper on Multi-modal AI agent for sustainable electronics has been accepted to <span style=\"color:#B63232\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">Nature Electronics</span></span></span>. Congrats to Zhihan!</p>\n</li>\n",
+      "title": "Sustainable electronics in Nature Electronics",
+      "category": "Research",
+      "image": {
+        "src": "/assets/nature-electronics-cover-2026.webp",
+        "alt": "Nature Electronics cover, July 2026",
+        "width": 1355,
+        "height": 1800
+      },
+      "bodyHtml": "<p>Our paper on Multi-modal AI agent for sustainable electronics has been accepted to Nature Electronics. Congrats to Zhihan!</p>"
     },
     {
       "date": "2026-02-12",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">02/12/2026 Our paper on reusable electronics has been chosen as the <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\">honorable mention</span></span></span> for TEI 2026. <span></span><span style=\"font-weight:bold\"><span style=\"font-size:20px\"><span><span></span></span></span></span></p>\n</li>\n"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">02/12/2026 Our paper on reusable electronics has been chosen as the <span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\">honorable mention</span></span></span> for TEI 2026. <span></span><span style=\"font-weight:bold\"><span style=\"font-size:20px\"><span><span></span></span></span></span></p>\n</li>\n",
+      "title": "Honorable mention at TEI 2026",
+      "category": "Awards",
+      "image": {
+        "src": "/assets/37ae98_c3f317e41e3f421db3c9b1f274575244~mv2.webp",
+        "alt": "TEI 2026 Best Pictorial Honorable Mention certificate for Reimagining Upcycled Plastic Bags",
+        "width": 926,
+        "height": 1218
+      },
+      "bodyHtml": "<p>Our paper on reusable electronics has been chosen as the honorable mention for TEI 2026. </p>"
     },
     {
       "date": "2026-01-12",
-      "html": "<li><span><span><span style=\"font-size:18px\">01/12/2026 Two papers are accepted to </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\">CHI 2026</span></span></span></span><span><span><span style=\"font-size:18px\">. Congrats to Leon, Jingyi and Jiaqing, and also congrats to the Georgia Tech Team on the other paper (Hyunjoo).</span></span></span></li>"
+      "html": "<li><span><span><span style=\"font-size:18px\">01/12/2026 Two papers are accepted to </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\">CHI 2026</span></span></span></span><span><span><span style=\"font-size:18px\">. Congrats to Leon, Jingyi and Jiaqing, and also congrats to the Georgia Tech Team on the other paper (Hyunjoo).</span></span></span></li>",
+      "title": "Two papers accepted to CHI 2026",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
+        "alt": "3D-printed soap objects from the CHI 2026 paper",
+        "width": 1442,
+        "height": 874
+      },
+      "bodyHtml": "<p>Two papers are accepted to CHI 2026. Congrats to Leon, Jingyi and Jiaqing, and also congrats to the Georgia Tech Team on the other paper (Hyunjoo).</p>"
     },
     {
       "date": "2026-01-10",
-      "html": "<li>\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/10/2026 Recently joined </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://wireless.nd.edu/about/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Wireless Institute</a></span></span></span></span><span><span><span style=\"font-size:18px\">, </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://robotics.nd.edu/people/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Robotics</a></span></span></span></span><span><span><span style=\"font-size:18px\">, and </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://nano.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">ND nano</a></span></span></span></span><span><span><span style=\"font-size:18px\">, exciting!</span></span></span><span style=\"letter-spacing:0em\"><span></span></span></p>\n</li>"
+      "html": "<li>\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/10/2026 Recently joined </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://wireless.nd.edu/about/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Wireless Institute</a></span></span></span></span><span><span><span style=\"font-size:18px\">, </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://robotics.nd.edu/people/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Robotics</a></span></span></span></span><span><span><span style=\"font-size:18px\">, and </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://nano.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">ND nano</a></span></span></span></span><span><span><span style=\"font-size:18px\">, exciting!</span></span></span><span style=\"letter-spacing:0em\"><span></span></span></p>\n</li>",
+      "title": "Joining Notre Dame’s research community",
+      "category": "",
+      "image": {
+        "src": "/assets/news-logos/notre-dame.png",
+        "width": 600,
+        "height": 141,
+        "alt": "University of Notre Dame wordmark",
+        "kind": "logo"
+      },
+      "bodyHtml": "<p>Recently joined <a href=\"https://wireless.nd.edu/about/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Wireless Institute</a>, <a href=\"https://robotics.nd.edu/people/\" target=\"_blank\" rel=\"noopener noreferrer\">ND Robotics</a>, and <a href=\"https://nano.nd.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">ND nano</a>, exciting!</p>"
     },
     {
       "date": "2026-01-01",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span style=\"letter-spacing:0em\">01/01/2026 One paper is accepted to </span><span style=\"letter-spacing:0em\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">TEI 2026</span></span></span><span style=\"letter-spacing:0em\"> Chicago. Come and join us!</span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span style=\"letter-spacing:0em\">01/01/2026 One paper is accepted to </span><span style=\"letter-spacing:0em\"><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\">TEI 2026</span></span></span><span style=\"letter-spacing:0em\"> Chicago. Come and join us!</span></p>\n</li>",
+      "title": "See you at TEI 2026 in Chicago",
+      "category": "Events",
+      "image": {
+        "src": "/assets/news-upcycled-electronics.webp",
+        "alt": "Removable electronics integrated into upcycled plastic, from the TEI 2026 project",
+        "width": 1440,
+        "height": 960
+      },
+      "bodyHtml": "<p>One paper is accepted to TEI 2026 Chicago. Come and join us!</p>"
     },
     {
       "date": "2025-11-25",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">11/25/2025 Our two UIST papers are highlighted by ND Engineering and ND homepage (<span style=\"text-decoration:underline\"><a href=\"https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/\" target=\"_blank\" rel=\"noopener noreferrer\">link</a></span>)</p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\">11/25/2025 Our two UIST papers are highlighted by ND Engineering and ND homepage (<span style=\"text-decoration:underline\"><a href=\"https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/\" target=\"_blank\" rel=\"noopener noreferrer\">link</a></span>)</p>\n</li>",
+      "title": "Notre Dame highlights our work on e-waste",
+      "category": "Research",
+      "image": {
+        "src": "/assets/news-nd-ewaste.webp",
+        "alt": "Tingyu Cheng holding a biodegradable electronic chip in the lab",
+        "width": 960,
+        "height": 533
+      },
+      "bodyHtml": "<p>Our two UIST papers are highlighted by ND Engineering and ND homepage (<a href=\"https://engineering.nd.edu/news/tackling-e-waste-with-biodegradable-electronics/\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>)</p>"
     },
     {
       "date": "2025-09-08",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/08/2025 DissolvPCB is chosen as the </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\"><span style=\"font-size:18px\"><a href=\"https://programs.sigchi.org/uist/2025/awards/best-papers\" target=\"_blank\" rel=\"noopener noreferrer\">best paper in UIST 2025</a></span></span><span><span style=\"font-size:18px\">.</span></span></span></span><span><span><span style=\"font-size:18px\"> Congrats to the team!!</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/08/2025 DissolvPCB is chosen as the </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span style=\"color:#B63232\"><span style=\"font-size:18px\"><a href=\"https://programs.sigchi.org/uist/2025/awards/best-papers\" target=\"_blank\" rel=\"noopener noreferrer\">best paper in UIST 2025</a></span></span><span><span style=\"font-size:18px\">.</span></span></span></span><span><span><span style=\"font-size:18px\"> Congrats to the team!!</span></span></span></p>\n</li>",
+      "title": "DissolvPCB wins Best Paper at UIST 2025",
+      "category": "Awards",
+      "image": {
+        "src": "/assets/37ae98_4048ac64382a4c178e913d2144bbf8e1~mv2.webp",
+        "alt": "UIST 2025 Best Paper Award certificate for DissolvPCB",
+        "width": 938,
+        "height": 1226
+      },
+      "bodyHtml": "<p>DissolvPCB is chosen as the <a href=\"https://programs.sigchi.org/uist/2025/awards/best-papers\" target=\"_blank\" rel=\"noopener noreferrer\">best paper in UIST 2025</a>. Congrats to the team!!</p>"
     },
     {
       "date": "2025-09-03",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/03/2025 Zhihan's </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3749488\" target=\"_blank\" rel=\"noopener noreferrer\">Living Sustainability </a></span></span></span></span><span><span><span style=\"font-size:18px\">is online, check it out!</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">09/03/2025 Zhihan's </span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:AvenirHeavy,sans-serif\"><span><span style=\"font-size:18px\"><a href=\"https://dl.acm.org/doi/abs/10.1145/3749488\" target=\"_blank\" rel=\"noopener noreferrer\">Living Sustainability </a></span></span></span></span><span><span><span style=\"font-size:18px\">is online, check it out!</span></span></span></p>\n</li>",
+      "title": "Living Sustainability is online",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
+        "alt": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
+        "width": 1800,
+        "height": 674
+      },
+      "bodyHtml": "<p>Zhihan's <a href=\"https://dl.acm.org/doi/abs/10.1145/3749488\" target=\"_blank\" rel=\"noopener noreferrer\">Living Sustainability </a>is online, check it out!</p>"
     },
     {
       "date": "2025-07-05",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/05/2025 One paper is accepted to IMWUT 2025. Congrats to Zhihan!!</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/05/2025 One paper is accepted to IMWUT 2025. Congrats to Zhihan!!</span></span></span></p>\n</li>",
+      "title": "Living Sustainability accepted to IMWUT",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_87d176ab33644d09a1ea255c6a0608fd~mv2.webp",
+        "alt": "Living Sustainability: In-Context Interactive Environmental Impact Communication",
+        "width": 1800,
+        "height": 674
+      },
+      "bodyHtml": "<p>One paper is accepted to IMWUT 2025. Congrats to Zhihan!!</p>"
     },
     {
       "date": "2025-07-04",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/04/2025 Two papers are accepted to UIST 2025. Great collaboration with Yiyue's team at the University of Washington and Huaishu's team at the University of Maryland. Congrats to Harry and Zeyu!!</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">07/04/2025 Two papers are accepted to UIST 2025. Great collaboration with Yiyue's team at the University of Washington and Huaishu's team at the University of Maryland. Congrats to Harry and Zeyu!!</span></span></span></p>\n</li>",
+      "title": "Two papers headed to UIST 2025",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_635c6111d5c74aae8b5d211bb287bcbb~mv2.webp",
+        "alt": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
+        "width": 1800,
+        "height": 1014
+      },
+      "bodyHtml": "<p>Two papers are accepted to UIST 2025. Great collaboration with Yiyue's team at the University of Washington and Huaishu's team at the University of Maryland. Congrats to Harry and Zeyu!!</p>"
     },
     {
       "date": "2025-06-16",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">06/16/2025 One paper is accepted to Hotcarbon 2025. Congrats to Xuesi and the team.</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">06/16/2025 One paper is accepted to Hotcarbon 2025. Congrats to Xuesi and the team.</span></span></span></p>\n</li>",
+      "title": "Exploring carbon-aware edge computing",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_d43008b0540349be94b458f14a86ff9b~mv2.webp",
+        "alt": "From Component to System: Rethinking Edge Computing Design Through a Carbon-Aware Lens",
+        "width": 592,
+        "height": 600
+      },
+      "bodyHtml": "<p>One paper is accepted to Hotcarbon 2025. Congrats to Xuesi and the team.</p>"
     },
     {
       "date": "2025-05-28",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">05/28/2025 Accepted PC role for Ubicomp/ISWC, and studio chair for TEI.</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">05/28/2025 Accepted PC role for Ubicomp/ISWC, and studio chair for TEI.</span></span></span></p>\n</li>",
+      "title": "Serving the UbiComp, ISWC & TEI communities",
+      "category": "",
+      "image": {
+        "src": "/assets/news-logos/acm.png",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Association for Computing Machinery logo",
+        "kind": "logo",
+        "label": "UbiComp · ISWC · TEI"
+      },
+      "bodyHtml": "<p>Accepted PC role for Ubicomp/ISWC, and studio chair for TEI.</p>"
     },
     {
       "date": "2025-04-26",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">04/26/2025 One paper is accepted to ACS Nano (IF=15.8). Congrats to Luyao and the team, great collaboration between Northeastern and Georgia Tech, one workshop paper is accepted to Ubicomp 2025. Congrats to Catherine and the team.</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">04/26/2025 One paper is accepted to ACS Nano (IF=15.8). Congrats to Luyao and the team, great collaboration between Northeastern and Georgia Tech, one workshop paper is accepted to Ubicomp 2025. Congrats to Catherine and the team.</span></span></span></p>\n</li>",
+      "title": "New work in ACS Nano & UbiComp",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_afe577df8cbf4ba296869b1804d81d9d~mv2.webp",
+        "alt": "Bioinspired camouflage fibers with different colors",
+        "width": 600,
+        "height": 364
+      },
+      "bodyHtml": "<p>One paper is accepted to ACS Nano (IF=15.8). Congrats to Luyao and the team, great collaboration between Northeastern and Georgia Tech, one workshop paper is accepted to Ubicomp 2025. Congrats to Catherine and the team.</p>"
     },
     {
       "date": "2025-01-20",
-      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/20/2025 One paper is accepted to TEI 2025. Congrats to Hana and the team, one paper is accepted to USEC 2025. Congrats to Youngwook and the team.</span></span></span></p>\n</li>"
+      "html": "<li style=\"line-height:1.8em\">\n<p style=\"font-size:18px;line-height:1.8em\"><span><span><span style=\"font-size:18px\">01/20/2025 One paper is accepted to TEI 2025. Congrats to Hana and the team, one paper is accepted to USEC 2025. Congrats to Youngwook and the team.</span></span></span></p>\n</li>",
+      "title": "Starting the year with TEI & USEC papers",
+      "category": "Research",
+      "image": {
+        "src": "/assets/37ae98_a033939f0dac494a91e81c98a45e89d4~mv2.webp",
+        "alt": "On-demand RFID: Improving Privacy, Security, and User Trust in RFID Activation through Physically-Intuitive Design",
+        "width": 1256,
+        "height": 820
+      },
+      "bodyHtml": "<p>One paper is accepted to TEI 2025. Congrats to Hana and the team, one paper is accepted to USEC 2025. Congrats to Youngwook and the team.</p>"
     }
   ],
-  "visionHtml": "<p style=\"font-size:16px;line-height:1.3em\"><span style=\"color:#000000\"><span style=\"font-style:normal\"><span><span style=\"font-weight:bold\"><span style=\"font-size:20px\">We aim to construct a nature-like smart environment with sensors everywhere. They are not only able to perceive, react, or communicate, but also exhibit adaptability to self-repair, rejuvenate, or seamlessly degrade back to the earth, thereby commencing a sustainable life cycle.</span></span></span></span></span></p>",
+  "visionHtml": "<p>From electronic textiles and wearable sensors to soft robots and interactive surfaces, we bring computation into everyday materials. Our goal is to make devices at scale, help them adapt and endure in use, and recover their materials or allow them to biodegrade at the end of their life.</p>",
   "visionImage": {
-    "src": "/assets/37ae98_4f2b34aac02c408f8dfdfcc3605d04a4~mv2.webp",
-    "alt": "Sustainable lifecycle of computational devices"
+    "src": "/assets/research-device-lifecycle.webp",
+    "alt": "Device life cycle: print and assemble, deploy, sense and adapt, repair and reuse, disassemble and recover, and biodegrade. Recovered materials feed into new devices.",
+    "width": 2059,
+    "height": 764
   },
   "researchTitle": "Our Research Focus",
-  "researchHtml": "<p style=\"line-height:1.8em;font-size:16px\"><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">The lab takes interdisciplinary approach to push the boundaries of building</span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span style=\"color:#000000\"><span style=\"letter-spacing:0.1em\"><span style=\"font-weight:bold\">scalable</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">and</span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"><span style=\"font-weight:bold\">resilient</span></span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\"> </span></span></span></span><span style=\"font-weight:normal\"><span style=\"font-family:Helvetica,Arial,sans-serif\"><span><span style=\"letter-spacing:0.1em\">computational devices for applications in human-computer interaction, ubiquitous computing, and printed/flexible electronics. We particularly focus on solving the tension between scaling up the functionality, quantity, and robustness of the computational devices, but meanwhile making them less harmful. Research interest spans digital fabrication, material innovation, hardware/system design, machine learning and AI. </span></span></span></span></p>",
+  "researchHtml": "<p>The lab takes interdisciplinary approach to push the boundaries of building <strong>scalable</strong> and <strong>resilient</strong> computational devices for applications in human-computer interaction, ubiquitous computing, and printed/flexible electronics. We particularly focus on solving the tension between scaling up the functionality, quantity, and robustness of the computational devices, but meanwhile making them less harmful. Research interest spans digital fabrication, material innovation, hardware/system design, machine learning and AI.</p>",
   "affiliations": {
     "src": "/assets/37ae98_f86dbdfb403f48a59dfef1228a7e8ede~mv2.webp",
     "alt": "Notre Dame research affiliations"
