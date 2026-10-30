@@ -1,0 +1,253 @@
+{
+  "checkedOn": "2026-10-29",
+  "scope": "All 2026 entries in Tingyu Cheng’s Scholar profile; compare against local public publication cards.",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=_mLdZS8AAAAJ&view_op=list_works&sortby=pubdate",
+  "addedCount": 7,
+  "entries": [
+    {
+      "title": "Sensorimotor Stickies: A Reconfigurable On-Body Platform for Closed-Loop Sensorimotor Training",
+      "status": "accepted conference paper",
+      "dateSource": "Initial arXiv submission, 2026-08-13.",
+      "metadataSources": [
+        "https://arxiv.org/html/2608.13412v2",
+        "https://catherineyu.com/publications/"
+      ],
+      "image": {
+        "src": "/assets/sensorimotor-stickies-user-2026.png",
+        "alt": "Sensorimotor Stickies sensing and feedback modules, tactile patch, and companion app",
+        "width": 2004,
+        "height": 2004
+      },
+      "notes": [
+        "UIST 2026, November 2-5, is named in the author manuscript and author publication list. The manuscript DOI 10.1145/3830398.3830699 was not yet available from Crossref; link to accessible author resources instead.",
+        "User requested this photo instead of the horizontal teaser; displayed without distortion inside the 3:2 frame."
+      ],
+      "imageSource": {
+        "source": "Photo supplied by the user in this chat; copied without altering the image.",
+        "originalDimensions": [
+          2004,
+          2004
+        ]
+      },
+      "themes": [
+        "sensing"
+      ],
+      "themeReason": "On-body inertial/tactile sensing and vibrotactile interaction."
+    },
+    {
+      "title": "Navigating Sustainability in Shape-Changing Interfaces: Choices, Challenges, Futures",
+      "status": "journal article",
+      "dateSource": "Publisher page: available online August 5, 2026.",
+      "metadataSources": [
+        "https://www.sciencedirect.com/science/article/pii/S3050741326000352",
+        "https://api.crossref.org/works/10.1016/j.daai.2026.100096"
+      ],
+      "image": {
+        "src": "/assets/shape-changing-sustainability-2026.webp",
+        "width": 2000,
+        "height": 813,
+        "alt": "Material life cycles and circular strategies for sustainable shape-changing interfaces"
+      },
+      "notes": [],
+      "imageSource": {
+        "imageUrl": "https://framerusercontent.com/images/eix3OARkyQbxgb5AtrEzgoQ15L0.png",
+        "sourcePage": "https://mirandafun.com/blog/sustainability-shape-changing-interfaces",
+        "originalDimensions": [
+          3784,
+          1538
+        ]
+      },
+      "themes": [
+        "sensing",
+        "sustainability"
+      ],
+      "themeReason": "Sustainable materials and lifecycle choices for shape-changing interfaces."
+    },
+    {
+      "title": "Real-time Puncture Detection and Recovery for Pneumatic Soft Actuators",
+      "status": "conference paper",
+      "dateSource": "Conference start June 1, 2026 from IEEE-deposited Crossref event record; publication month June 2026.",
+      "metadataSources": [
+        "https://api.crossref.org/works/10.1109/ICRA57385.2026.11696201",
+        "https://arxiv.org/abs/2609.08804"
+      ],
+      "image": {
+        "src": "/assets/puncture-detection-2026.webp",
+        "width": 1039,
+        "height": 485,
+        "alt": "Multi-chamber soft actuator and the IMU-based puncture detection and recovery pipeline"
+      },
+      "notes": [],
+      "imageSource": {
+        "imageUrl": "https://arxiv.org/html/2609.08804v1/ICRA_CR_fig1.png",
+        "sourcePage": "https://arxiv.org/html/2609.08804v1#S1.F1",
+        "originalDimensions": [
+          1039,
+          485
+        ]
+      },
+      "themes": [
+        "sensing",
+        "robotics"
+      ],
+      "themeReason": "IMU-based sensing and recovery for soft robotic actuators."
+    },
+    {
+      "title": "3D Printing of Passively Actuated Self-Folding Robots with Integrated Functional Modules",
+      "status": "conference paper",
+      "dateSource": "Conference start June 1, 2026 from IEEE-deposited Crossref event record; publication month June 2026.",
+      "metadataSources": [
+        "https://api.crossref.org/works/10.1109/ICRA57385.2026.11696717",
+        "https://arxiv.org/abs/2605.04757"
+      ],
+      "image": {
+        "src": "/assets/self-folding-robots-2026.webp",
+        "width": 2000,
+        "height": 620,
+        "alt": "Conductive PLA net with integrated components and its elastic-driven self-folding sequence"
+      },
+      "notes": [],
+      "imageSource": {
+        "imageUrl": "https://arxiv.org/html/2605.04757v1/Figures/figFInal/F1.jpg",
+        "sourcePage": "https://arxiv.org/html/2605.04757v1#S1.F1",
+        "originalDimensions": [
+          4000,
+          1240
+        ]
+      },
+      "themes": [
+        "sensing",
+        "robotics"
+      ],
+      "themeReason": "Self-folding robots with integrated sensing and functional modules."
+    },
+    {
+      "title": "Deco: Extending Cherished Physical Objects into AI Companion Agents through Dual Embodiment",
+      "status": "preprint",
+      "dateSource": "Initial arXiv submission May 5, 2026.",
+      "metadataSources": [
+        "https://arxiv.org/abs/2605.03882",
+        "https://arxiv.org/html/2605.03882v2"
+      ],
+      "image": {
+        "src": "/assets/deco-2026.webp",
+        "width": 2000,
+        "height": 692,
+        "alt": "Deco dual-embodiment framework connecting a cherished physical object to its mobile AI companion"
+      },
+      "notes": [
+        "Uses the latest v2 title from September 28, 2026. Scholar still uses the older title. No accepted conference or journal venue was verified."
+      ],
+      "imageSource": {
+        "imageUrl": "https://arxiv.org/html/2605.03882v2/teaser.png",
+        "sourcePage": "https://arxiv.org/html/2605.03882v2",
+        "originalDimensions": [
+          2008,
+          695
+        ]
+      },
+      "themes": [
+        "sensing",
+        "multimodal"
+      ],
+      "themeReason": "Multimodal AI companions and interaction with personal physical objects."
+    },
+    {
+      "title": "Biohybrid Robots with Embedded Conductive Fibers for Actuation, Sensing, and Closed-loop Control",
+      "status": "preprint",
+      "dateSource": "PMC and PubMed publication date April 6, 2026.",
+      "metadataSources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13081879/",
+        "https://pubmed.ncbi.nlm.nih.gov/41993364/"
+      ],
+      "image": {
+        "src": "/assets/biohybrid-robots-2026.webp",
+        "width": 700,
+        "height": 546,
+        "alt": "PEDOT fiber interfaces for biohybrid muscle actuation, strain sensing, and feedback control"
+      },
+      "notes": [
+        "PMC explicitly labels this a preprint not yet peer reviewed by a journal."
+      ],
+      "imageSource": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0a29/13081879/124d7f342223/nihpp-2026.04.01.715915v1-f0001.jpg",
+        "sourcePage": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13081879/",
+        "originalDimensions": [
+          700,
+          546
+        ]
+      },
+      "themes": [
+        "sensing",
+        "robotics"
+      ],
+      "themeReason": "Biohybrid robotic actuation, strain sensing, and feedback control."
+    },
+    {
+      "title": "Reimagining Upcycled Plastic Bags: Integrating Electronics Through Design for Disassembly",
+      "status": "conference paper",
+      "dateSource": "ACM-deposited Crossref publication date March 7, 2026.",
+      "metadataSources": [
+        "https://api.crossref.org/works/10.1145/3731459.3774475",
+        "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2"
+      ],
+      "image": {
+        "src": "/assets/news-upcycled-electronics.webp",
+        "alt": "Removable electronics integrated into upcycled plastic objects",
+        "width": 1440,
+        "height": 960
+      },
+      "notes": [
+        "Reuses the corresponding author project image already stored for News."
+      ],
+      "imageSource": {
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e49a14756c7a101dec7f50d/f047c7ec-0863-44b1-ba05-84998a0e5cf0/174A9011.JPG",
+        "sourcePage": "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2"
+      },
+      "themes": [
+        "sensing",
+        "sustainability"
+      ],
+      "themeReason": "Reusing plastic waste and integrating removable electronics for interactive objects."
+    }
+  ],
+  "correctedExisting": [
+    {
+      "title": "Sustainability assessment using multimodal artificial intelligence agents",
+      "corrections": [
+        "Exact publisher title",
+        "Publication date June 12, 2026",
+        "Publisher title link and DOI"
+      ],
+      "metadataSources": [
+        "https://www.nature.com/articles/s41928-026-01653-w",
+        "https://api.crossref.org/works/10.1038/s41928-026-01653-w"
+      ],
+      "notes": [
+        "Retain the original publication photo. Venue display contains only the journal name and year."
+      ]
+    },
+    {
+      "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+      "corrections": [
+        "Title previously linked to DissolvPCB; changed to the corresponding Circuit2Yarn project page."
+      ],
+      "metadataSources": [
+        "https://catherineyu.com/publications/",
+        "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Intelligent Soft Wearables: Integrating Imperceptible Interfaces",
+      "reason": "Workshop excluded at the user’s request."
+    },
+    {
+      "title": "Interactive 3D-Printed Soap: Exploring Biodegradable and Ephemeral Material Interactions",
+      "reason": "Excluded at the user’s request; retain only the existing 3D Printing Soap full paper."
+    }
+  ],
+  "thumbnailPresentation": "Consistent 3:2 landscape image areas. Original image proportions are preserved with contain; the existing Functional Destruction top crop is retained at 3:2. Full images remain available in the image viewer.",
+  "venueDisplayRule": "Use conference/journal name and year only; omit volume, issue, article numbers and page ranges. Preserve publication status such as to appear or preprint."
+}

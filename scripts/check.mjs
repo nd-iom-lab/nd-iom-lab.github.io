@@ -62,6 +62,9 @@ for (const p of pubs) {
   assert.equal(new Date(p.date).toISOString().slice(0, 10), p.date, `${p.title}: valid publication date`);
   assert.ok(p.images.length);
   assert.ok(p.authors && p.venue);
+  assert.doesNotMatch(p.venue, /\b(?:pp?\.|pages?|article|vol(?:ume)?\.?|issue)\s*\d/i, `${p.title}: venue omits page ranges and detailed numbering`);
+  assert.ok(Array.isArray(p.themes) && p.themes.length > 0, `${p.title}: at least one research theme`);
+  assert.ok(p.themes.every(theme => ["sensing", "multimodal", "robotics", "sustainability"].includes(theme)), `${p.title}: valid research themes`);
   assert.doesNotMatch(p.authors, /<[^>]+>/, `${p.title}: plain author names`);
 }
 const t = JSON.parse(readFileSync(path.join(root, "content/team.json")));

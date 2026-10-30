@@ -1,102 +1,89 @@
 [
   {
-    "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+    "title": "Sensorimotor Stickies: A Reconfigurable On-Body Platform for Closed-Loop Sensorimotor Training",
     "images": [
       {
-        "src": "/assets/37ae98_f3f2e2c8caa84de59973939dad32fb88~mv2.webp",
-        "alt": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions"
+        "src": "/assets/sensorimotor-stickies-user-2026.png",
+        "alt": "Sensorimotor Stickies sensing and feedback modules, tactile patch, and companion app",
+        "width": 2004,
+        "height": 2004
       }
     ],
-    "titleUrl": "https://smartlab.cs.umd.edu/publication/dissolvpcb",
-    "date": "2026-04-13",
-    "authors": "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
-    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+    "titleUrl": "https://stickies.catherineyu.com/",
+    "date": "2026-08-13",
+    "authors": "Tianhong Catherine Yu, Jiwei Zheng, Chi-Jung Lee, Qifeng Yang, Tingyu Cheng, Qiuyue (Shirley) Xue, Cheng Zhang, Yiyue Luo.",
+    "venue": "Proceedings of the ACM Symposium on User Interface Software and Technology (UIST), 2026 (to appear)",
     "links": [
       {
-        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/Circuit2Yarn_Paper_Compressed.pdf",
-        "label": "PDF"
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2608.13412"
       },
       {
-        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/",
-        "label": "Project Page"
+        "label": "Project Page",
+        "url": "https://stickies.catherineyu.com/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/cat-Yu/sensorimotor-stickies"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=52ZLJSC1YV0"
       }
     ],
-    "highlights": [
-      {
-        "label": "Core77 · Emerging Technologies",
-        "url": "https://designawards.core77.com/2026/Emerging-Technologies",
-        "brand": "core77"
-      },
-      {
-        "label": "Core77 · Interaction",
-        "url": "https://designawards.core77.com/2026/Interaction",
-        "brand": "core77"
-      },
-      {
-        "label": "Red Dot",
-        "url": "https://www.red-dot.org/search",
-        "brand": "reddot"
-      }
-    ],
-    "imageShare": 50,
     "themes": [
       "sensing"
     ]
   },
   {
-    "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+    "title": "Navigating Sustainability in Shape-Changing Interfaces: Choices, Challenges, Futures",
     "images": [
       {
-        "src": "/assets/37ae98_1ddb8af1517a4292867efbfdbbcc7831~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
-        "widthPercent": 28
-      },
-      {
-        "src": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
-        "alt": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
-        "widthPercent": 72
+        "src": "/assets/shape-changing-sustainability-2026.webp",
+        "width": 2000,
+        "height": 813,
+        "alt": "Material life cycles and circular strategies for sustainable shape-changing interfaces"
       }
     ],
-    "date": "2026-04-13",
-    "authors": "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
-    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+    "titleUrl": "https://mirandafun.com/blog/sustainability-shape-changing-interfaces",
+    "date": "2026-08-05",
+    "authors": "Qingyu Fang, Zeyu Yan, Huaishu Peng, Tingyu Cheng.",
+    "venue": "Design and Artificial Intelligence, 2026",
     "links": [
       {
-        "url": "https://drive.google.com/file/d/1kjiTxnNIx79vbt7i_8ifada5o1N2X3vt/view?usp=sharing",
-        "label": "PDF"
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.daai.2026.100096"
       },
       {
-        "url": "https://www.codecraft.group/projects/3d-printing-soap",
-        "label": "Project Page"
-      }
-    ],
-    "highlights": [
-      {
-        "label": "CHI 2026 · Special Recognition for Sustainable Practices — Runner-up",
-        "icon": "ribbon",
-        "url": "https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/"
+        "label": "Project Page",
+        "url": "https://mirandafun.com/blog/sustainability-shape-changing-interfaces"
       }
     ],
     "themes": [
+      "sensing",
       "sustainability"
     ]
   },
   {
-    "title": "Sustainability assessment using multimodal AI agents",
+    "title": "Sustainability assessment using multimodal artificial intelligence agents",
     "images": [
       {
         "src": "/assets/37ae98_e2cebd26bbeb40128e1f877385fe0917~mv2.webp",
-        "alt": "Sustainability assessment using multimodal AI agents"
+        "alt": "Sustainability assessment using multimodal artificial intelligence agents"
       }
     ],
-    "titleUrl": "https://homes.cs.washington.edu/~zzhihan/",
-    "date": "2026-04-11",
+    "titleUrl": "https://www.nature.com/articles/s41928-026-01653-w",
+    "date": "2026-06-12",
     "authors": "Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix Hähnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer.",
     "venue": "Nature Electronics, 2026",
     "links": [
       {
         "url": "https://drive.google.com/file/d/1KWMCKRsv2jpON0zR_RLFMSH9T8kU8KNY/view?usp=sharing",
         "label": "PDF"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1038/s41928-026-01653-w"
       },
       {
         "url": "https://homes.cs.washington.edu/~zzhihan/",
@@ -150,6 +137,204 @@
     ]
   },
   {
+    "title": "Real-time Puncture Detection and Recovery for Pneumatic Soft Actuators",
+    "images": [
+      {
+        "src": "/assets/puncture-detection-2026.webp",
+        "width": 1039,
+        "height": 485,
+        "alt": "Multi-chamber soft actuator and the IMU-based puncture detection and recovery pipeline"
+      }
+    ],
+    "titleUrl": "https://doi.org/10.1109/ICRA57385.2026.11696201",
+    "date": "2026-06-01",
+    "authors": "Tejonidhi R. Deshpande, Tingyu Cheng, Josiah Hester.",
+    "venue": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2026",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.08804"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICRA57385.2026.11696201"
+      }
+    ],
+    "themes": [
+      "sensing",
+      "robotics"
+    ]
+  },
+  {
+    "title": "3D Printing of Passively Actuated Self-Folding Robots with Integrated Functional Modules",
+    "images": [
+      {
+        "src": "/assets/self-folding-robots-2026.webp",
+        "width": 2000,
+        "height": 620,
+        "alt": "Conductive PLA net with integrated components and its elastic-driven self-folding sequence"
+      }
+    ],
+    "titleUrl": "https://doi.org/10.1109/ICRA57385.2026.11696717",
+    "date": "2026-06-01",
+    "authors": "Gaolin Ge, Qifeng Yang, Haoran Lu, Tingyu Cheng, Martin Nisser, Yiyue Luo.",
+    "venue": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2026",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2605.04757"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICRA57385.2026.11696717"
+      }
+    ],
+    "themes": [
+      "sensing",
+      "robotics"
+    ]
+  },
+  {
+    "title": "Deco: Extending Cherished Physical Objects into AI Companion Agents through Dual Embodiment",
+    "images": [
+      {
+        "src": "/assets/deco-2026.webp",
+        "width": 2000,
+        "height": 692,
+        "alt": "Deco dual-embodiment framework connecting a cherished physical object to its mobile AI companion"
+      }
+    ],
+    "titleUrl": "https://arxiv.org/abs/2605.03882",
+    "date": "2026-05-05",
+    "authors": "Zhihan Jiang, Mengyuan Millie Wu, Ruishi Zou, Shiyu Xu, Xun Qian, Emma Macmanus, Steven Liao, Ping Zhang, Bingsheng Yao, Tingyu Cheng, James L. David, Nabila El-Bassel, Lena Mamykina, Frances R. Levin, Ryan Sultan, Dakuo Wang, Xuhai Xu.",
+    "venue": "arXiv preprint, 2026",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2605.03882"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2605.03882"
+      }
+    ],
+    "themes": [
+      "sensing",
+      "multimodal"
+    ]
+  },
+  {
+    "title": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions",
+    "images": [
+      {
+        "src": "/assets/37ae98_f3f2e2c8caa84de59973939dad32fb88~mv2.webp",
+        "alt": "Circuit2Yarn: From Planar Circuits to Electronic Yarns for Textile-Based Interactions"
+      }
+    ],
+    "titleUrl": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/",
+    "date": "2026-04-13",
+    "authors": "Zhechen Zhao, Jingyi Liu, Tianhong Catherine Yu, Jiaqing Liu, Zeyu Yan, Huaishu Peng, Yiyue Luo, Zhihan Zhang, Tingyu Cheng.",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+    "links": [
+      {
+        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/Circuit2Yarn_Paper_Compressed.pdf",
+        "label": "PDF"
+      },
+      {
+        "url": "https://zhechenzhao.github.io/Circuit2Yarn-Project-Page/",
+        "label": "Project Page"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Core77 · Emerging Technologies",
+        "url": "https://designawards.core77.com/2026/Emerging-Technologies",
+        "brand": "core77"
+      },
+      {
+        "label": "Core77 · Interaction",
+        "url": "https://designawards.core77.com/2026/Interaction",
+        "brand": "core77"
+      },
+      {
+        "label": "Red Dot",
+        "url": "https://www.red-dot.org/search",
+        "brand": "reddot"
+      }
+    ],
+    "imageShare": 50,
+    "themes": [
+      "sensing"
+    ]
+  },
+  {
+    "title": "3D Printing Soap: Exploring New Biodegradable Materials and Creative Possibilities",
+    "images": [
+      {
+        "src": "/assets/37ae98_2495804333a44756aed992eddbbf71b9~mv2.webp",
+        "alt": "Functional and decorative objects fabricated with 3D-printed biodegradable soap",
+        "width": 1442,
+        "height": 874
+      }
+    ],
+    "date": "2026-04-13",
+    "authors": "Jing Xie, Yingting Gao, Jin Yu, Tingyu Cheng, HyunJoo Oh.",
+    "venue": "Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI), 2026",
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/1kjiTxnNIx79vbt7i_8ifada5o1N2X3vt/view?usp=sharing",
+        "label": "PDF"
+      },
+      {
+        "url": "https://www.codecraft.group/projects/3d-printing-soap",
+        "label": "Project Page"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CHI 2026 · Special Recognition for Sustainable Practices — Runner-up",
+        "icon": "ribbon",
+        "url": "https://chi2026.acm.org/2026/04/15/special-recognition-for-sustainable-practices-winners-runners-up/"
+      }
+    ],
+    "themes": [
+      "sustainability"
+    ]
+  },
+  {
+    "title": "Biohybrid Robots with Embedded Conductive Fibers for Actuation, Sensing, and Closed-loop Control",
+    "images": [
+      {
+        "src": "/assets/biohybrid-robots-2026.webp",
+        "width": 700,
+        "height": 546,
+        "alt": "PEDOT fiber interfaces for biohybrid muscle actuation, strain sensing, and feedback control"
+      }
+    ],
+    "titleUrl": "https://doi.org/10.64898/2026.04.01.715915",
+    "date": "2026-04-06",
+    "authors": "Xinran Xie, Yuhui Zhao, Ruiheng Wu, Wenjia Xu, Michael J. Bennington, Rachel Daso, Junyi Liu, Abhijith Surendran, Josiah Hester, Victoria A. Webster-Wood, Tingyu Cheng, Jonathan Rivnay.",
+    "venue": "bioRxiv preprint, 2026",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13081879/pdf/nihpp-2026.04.01.715915v1.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.64898/2026.04.01.715915"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/dasorachel/Muscle_Stimulation"
+      }
+    ],
+    "themes": [
+      "sensing",
+      "robotics"
+    ]
+  },
+  {
     "title": "Zero-Shot Deformation Reconstruction for Soft Robots Using a Flexible Sensor Array and Cage-Based 3D Gaussian Modeling",
     "images": [
       {
@@ -170,6 +355,39 @@
       "sensing",
       "multimodal",
       "robotics"
+    ]
+  },
+  {
+    "title": "Reimagining Upcycled Plastic Bags: Integrating Electronics Through Design for Disassembly",
+    "images": [
+      {
+        "src": "/assets/news-upcycled-electronics.webp",
+        "alt": "Removable electronics integrated into upcycled plastic objects",
+        "width": 1440,
+        "height": 960
+      }
+    ],
+    "titleUrl": "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2",
+    "date": "2026-03-07",
+    "authors": "HyunJoo Oh, Jinzhi Ye, Lisa Marks, Tingyu Cheng.",
+    "venue": "Proceedings of the International Conference on Tangible, Embedded, and Embodied Interaction (TEI), 2026",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/1jATN4Fdh96-Y0dKgV7u-6EGIV5qYNEO2/view?usp=sharing"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3731459.3774475"
+      },
+      {
+        "label": "Project Page",
+        "url": "https://chrysalis-teal-26g8.squarespace.com/projects/upcycling-plastic-bags-2"
+      }
+    ],
+    "themes": [
+      "sensing",
+      "sustainability"
     ]
   },
   {
@@ -414,7 +632,7 @@
       {
         "src": "/assets/37ae98_be1dce2d707b4c2f9680ee4a790b5f6a~mv2.webp",
         "alt": "Functional Destruction: Utilizing Sustainable Materials’ Physical Transiency for Electronics Application",
-        "cropAspectRatio": 1.3333333333333333
+        "cropAspectRatio": 1.5
       }
     ],
     "date": "2023-04-19",

@@ -2,6 +2,19 @@
   "openingHtml": "<p style=\"font-size:26px\"><span style=\"font-size:26px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">Opening:  </span></span></span></span><span style=\"font-size:22px\"><span style=\"color:#B63232\"><span style=\"font-weight:700\"><span style=\"font-style:normal\">We look for a researcher with both hardware and 3D printing experience! </span></span></span></span></p>",
   "news": [
     {
+      "date": "2026-10-29",
+      "html": "<li><p>10/29/2026 We welcomed Prof. Patrick Baudisch to the lab!</p></li>",
+      "title": "Prof. Patrick Baudisch visits the lab!",
+      "category": "Events",
+      "image": {
+        "src": "/assets/patrick-baudisch-lab-visit-2026-10-29.webp",
+        "alt": "Group photo from Patrick Baudisch's visit to the Internet of Matter Lab, October 29, 2026",
+        "width": 1707,
+        "height": 1280
+      },
+      "bodyHtml": "<p>We welcomed Prof. Patrick Baudisch to the lab!</p>"
+    },
+    {
       "date": "2026-08-13",
       "html": "<li><p>08/13/2026 We welcomed Prof. Gregory Abowd to the lab and shared demonstrations of our ongoing research.</p></li>",
       "title": "Gregory visits the lab!",
